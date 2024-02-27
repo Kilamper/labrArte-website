@@ -1,44 +1,18 @@
 <!DOCTYPE html>
-<html lang="english">
+<html lang="es">
   <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>labrArte - Inicio</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta charset="utf-8" />
-    <meta property="twitter:card" content="summary_large_image" />
-
-    <style data-tag="reset-style-sheet">
-      html {  line-height: 1.15;}body {  margin: 0;}* {  box-sizing: border-box;  border-width: 0;  border-style: solid;}p,li,ul,pre,div,h1,h2,h3,h4,h5,h6,figure,blockquote,figcaption {  margin: 0;  padding: 0;}button {  background-color: transparent;}button,input,optgroup,select,textarea {  font-family: inherit;  font-size: 100%;  line-height: 1.15;  margin: 0;}button,select {  text-transform: none;}button,[type="button"],[type="reset"],[type="submit"] {  -webkit-appearance: button;}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner {  border-style: none;  padding: 0;}button:-moz-focus,[type="button"]:-moz-focus,[type="reset"]:-moz-focus,[type="submit"]:-moz-focus {  outline: 1px dotted ButtonText;}a {  color: inherit;  text-decoration: inherit;}input {  padding: 2px 4px;}img {  display: block;}html { scroll-behavior: smooth  }
-    </style>
-    <style data-tag="default-style-sheet">
-      html {
-        font-family: Inter,serif;
-        font-size: 16px;
-      }
-
-      body {
-        font-weight: 400;
-        font-style:normal;
-        text-decoration: none;
-        text-transform: none;
-        letter-spacing: normal;
-        line-height: 1.15;
-        color: var(--dl-color-gray-black);
-        background-color: var(--dl-color-gray-white);
-
-      }
-    </style>
+    <script src="xlu-include-file.js"></script>
+    <link rel="stylesheet" href="components/styles/footer.css">
+    <link rel="stylesheet" href="components/styles/header.css">
+    <link rel="stylesheet" href="styles/index.css"/>
   </head>
   <body>
-    <link rel="stylesheet" href="styles/style.css" />
     <div>
-      <link href="styles/index.css" rel="stylesheet" />
-
+      <header id="header" xlu-include-file="components/header.html"></header>
       <div class="homepage-container">
-        <object
-                type="text/html"
-                data="/components/header.html"
-                style="width: 100%; height: 200px">
-        </object>
         <div class="homepage-homepage">
           <div class="homepage-slider">
             <form class="homepage-form"></form>
@@ -57,27 +31,27 @@
             <div class="homepage-navigation">
               <img
                 alt="Ellipse1I302"
-                src="public/external/ellipse1i302-gm5e-200h.png"
+                src="assets/ellipse1i302-gm5e-200h.png"
                 class="homepage-ellipse1"
               />
               <img
                 alt="Ellipse2I302"
-                src="public/external/ellipse2i302-pwme-200h.png"
+                src="assets/ellipse2i302-pwme-200h.png"
                 class="homepage-ellipse2"
               />
               <img
                 alt="Ellipse3I302"
-                src="public/external/ellipse3i302-t0it-200h.png"
+                src="assets/ellipse3i302-t0it-200h.png"
                 class="homepage-ellipse3"
               />
               <img
                 alt="Ellipse4I302"
-                src="public/external/ellipse4i302-ele-200h.png"
+                src="assets/ellipse4i302-ele-200h.png"
                 class="homepage-ellipse4"
               />
               <img
                 alt="Ellipse5I302"
-                src="public/external/ellipse5i302-6gj5-200h.png"
+                src="assets/ellipse5i302-6gj5-200h.png"
                 class="homepage-ellipse5"
               />
             </div>
@@ -111,8 +85,9 @@
             </div>
           </div>
         </div>
-        <iframe class="footer" src="/components/footer.html"></iframe>
       </div>
+      <footer id="footer" xlu-include-file="components/footer.html"></footer>
     </div>
+    <script>xLuIncludeFile();</script>
   </body>
 </html>

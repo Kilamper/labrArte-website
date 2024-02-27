@@ -1,119 +1,44 @@
 <!DOCTYPE html>
 <html lang="english">
   <head>
-    <title>exported project</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta charset="utf-8" />
-    <meta property="twitter:card" content="summary_large_image" />
-
-    <style data-tag="reset-style-sheet">
-      html {  line-height: 1.15;}body {  margin: 0;}* {  box-sizing: border-box;  border-width: 0;  border-style: solid;}p,li,ul,pre,div,h1,h2,h3,h4,h5,h6,figure,blockquote,figcaption {  margin: 0;  padding: 0;}button {  background-color: transparent;}button,input,optgroup,select,textarea {  font-family: inherit;  font-size: 100%;  line-height: 1.15;  margin: 0;}button,select {  text-transform: none;}button,[type="button"],[type="reset"],[type="submit"] {  -webkit-appearance: button;}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner {  border-style: none;  padding: 0;}button:-moz-focus,[type="button"]:-moz-focus,[type="reset"]:-moz-focus,[type="submit"]:-moz-focus {  outline: 1px dotted ButtonText;}a {  color: inherit;  text-decoration: inherit;}input {  padding: 2px 4px;}img {  display: block;}html { scroll-behavior: smooth  }
-    </style>
-    <style data-tag="default-style-sheet">
-      html {
-        font-family: Inter,serif;
-        font-size: 16px;
-      }
-
-      body {
-        font-weight: 400;
-        font-style:normal;
-        text-decoration: none;
-        text-transform: none;
-        letter-spacing: normal;
-        line-height: 1.15;
-        color: var(--dl-color-gray-black);
-        background-color: var(--dl-color-gray-white);
-
-      }
-    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Header</title>
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
   </head>
   <body>
-    <link rel="stylesheet" href="../styles/style.css" />
-    <div>
-      <link href="styles/header.css" rel="stylesheet" />
-      <div class="header-component">
+    <div class="header-container">
+      <div class="header-row">
         <div class="header-logo">
-          <img
-            alt="image"
-            src="/public/external/logoimagei671-pgle-200h.png"
-            class="header-image"
-          />
-          <span class="header-text"><span>labrArte®</span></span>
+          <img alt="image" src="/assets/logo.png" class="logo-image"/>
+          <span class="logo-name">labrArte®</span>
         </div>
-        <div class="header-navigation-menu">
-          <a href="/index.html" class="header-home">
-            <span class="header-text02"><span>Inicio</span></span>
-            <div class="header-icons">
-              <svg viewBox="0 0 1024 1024" class="header-icon">
-                <path
-                  d="M1024 590.444l-512-397.426-512 397.428v-162.038l512-397.426 512 397.428zM896 576v384h-256v-256h-256v256h-256v-384l384-288z"
-                ></path>
-              </svg>
-            </div>
+        <div class="header-menu">
+          <a href="/index.html" class="header-links">
+            <i class="fas fa-house"></i>
+            <span class="link-names">Inicio</span>
           </a>
-          <a href="/catalogue.html" class="header-navlink">
-            <div class="header-catalogue">
-              <span class="header-text04"><span>Catálogo</span></span>
-              <div class="header-icons1">
-                <svg viewBox="0 0 1152 1024" class="header-icon02">
-                  <path
-                    d="M224 128h-192c-17.6 0-32 14.4-32 32v704c0 17.6 14.4 32 32 32h192c17.6 0 32-14.4 32-32v-704c0-17.6-14.4-32-32-32zM192 320h-128v-64h128v64z"
-                  ></path>
-                  <path
-                    d="M544 128h-192c-17.6 0-32 14.4-32 32v704c0 17.6 14.4 32 32 32h192c17.6 0 32-14.4 32-32v-704c0-17.6-14.4-32-32-32zM512 320h-128v-64h128v64z"
-                  ></path>
-                  <path
-                    d="M765.088 177.48l-171.464 86.394c-15.716 7.918-22.096 27.258-14.178 42.976l287.978 571.548c7.918 15.718 27.258 22.098 42.976 14.178l171.464-86.392c15.716-7.92 22.096-27.26 14.178-42.974l-287.978-571.55c-7.92-15.718-27.26-22.1-42.976-14.18z"
-                  ></path>
-                </svg>
-              </div>
-            </div>
+          <a href="/catalogue.html" class="header-links">
+            <i class="fas fa-list"></i>
+            <span class="link-names">Catálogo</span>
           </a>
-          <a href="/blog.html" class="header-blog">
-            <svg viewBox="0 0 1024 1024" class="header-icon06">
-              <path
-                d="M896 128v832h-672c-53.026 0-96-42.98-96-96s42.974-96 96-96h608v-768h-640c-70.398 0-128 57.6-128 128v768c0 70.4 57.602 128 128 128h768v-896h-64z"
-              ></path>
-              <path
-                d="M224.056 832v0c-0.018 0.002-0.038 0-0.056 0-17.672 0-32 14.326-32 32s14.328 32 32 32c0.018 0 0.038-0.002 0.056-0.002v0.002h607.89v-64h-607.89z"
-              ></path>
-            </svg>
-            <span class="header-text06"><span>Blog</span></span>
+          <a href="/blog.html" class="header-links">
+            <i class="fas fa-book"></i>
+            <span class="link-names">Blog</span>
           </a>
-          <div class="header-galery">
-            <svg viewBox="0 0 1024 1024" class="header1-icon09">
-              <path
-                d="M959.884 128c0.040 0.034 0.082 0.076 0.116 0.116v767.77c-0.034 0.040-0.076 0.082-0.116 0.116h-895.77c-0.040-0.034-0.082-0.076-0.114-0.116v-767.772c0.034-0.040 0.076-0.082 0.114-0.114h895.77zM960 64h-896c-35.2 0-64 28.8-64 64v768c0 35.2 28.8 64 64 64h896c35.2 0 64-28.8 64-64v-768c0-35.2-28.8-64-64-64v0z"
-              ></path>
-              <path
-                d="M832 288c0 53.020-42.98 96-96 96s-96-42.98-96-96 42.98-96 96-96 96 42.98 96 96z"
-              ></path>
-              <path d="M896 832h-768v-128l224-384 256 320h64l224-192z"></path>
-            </svg>
-            <span class="header1-text07"><span>Galería</span></span>
-            <svg viewBox="0 0 1024 1024" class="header1-icon13">
-              <path
-                d="M366.336 238.336c-33.323 33.323-33.323 87.339 0 120.661l152.96 153.003-152.96 153.003c-33.323 33.323-33.323 87.339 0 120.661 16.64 16.683 38.485 25.003 60.331 25.003s43.691-8.32 60.331-25.003l273.707-273.664-273.707-273.664c-33.28-33.323-87.381-33.323-120.661 0z"
-              ></path>
-            </svg>
+          <div class="header-links">
+            <i class="fas fa-image"></i>
+            <span class="link-names">Galería</span>
+            <i id="arrow-down" class="fas fa-chevron-down"></i>
           </div>
-          <a href="/courses.html" class="header1-courses">
-            <span class="header1-text08"><span>Cursos</span></span>
-            <svg viewBox="0 0 1088 1024" class="header1-icon15">
-              <path
-                d="M1024 960v-64h-64v-384h64v-64h-192v64h64v384h-192v-384h64v-64h-192v64h64v384h-192v-384h64v-64h-192v64h64v384h-192v-384h64v-64h-192v64h64v384h-64v64h-64v64h1088v-64h-64z"
-              ></path>
-              <path d="M512 0h64l512 320v64h-1088v-64l512-320z"></path>
-            </svg>
+          <a href="/courses.html" class="header-links">
+            <i class="fas fa-graduation-cap"></i>
+            <span class="link-names">Cursos</span>
           </a>
-          <div class="header1-search">
-            <svg viewBox="0 0 1024 1024" class="header1-icon18">
-              <path
-                d="M992.262 871.396l-242.552-206.294c-25.074-22.566-51.89-32.926-73.552-31.926 57.256-67.068 91.842-154.078 91.842-249.176 0-212.078-171.922-384-384-384-212.076 0-384 171.922-384 384s171.922 384 384 384c95.098 0 182.108-34.586 249.176-91.844-1 21.662 9.36 48.478 31.926 73.552l206.294 242.552c35.322 39.246 93.022 42.554 128.22 7.356s31.892-92.898-7.354-128.22zM384 640c-141.384 0-256-114.616-256-256s114.616-256 256-256 256 114.616 256 256-114.614 256-256 256z"
-              ></path>
-            </svg>
-          </div>
+          <a class="header-links">
+            <i class="fas fa-magnifying-glass"></i>
+          </a>
         </div>
       </div>
     </div>

@@ -1,4 +1,4 @@
-.header-component {
+.footer-container {
   width: 100%;
   height: var(--dl-size-size-large);
   display: flex;
@@ -19,11 +19,11 @@
   align-items: center;
   justify-content: flex-start;
 }
-.header-image {
+.logo-image {
   width: 85px;
   object-fit: cover;
 }
-.header-text {
+.logo-name {
   color: rgba(0, 0, 0, 1);
   height: auto;
   font-size: 44px;
@@ -35,7 +35,7 @@
   font-stretch: normal;
   text-decoration: none;
 }
-.header-navigation-menu {
+.header-menu {
   gap: 10px;
   width: 590px;
   display: flex;
@@ -83,7 +83,7 @@
   width: 24px;
   height: 24px;
 }
-.header-navlink {
+.header-catalogue {
   display: contents;
 }
 .header-catalogue {
@@ -159,7 +159,7 @@
   font-stretch: normal;
   text-decoration: none;
 }
-.header-galery {
+.header-gallery {
   width: 120px;
   display: flex;
   padding: 6px 8px;
