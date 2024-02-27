@@ -1,0 +1,247 @@
+.header1-header {
+  width: 100%;
+  height: var(--dl-size-size-large);
+  display: flex;
+  padding: 34px 59px;
+  overflow: hidden;
+  position: relative;
+  max-width: none;
+  align-self: stretch;
+  align-items: center;
+  flex-shrink: 0;
+  justify-content: space-between;
+  background-color: rgba(255, 255, 255, 1);
+}
+.header1-logo {
+  gap: 23px;
+  display: flex;
+  align-self: center;
+  align-items: center;
+  justify-content: flex-start;
+}
+.header1-image {
+  width: 85px;
+  object-fit: cover;
+}
+.header1-text {
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  font-size: 44px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Paprika;
+  font-weight: 400;
+  line-height: 100%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.header1-navigation-menu {
+  gap: 10px;
+  width: 590px;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  justify-content: flex-start;
+}
+.header1-home {
+  width: 90px;
+  height: 29px;
+  display: flex;
+  position: relative;
+  transition: 0.3s;
+  align-items: flex-start;
+  flex-shrink: 0;
+  text-decoration: none;
+}
+
+.header1-text02 {
+  top: 5px;
+  left: 23.98375129699707px;
+  color: rgba(0, 0, 0, 1);
+  width: 66px;
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: 129.99999523162842%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.header1-icons {
+  top: 0px;
+  left: 0px;
+  width: 31px;
+  height: 29px;
+  display: flex;
+  position: absolute;
+  align-items: center;
+  flex-shrink: 0;
+  justify-content: center;
+}
+.header1-icon {
+  width: 24px;
+  height: 24px;
+}
+.header1-navlink {
+  display: contents;
+}
+.header1-catalogue {
+  width: 110px;
+  height: 29px;
+  display: flex;
+  position: relative;
+  transition: 0.3s;
+  align-items: flex-start;
+  flex-shrink: 0;
+  text-decoration: none;
+}
+
+.header1-text04 {
+  top: 5px;
+  left: 29.313474655151367px;
+  color: rgba(0, 0, 0, 1);
+  width: 81px;
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: 129.99999523162842%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.header1-icons1 {
+  top: 0px;
+  left: 0px;
+  width: 31px;
+  height: 29px;
+  display: flex;
+  position: absolute;
+  align-items: center;
+  flex-shrink: 0;
+  justify-content: center;
+}
+.header1-icon02 {
+  width: 24px;
+  height: 24px;
+}
+.header1-blog {
+  width: 84px;
+  height: 29px;
+  display: flex;
+  position: relative;
+  transition: 0.3s;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: row;
+  text-decoration: none;
+}
+
+.header1-icon06 {
+  width: 22px;
+  height: 22px;
+  align-self: center;
+}
+.header1-text06 {
+  top: 5px;
+  left: 22.38483428955078px;
+  color: rgb(0, 0, 0);
+  width: 58px;
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Regular;
+  text-align: center;
+  font-family: "Inter";
+  font-weight: 400;
+  line-height: 130%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.header1-galery {
+  width: 120px;
+  display: flex;
+  padding: 6px 8px;
+  transition: 0.3s;
+  align-items: center;
+  flex-shrink: 0;
+  justify-content: center;
+  background-color: rgba(255, 255, 255, 1);
+}
+
+.header1-icon09 {
+  flex: 1;
+  width: 24px;
+  height: 24px;
+}
+.header1-text07 {
+  color: rgb(0, 0, 0);
+  width: 65px;
+  height: auto;
+  font-size: 16px;
+  font-style: Regular;
+  text-align: center;
+  font-family: "Inter";
+  font-weight: 400;
+  line-height: 18px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.header1-icon13 {
+  width: 18px;
+  height: 24px;
+}
+.header1-courses {
+  width: 99px;
+  height: 29px;
+  display: flex;
+  position: relative;
+  transition: 0.3s;
+  align-items: flex-start;
+  flex-shrink: 0;
+  text-decoration: none;
+}
+
+.header1-text08 {
+  top: 5px;
+  left: 26.382125854492188px;
+  color: rgba(0, 0, 0, 1);
+  width: 73px;
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: 129.99999523162842%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.header1-icon15 {
+  width: 24px;
+  height: 24px;
+  align-self: center;
+}
+.header1-search {
+  width: 31.082164764404297px;
+  height: 29px;
+  display: flex;
+  position: relative;
+  align-items: center;
+  flex-shrink: 0;
+  justify-content: center;
+}
+.header1-icon18 {
+  width: 24px;
+  height: 24px;
+}
+.header1-root-class-name {
+  width: 100%;
+}
+
