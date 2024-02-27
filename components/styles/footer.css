@@ -1,4 +1,4 @@
-.footer1-footer {
+.footer-component {
   width: 100%;
   display: flex;
   position: relative;
@@ -8,20 +8,20 @@
   justify-content: space-between;
   background-image: linear-gradient(315deg, rgb(189, 195, 199) 0.00%,rgb(255, 255, 255) 100.00%);
 }
-.footer1-container {
+.footer-container {
   width: 100%;
   display: flex;
   align-items: flex-start;
   flex-direction: row;
   justify-content: space-between;
 }
-.footer1-logo {
+.footer-logo {
   display: flex;
   max-width: var(--dl-size-size-maxwidth);
   align-items: flex-start;
   flex-direction: column;
 }
-.footer1-logo1 {
+.footer-logo1 {
   gap: 23px;
   width: 278px;
   height: 77px;
@@ -30,11 +30,11 @@
   flex-shrink: 0;
   justify-content: center;
 }
-.footer1-image {
+.footer-image {
   width: 85px;
   object-fit: cover;
 }
-.footer1-text {
+.footer-text {
   color: rgba(0, 0, 0, 1);
   height: auto;
   font-size: 36px;
@@ -46,7 +46,7 @@
   font-stretch: normal;
   text-decoration: none;
 }
-.footer1-links-container {
+.footer-links-container {
   width: 65%;
   display: flex;
   align-self: center;
@@ -54,7 +54,7 @@
   flex-direction: row;
   justify-content: space-between;
 }
-.footer1-resources-container {
+.footer-resources-container {
   flex: 1;
   height: 100%;
   display: flex;
@@ -62,25 +62,25 @@
   flex-direction: column;
   justify-content: flex-start;
 }
-.footer1-recursos {
+.footer-recursos {
   font-weight: 700;
   margin-bottom: var(--dl-space-space-oneandhalfunits);
 }
-.footer1-catálogo {
+.footer-catálogo {
   transition: 0.3s;
   margin-bottom: var(--dl-space-space-unit);
 }
 
-.footer1-blog {
+.footer-blog {
   margin-bottom: var(--dl-space-space-unit);
 }
-.footer1-container1 {
+.footer-container1 {
   width: 100%;
   height: 18px;
   display: flex;
   align-items: flex-start;
 }
-.footer1-company-container {
+.footer-company-container {
   flex: 1;
   height: 218px;
   display: flex;
@@ -88,29 +88,29 @@
   flex-direction: column;
   justify-content: flex-start;
 }
-.footer1-compañía {
+.footer-compañía {
   font-weight: bold;
   margin-bottom: var(--dl-space-space-oneandhalfunits);
 }
-.footer1-sobre-nosotros {
+.footer-sobre-nosotros {
   margin-bottom: var(--dl-space-space-unit);
 }
-.footer1-localización {
+.footer-localización {
   margin-bottom: var(--dl-space-space-unit);
 }
-.footer1-localization {
+.footer-localization {
   width: 100%;
   height: 48px;
   display: flex;
   align-self: flex-start;
   align-items: flex-start;
 }
-.footer1-icon {
+.footer-icon {
   width: 24px;
   height: 24px;
   align-self: flex-start;
 }
-.footer1-container2 {
+.footer-container2 {
   flex: 0 0 auto;
   width: 10px;
   height: 24px;
@@ -118,46 +118,46 @@
   align-items: flex-start;
   flex-direction: column;
 }
-.footer1-text2 {
+.footer-text2 {
   width: var(--dl-size-size-xxlarge);
   align-self: center;
   margin-bottom: var(--dl-space-space-unit);
 }
-.footer1-container3 {
+.footer-container3 {
   width: 100%;
   height: 18px;
   display: flex;
   align-items: flex-start;
 }
-.footer1-contact-container {
+.footer-contact-container {
   display: flex;
   align-self: center;
   align-items: flex-start;
   flex-direction: column;
 }
-.footer1-contact {
+.footer-contact {
   display: flex;
   align-items: flex-start;
   margin-bottom: var(--dl-space-space-oneandhalfunits);
   flex-direction: column;
   justify-content: flex-start;
 }
-.footer1-contacto {
+.footer-contacto {
   font-weight: 700;
   margin-bottom: var(--dl-space-space-oneandhalfunits);
 }
-.footer1-e-mail {
-  width: 100%;
-  height: 20px;
+.footer-e-mail {
+  width: 24px;
+  height: 24px;
   display: flex;
   align-items: flex-start;
 }
-.footer1-icon02 {
+.footer-icon02 {
   width: 24px;
   height: 24px;
   align-self: center;
 }
-.footer1-container4 {
+.footer-container4 {
   flex: 0 0 auto;
   width: 10px;
   height: 24px;
@@ -165,27 +165,27 @@
   align-items: flex-start;
   flex-direction: column;
 }
-.footer1-correo {
+.footer-correo {
   height: 24px;
   margin-bottom: var(--dl-space-space-unit);
 }
-.footer1-space {
+.footer-space {
   width: 100%;
   height: 12px;
   display: flex;
   align-items: flex-start;
 }
-.footer1-whats-app {
-  width: 100%;
-  height: 25px;
+.footer-whats-app {
+  width: 24px;
+  height: 24px;
   display: flex;
   align-items: flex-start;
 }
-.footer1-icon04 {
+.footer-icon04 {
   width: 24px;
   height: 24px;
 }
-.footer1-container5 {
+.footer-container5 {
   flex: 0 0 auto;
   width: 10px;
   height: 24px;
@@ -193,28 +193,28 @@
   align-items: flex-start;
   flex-direction: column;
 }
-.footer1-text3 {
+.footer-text3 {
   align-self: center;
   text-align: left;
 }
-.footer1-space1 {
+.footer-space1 {
   width: 100%;
   height: 12px;
   display: flex;
   align-items: flex-start;
 }
-.footer1-teléfono {
+.footer-teléfono {
   flex: 0 0 auto;
-  width: 100%;
+  width: 24px;
   height: 24px;
   display: flex;
   align-items: flex-start;
 }
-.footer1-icon06 {
+.footer-icon06 {
   width: 24px;
   height: 24px;
 }
-.footer1-container6 {
+.footer-container6 {
   flex: 0 0 auto;
   width: 10px;
   height: 24px;
@@ -222,21 +222,21 @@
   align-items: flex-start;
   flex-direction: column;
 }
-.footer1-text4 {
+.footer-text4 {
   align-self: center;
   text-align: left;
 }
-.footer1-social-networks {
+.footer-social-networks {
   display: flex;
   align-items: flex-start;
   flex-direction: column;
   justify-content: flex-start;
 }
-.footer1-follow-us {
+.footer-follow-us {
   font-weight: 700;
   margin-bottom: var(--dl-space-space-oneandhalfunits);
 }
-.footer1-social-medias {
+.footer-social-medias {
   width: 212px;
   display: flex;
   align-self: center;
@@ -244,64 +244,34 @@
   flex-direction: row;
   justify-content: space-between;
 }
-.footer1-you-tube {
+.footer-you-tube {
+  width: 20px;
+  height: 20px;
+}
+.footer-facebook {
   width: var(--dl-size-size-xsmall);
   height: var(--dl-size-size-xsmall);
 }
-.footer1-facebook {
+.footer-instagram {
   width: var(--dl-size-size-xsmall);
   height: var(--dl-size-size-xsmall);
 }
-.footer1-instagram {
+.footer-tiktok {
   width: var(--dl-size-size-xsmall);
   height: var(--dl-size-size-xsmall);
 }
-.footer1-tiktok {
-  width: var(--dl-size-size-xsmall);
-  height: var(--dl-size-size-xsmall);
-}
-.footer1-twitter {
+.footer-twitter {
   width: var(--dl-size-size-xsmall);
   height: var(--dl-size-size-xsmall);
   margin-right: var(--dl-space-space-unit);
 }
-.footer1-separator {
+.footer-separator {
   width: 100%;
   height: 1px;
   margin-top: var(--dl-space-space-twounits);
   margin-bottom: var(--dl-space-space-twounits);
   background-color: var(--dl-color-gray-900);
 }
-.footer1-text5 {
+.footer-text5 {
   align-self: center;
-}
-@media(max-width: 991px) {
-  .footer1-footer {
-    flex-direction: column;
-  }
-}
-
-@media(max-width: 479px) {
-  .footer1-footer {
-    padding: var(--dl-space-space-unit);
-  }
-  .footer1-container {
-    align-items: center;
-    flex-direction: column;
-  }
-  .footer1-links-container {
-    align-items: center;
-    flex-direction: column;
-  }
-  .footer1-contact-container {
-    margin-top: var(--dl-space-space-oneandhalfunits);
-    align-items: flex-start;
-  }
-  .footer1-contact {
-    align-items: flex-start;
-    margin-bottom: var(--dl-space-space-unit);
-  }
-  .footer1-text5 {
-    text-align: center;
-  }
 }

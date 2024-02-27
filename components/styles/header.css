@@ -1,4 +1,4 @@
-.header1-header {
+.header-component {
   width: 100%;
   height: var(--dl-size-size-large);
   display: flex;
@@ -12,18 +12,18 @@
   justify-content: space-between;
   background-color: rgba(255, 255, 255, 1);
 }
-.header1-logo {
+.header-logo {
   gap: 23px;
   display: flex;
   align-self: center;
   align-items: center;
   justify-content: flex-start;
 }
-.header1-image {
+.header-image {
   width: 85px;
   object-fit: cover;
 }
-.header1-text {
+.header-text {
   color: rgba(0, 0, 0, 1);
   height: auto;
   font-size: 44px;
@@ -35,7 +35,7 @@
   font-stretch: normal;
   text-decoration: none;
 }
-.header1-navigation-menu {
+.header-navigation-menu {
   gap: 10px;
   width: 590px;
   display: flex;
@@ -43,7 +43,7 @@
   flex-shrink: 0;
   justify-content: flex-start;
 }
-.header1-home {
+.header-home {
   width: 90px;
   height: 29px;
   display: flex;
@@ -54,7 +54,7 @@
   text-decoration: none;
 }
 
-.header1-text02 {
+.header-text02 {
   top: 5px;
   left: 24px;
   color: rgba(0, 0, 0, 1);
@@ -70,7 +70,7 @@
   font-stretch: normal;
   text-decoration: none;
 }
-.header1-icons {
+.header-icons {
   width: 31px;
   height: 29px;
   display: flex;
@@ -79,14 +79,14 @@
   flex-shrink: 0;
   justify-content: center;
 }
-.header1-icon {
+.header-icon {
   width: 24px;
   height: 24px;
 }
-.header1-navlink {
+.header-navlink {
   display: contents;
 }
-.header1-catalogue {
+.header-catalogue {
   width: 110px;
   height: 29px;
   display: flex;
@@ -97,7 +97,7 @@
   text-decoration: none;
 }
 
-.header1-text04 {
+.header-text04 {
   top: 5px;
   left: 29px;
   color: rgba(0, 0, 0, 1);
@@ -113,7 +113,7 @@
   font-stretch: normal;
   text-decoration: none;
 }
-.header1-icons1 {
+.header-icons1 {
   width: 31px;
   height: 29px;
   display: flex;
@@ -122,11 +122,11 @@
   flex-shrink: 0;
   justify-content: center;
 }
-.header1-icon02 {
+.header-icon02 {
   width: 24px;
   height: 24px;
 }
-.header1-blog {
+.header-blog {
   width: 84px;
   height: 29px;
   display: flex;
@@ -138,12 +138,12 @@
   text-decoration: none;
 }
 
-.header1-icon06 {
+.header-icon06 {
   width: 22px;
   height: 22px;
   align-self: center;
 }
-.header1-text06 {
+.header-text06 {
   top: 5px;
   left: 22px;
   color: rgb(0, 0, 0);
@@ -159,7 +159,7 @@
   font-stretch: normal;
   text-decoration: none;
 }
-.header1-galery {
+.header-galery {
   width: 120px;
   display: flex;
   padding: 6px 8px;
@@ -170,12 +170,12 @@
   background-color: rgba(255, 255, 255, 1);
 }
 
-.header1-icon09 {
+.header-icon09 {
   flex: 1;
   width: 24px;
   height: 24px;
 }
-.header1-text07 {
+.header-text07 {
   color: rgb(0, 0, 0);
   width: 65px;
   height: auto;
@@ -188,11 +188,11 @@
   font-stretch: normal;
   text-decoration: none;
 }
-.header1-icon13 {
+.header-icon13 {
   width: 18px;
   height: 24px;
 }
-.header1-courses {
+.header-courses {
   width: 99px;
   height: 29px;
   display: flex;
@@ -203,7 +203,7 @@
   text-decoration: none;
 }
 
-.header1-text08 {
+.header-text08 {
   top: 5px;
   left: 26px;
   color: rgba(0, 0, 0, 1);
@@ -219,12 +219,12 @@
   font-stretch: normal;
   text-decoration: none;
 }
-.header1-icon15 {
+.header-icon15 {
   width: 24px;
   height: 24px;
   align-self: center;
 }
-.header1-search {
+.header-search {
   width: 31px;
   height: 29px;
   display: flex;
@@ -233,11 +233,11 @@
   flex-shrink: 0;
   justify-content: center;
 }
-.header1-icon18 {
+.header-icon18 {
   width: 24px;
   height: 24px;
 }
-.header1-root-class-name {
+.header-root-class-name {
   width: 100%;
 }
 
