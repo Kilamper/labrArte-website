@@ -27,9 +27,9 @@
   color: rgba(0, 0, 0, 1);
   height: auto;
   font-size: 44px;
-  font-style: Regular;
+  font-style: Normal;
   text-align: left;
-  font-family: Paprika;
+  font-family: Paprika, serif;
   font-weight: 400;
   line-height: 100%;
   font-stretch: normal;
@@ -56,23 +56,21 @@
 
 .header1-text02 {
   top: 5px;
-  left: 23.98375129699707px;
+  left: 24px;
   color: rgba(0, 0, 0, 1);
   width: 66px;
   height: auto;
   position: absolute;
   font-size: 16px;
-  font-style: Regular;
+  font-style: Normal;
   text-align: center;
-  font-family: Inter;
+  font-family: Inter, serif;
   font-weight: 400;
   line-height: 129.99999523162842%;
   font-stretch: normal;
   text-decoration: none;
 }
 .header1-icons {
-  top: 0px;
-  left: 0px;
   width: 31px;
   height: 29px;
   display: flex;
@@ -101,23 +99,21 @@
 
 .header1-text04 {
   top: 5px;
-  left: 29.313474655151367px;
+  left: 29px;
   color: rgba(0, 0, 0, 1);
   width: 81px;
   height: auto;
   position: absolute;
   font-size: 16px;
-  font-style: Regular;
+  font-style: Normal;
   text-align: center;
-  font-family: Inter;
+  font-family: Inter, serif;
   font-weight: 400;
   line-height: 129.99999523162842%;
   font-stretch: normal;
   text-decoration: none;
 }
 .header1-icons1 {
-  top: 0px;
-  left: 0px;
   width: 31px;
   height: 29px;
   display: flex;
@@ -149,15 +145,15 @@
 }
 .header1-text06 {
   top: 5px;
-  left: 22.38483428955078px;
+  left: 22px;
   color: rgb(0, 0, 0);
   width: 58px;
   height: auto;
   position: absolute;
   font-size: 16px;
-  font-style: Regular;
+  font-style: Normal;
   text-align: center;
-  font-family: "Inter";
+  font-family: "Inter", serif;
   font-weight: 400;
   line-height: 130%;
   font-stretch: normal;
@@ -184,9 +180,9 @@
   width: 65px;
   height: auto;
   font-size: 16px;
-  font-style: Regular;
+  font-style: Normal;
   text-align: center;
-  font-family: "Inter";
+  font-family: "Inter", serif;
   font-weight: 400;
   line-height: 18px;
   font-stretch: normal;
@@ -209,15 +205,15 @@
 
 .header1-text08 {
   top: 5px;
-  left: 26.382125854492188px;
+  left: 26px;
   color: rgba(0, 0, 0, 1);
   width: 73px;
   height: auto;
   position: absolute;
   font-size: 16px;
-  font-style: Regular;
+  font-style: Normal;
   text-align: center;
-  font-family: Inter;
+  font-family: Inter, serif;
   font-weight: 400;
   line-height: 129.99999523162842%;
   font-stretch: normal;
@@ -229,7 +225,7 @@
   align-self: center;
 }
 .header1-search {
-  width: 31.082164764404297px;
+  width: 31px;
   height: 29px;
   display: flex;
   position: relative;

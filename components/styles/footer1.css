@@ -4,11 +4,7 @@
   position: relative;
   max-width: none;
   align-items: center;
-  padding-top: var(--dl-space-space-twounits);
-  padding-left: var(--dl-space-space-threeunits);
-  padding-right: var(--dl-space-space-threeunits);
   flex-direction: column;
-  padding-bottom: var(--dl-space-space-twounits);
   justify-content: space-between;
   background-image: linear-gradient(315deg, rgb(189, 195, 199) 0.00%,rgb(255, 255, 255) 100.00%);
 }
@@ -42,9 +38,9 @@
   color: rgba(0, 0, 0, 1);
   height: auto;
   font-size: 36px;
-  font-style: Regular;
+  font-style: Normal;
   text-align: left;
-  font-family: Paprika;
+  font-family: Paprika, serif;
   font-weight: 400;
   line-height: 100%;
   font-stretch: normal;
@@ -70,7 +66,7 @@
   font-weight: 700;
   margin-bottom: var(--dl-space-space-oneandhalfunits);
 }
-.footer1-catlogo {
+.footer1-catálogo {
   transition: 0.3s;
   margin-bottom: var(--dl-space-space-unit);
 }
@@ -92,14 +88,14 @@
   flex-direction: column;
   justify-content: flex-start;
 }
-.footer1-compaa {
-  font-weight: 700;
+.footer1-compañía {
+  font-weight: bold;
   margin-bottom: var(--dl-space-space-oneandhalfunits);
 }
 .footer1-sobre-nosotros {
   margin-bottom: var(--dl-space-space-unit);
 }
-.footer1-localizacin {
+.footer1-localización {
   margin-bottom: var(--dl-space-space-unit);
 }
 .footer1-localization {
@@ -207,7 +203,7 @@
   display: flex;
   align-items: flex-start;
 }
-.footer1-telfono {
+.footer1-teléfono {
   flex: 0 0 auto;
   width: 100%;
   height: 24px;
@@ -284,26 +280,7 @@
     flex-direction: column;
   }
 }
-@media(max-width: 767px) {
-  .footer1-footer {
-    padding-left: var(--dl-space-space-twounits);
-    padding-right: var(--dl-space-space-twounits);
-  }
-  .footer1-container {
-    align-items: center;
-    flex-direction: column;
-    justify-content: space-between;
-  }
-  .footer1-logo {
-    align-items: center;
-  }
-  .footer1-links-container {
-    width: 100%;
-    align-items: flex-start;
-    flex-direction: row;
-    justify-content: center;
-  }
-}
+
 @media(max-width: 479px) {
   .footer1-footer {
     padding: var(--dl-space-space-unit);
@@ -319,7 +296,6 @@
   .footer1-contact-container {
     margin-top: var(--dl-space-space-oneandhalfunits);
     align-items: flex-start;
-    margin-bottom: 0px;
   }
   .footer1-contact {
     align-items: flex-start;

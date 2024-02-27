@@ -92,10 +92,7 @@
 }
 .item-component-navlink {
   align-self: flex-end;
-  margin-top: var(--dl-space-space-halfunit);
-  margin-left: var(--dl-space-space-halfunit);
-  margin-right: var(--dl-space-space-halfunit);
-  margin-bottom: var(--dl-space-space-halfunit);
+  margin: var(--dl-space-space-halfunit);
   text-decoration: none;
 }
 .item-component-container8 {
@@ -114,25 +111,10 @@
 }
 .item-component-button {
   align-self: flex-end;
-  margin-top: var(--dl-space-space-halfunit);
-  margin-left: var(--dl-space-space-halfunit);
-  margin-right: var(--dl-space-space-halfunit);
-  margin-bottom: var(--dl-space-space-halfunit);
+  margin: var(--dl-space-space-halfunit);
 }
 
-.item-components-item-components {
-  gap: var(--dl-space-space-fiveunits);
-  width: 85%;
-  height: 95%;
-  margin: var(--dl-space-space-threeunits);
-  display: flex;
-  position: relative;
-  flex-wrap: wrap;
-  align-items: center;
-  flex-shrink: 0;
-  justify-content: center;
-}
+
 .item-components-root-class-name {
   width: 100%;
-  margin: 0px;
 }
