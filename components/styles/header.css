@@ -9,7 +9,7 @@ body {
   font-family: sans-serif;
 }
 
-.header-container {
+.header {
   width: 100%;
   margin: 0 auto;
   padding: 20px 0;
@@ -20,22 +20,23 @@ body {
   width: 100%;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
+  align-items: center;
+  justify-content: center;
 }
 
 .header-logo {
   width: 30%;
   display: flex;
-  align-items: start;
+  align-items: center;
 }
 
 .logo-image {
-  width: 90px;
-  height: 90px;
+  width: 66px;
+  height: 66px;
 }
 
 .logo-name {
-  font-size: 50px;
+  font-size: 42px;
 }
 
 .header-menu {
@@ -48,7 +49,7 @@ body {
 .header-links {
   width: auto;
   padding: 0 10px;
-  font-size: 20px;
+  font-size: 18px;
   text-decoration: none;
   color: #363636;
   display: flex;

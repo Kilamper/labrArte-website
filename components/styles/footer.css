@@ -9,7 +9,7 @@ body {
   font-family: sans-serif;
 }
 
-.footer-container {
+.footer {
   width: 100%;
   margin: 0 5px;
   background-image: linear-gradient(315deg, rgb(189, 195, 199) 0.00%,rgb(255, 255, 255) 100.00%);
@@ -180,6 +180,7 @@ body {
   .footer-logo {
     width: 100%;
     text-align: center;
+    align-items: center;
   }
 
   .footer-index {
