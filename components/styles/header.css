@@ -39,7 +39,7 @@ body {
   font-size: 42px;
   font-family: Papyrus, fantasy;
   font-weight: bold;
-  filter: drop-shadow(1px 1px);
+  filter: drop-shadow(2px 2px #363636);
 }
 
 .header-menu {
@@ -62,7 +62,7 @@ body {
 
 .header-links:hover {
   color: black;
-  filter: drop-shadow(1px 1px);
+  filter: drop-shadow(1px 1px #595959);
 }
 
 .link-names {
