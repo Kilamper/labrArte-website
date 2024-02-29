@@ -94,7 +94,6 @@
   height: auto;
   font-size: 40px;
   align-self: flex-start;
-  font-style: Medium;
   text-align: left;
   font-family: Inter, serif;
   font-weight: 500;
@@ -163,7 +162,6 @@
   height: auto;
   position: absolute;
   font-size: 14px;
-  font-style: Bold;
   text-align: center;
   font-family: SF Pro Text, serif;
   font-weight: 700;
@@ -192,7 +190,6 @@
   height: auto;
   position: absolute;
   font-size: 14px;
-  font-style: Bold;
   text-align: center;
   font-family: Inter, serif;
   font-weight: 700;
@@ -221,7 +218,6 @@
   height: auto;
   position: absolute;
   font-size: 14px;
-  font-style: Bold;
   text-align: center;
   font-family: Inter, serif;
   font-weight: 700;
@@ -250,7 +246,6 @@
   height: auto;
   position: absolute;
   font-size: 14px;
-  font-style: Bold;
   text-align: center;
   font-family: Inter, serif;
   font-weight: 700;
@@ -279,7 +274,6 @@
   height: auto;
   position: absolute;
   font-size: 14px;
-  font-style: Bold;
   text-align: center;
   font-family: Inter, serif;
   font-weight: 700;
