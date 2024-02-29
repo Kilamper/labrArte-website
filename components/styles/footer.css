@@ -32,13 +32,17 @@ body {
   text-align: center;
 }
 
-.footer-image {
+#footer-logo-image {
   width: 90px;
   height: 90px;
 }
 
-.footer-name {
+#footer-logo-name {
+  padding-left: 5px;
   font-size: 50px;
+  font-family: Papyrus, fantasy;
+  font-weight: bold;
+  filter: drop-shadow(1px 1px);
 }
 
 #footer-index {
