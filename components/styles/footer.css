@@ -32,17 +32,28 @@ body {
   text-align: center;
 }
 
-.footer-image {
+#footer-logo-image {
   width: 90px;
   height: 90px;
 }
 
-.footer-name {
+#footer-logo-name {
+  padding-left: 5px;
   font-size: 50px;
+  font-family: Papyrus, fantasy;
+  font-weight: bold;
+  filter: drop-shadow(1px 1px);
+}
+
+#footer-index {
+  width: 12%;
+}
+
+#footer-company {
+  width: 25%;
 }
 
 .footer-links {
-  width: 25%;
   padding: 0 20px;
 }
 
@@ -70,70 +81,27 @@ body {
   font-weight: bold;
 }
 
-.footer-index {
-  width: 15%;
-  padding: 0 20px;
-}
-
-.footer-index h4 {
-  font-size: 20px;
-  margin-bottom: 25px;
-  font-weight: bold;
-  border-bottom: 2px solid black;
-  padding-bottom: 10px;
-  display: inline-block;
-}
-
-.footer-index u1 li a {
-  font-size: 18px;
-  text-decoration: none;
-  color: #363636;
-  display: block;
-  margin-bottom: 15px;
-  transition: all .3s ease;
-}
-
-.footer-index u1 li a:hover {
-  color: black;
-  padding-left: 6px;
-  font-weight: bold;
-}
-
-.footer-info {
-  width: 75%;
-  padding: 0 20px;
-}
-
-.footer-info h4 {
-  font-size: 20px;
-  margin-bottom: 25px;
-  font-weight: bold;
-  border-bottom: 2px solid black;
-  padding-bottom: 10px;
-  display: inline-block;
-}
-
-.footer-info u1 li a {
-  font-size: 18px;
-  text-decoration: none;
-  color: #363636;
-  display: block;
-  margin-bottom: 15px;
-  transition: all .3s ease;
-}
-
-.footer-social {
+.footer-contact {
   width: 100%;
   padding: 0 20px;
 }
 
-.footer-social h4 {
+.footer-contact h4 {
   font-size: 20px;
   margin-bottom: 25px;
   font-weight: bold;
   border-bottom: 2px solid black;
   padding-bottom: 10px;
   display: inline-block;
+}
+
+.footer-contact u1 li a {
+  font-size: 18px;
+  text-decoration: none;
+  color: #363636;
+  display: block;
+  margin-bottom: 15px;
+  transition: all .3s ease;
 }
 
 .social-links {
@@ -157,7 +125,7 @@ body {
   background-color: dodgerblue;
 }
 
-.footer-text {
+#footer-text {
   width: 100%;
   color: #363636;
   text-align: center;
@@ -179,7 +147,6 @@ body {
 
   .footer-logo {
     width: 100%;
-    text-align: center;
     align-items: center;
   }
 
