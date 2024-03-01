@@ -42,66 +42,47 @@ body {
   font-size: 50px;
   font-family: Papyrus, fantasy;
   font-weight: bold;
-  filter: drop-shadow(1px 1px);
+  filter: drop-shadow(2px 2px #595959);
+}
+
+.footer-menu {
+  padding: 0 20px;
+}
+
+.footer-menu h4 {
+  font-size: 20px;
+  margin-bottom: 25px;
+  font-weight: bold;
+  border-bottom: 2px solid black;
+  padding-bottom: 10px;
+  display: inline-block;
+}
+
+.footer-menu u1 li a {
+  font-size: 18px;
+  text-decoration: none;
+  color: #363636;
+  display: block;
+  margin-bottom: 15px;
+  transition: all .3s ease;
 }
 
 #footer-index {
-  width: 12%;
+  width: 15%;
 }
 
 #footer-company {
   width: 25%;
 }
 
-.footer-links {
-  padding: 0 20px;
+.footer-column {
+  width: 30%;
 }
 
-.footer-links h4 {
-  font-size: 20px;
-  margin-bottom: 25px;
-  font-weight: bold;
-  border-bottom: 2px solid black;
-  padding-bottom: 10px;
-  display: inline-block;
-}
-
-.footer-links u1 li a {
-  font-size: 18px;
-  text-decoration: none;
-  color: #363636;
-  display: block;
-  margin-bottom: 15px;
-  transition: all .3s ease;
-}
-
-.footer-links u1 li a:hover {
+.footer-links:hover {
   color: black;
   padding-left: 6px;
   font-weight: bold;
-}
-
-.footer-contact {
-  width: 100%;
-  padding: 0 20px;
-}
-
-.footer-contact h4 {
-  font-size: 20px;
-  margin-bottom: 25px;
-  font-weight: bold;
-  border-bottom: 2px solid black;
-  padding-bottom: 10px;
-  display: inline-block;
-}
-
-.footer-contact u1 li a {
-  font-size: 18px;
-  text-decoration: none;
-  color: #363636;
-  display: block;
-  margin-bottom: 15px;
-  transition: all .3s ease;
 }
 
 .social-links {
@@ -118,11 +99,26 @@ body {
   line-height: 40px;
   border-radius: 50%;
   color: white;
-  transition: all .5s ease;
 }
 
-.social-links a:hover {
-  background-color: dodgerblue;
+#youtube:hover {
+  background-color: red;
+}
+
+#facebook:hover {
+  background-color: mediumblue;
+}
+
+#instagram:hover {
+  background-color: deeppink;
+}
+
+#tiktok:hover {
+  background-color: mediumpurple;
+}
+
+#x-twitter:hover {
+  background-color: black;
 }
 
 #footer-text {
@@ -150,18 +146,16 @@ body {
     align-items: center;
   }
 
-  .footer-index {
+  .footer-menu {
     width: 100%;
     margin-bottom: 30px;
   }
 
-  .footer-links {
+  #footer-index {
     width: 100%;
-    margin-bottom: 30px;
   }
 
-  .footer-info {
+  #footer-company {
     width: 100%;
-    margin-bottom: 30px;
   }
 }
