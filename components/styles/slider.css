@@ -41,7 +41,7 @@
     text-decoration: none;
 }
 
-.homepage-button {
+.slider-button {
     top: 326px;
     width: var(--dl-size-size-medium);
     height: 32px;
@@ -64,7 +64,7 @@
     text-decoration: none;
 }
 
-.homepage-navigation {
+.slider-navigation {
     gap: 12px;
     top: 524px;
     width: 128px;

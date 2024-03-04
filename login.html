@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>labrArte - Inicio</title>
+        <script src="xlu-include-file.js"></script>
+        <link rel="stylesheet" href="styles/login.css"/>
+        <link rel="stylesheet" href="styles/style.css"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    </head>
+    <body>
+        <div class="login-page">
+            <div class="logo-container">
+                <img alt="image" src="/assets/logo.png" id="logo-image">
+                <span id="logo-name">labrArte®</span>
+            </div>
+            <div class="login-section">
+                <span>¿Es tu primera vez?</span>
+                <a href="#"><span>Regístrate</span></a>
+                <div class="login-fields">
+                    <span>Correo electrónico:</span>
+                    <label>
+                        <input type="text">
+                    </label>
+                </div>
+                <div>
+                    <span>Contraseña:</span>
+                    <label>
+                        <input type="text">
+                    </label>
+                </div>
+                <a href="#"><span>¿Olvidaste tu contraseña?</span></a>
+                <div>
+                    <label>
+                        <input type="button" value="Iniciar sesión">
+                    </label>
+                </div>
+                <div class="login-other">
+                    <a><span>o conéctate con</span></a>
+                    <a href="#"><i id="facebook-login" class="fa-brands fa-square-facebook"></i></a>
+                    <a href="#"><i id="google-login" class="fa-brands fa-google"></i></a>
+                </div>
+            </div>
+            <footer id="footer" xlu-include-file="components/minimal-footer.html"></footer>
+            <script>xLuIncludeFile();</script>
+        </div>
+    </body>
+</html>

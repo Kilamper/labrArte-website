@@ -61,7 +61,7 @@ body {
 
 .header-links:hover {
   color: black;
-  filter: drop-shadow(1px 1px);
+  filter: drop-shadow(1px 1px );
 }
 
 .link-names {

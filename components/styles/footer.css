@@ -17,6 +17,14 @@ body {
   display: inline-block;
 }
 
+.minimal-footer {
+  width: 100%;
+  margin: 0 5px;
+  background-image: linear-gradient(315deg, rgb(189, 195, 199) 0.00%,rgb(255, 255, 255) 100.00%);
+  display: inline-block;
+  padding-bottom: 10px;
+}
+
 .footer-row {
   width: 100%;
   display: flex;
