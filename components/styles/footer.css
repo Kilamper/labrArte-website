@@ -129,14 +129,17 @@ body {
   background-color: black;
 }
 
-#footer-text {
+.footer-text {
   width: 100%;
   color: #363636;
   text-align: center;
-  border-top: 2px solid #363636;
   padding-top: 10px;
   display: inline-block;
   margin-top: 10px;
+}
+
+#extended-footer {
+  border-top: 2px solid #363636;
 }
 
 @media(max-width: 1000px) {
