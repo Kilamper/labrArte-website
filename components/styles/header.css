@@ -39,7 +39,7 @@ body {
   font-size: 42px;
   font-family: Papyrus, fantasy;
   font-weight: bold;
-  filter: drop-shadow(2px 2px #363636);
+  filter: drop-shadow(2px 2px #595959);
 }
 
 .header-menu {
@@ -57,7 +57,6 @@ body {
   text-decoration: none;
   color: #363636;
   display: flex;
-  transition: all .3s ease;
 }
 
 .header-links:hover {

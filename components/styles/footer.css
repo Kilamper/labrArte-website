@@ -17,6 +17,14 @@ body {
   display: inline-block;
 }
 
+.minimal-footer {
+  width: 100%;
+  margin: 0 5px;
+  background-image: linear-gradient(315deg, rgb(189, 195, 199) 0.00%,rgb(255, 255, 255) 100.00%);
+  display: inline-block;
+  padding-bottom: 10px;
+}
+
 .footer-row {
   width: 100%;
   display: flex;
@@ -42,7 +50,7 @@ body {
   font-size: 50px;
   font-family: Papyrus, fantasy;
   font-weight: bold;
-  filter: drop-shadow(2px 2px #363636);
+  filter: drop-shadow(2px 2px #595959);
 }
 
 .footer-menu {
@@ -67,12 +75,6 @@ body {
   transition: all .3s ease;
 }
 
-.footer-links:hover {
-  color: black;
-  padding-left: 6px;
-  font-weight: bold;
-}
-
 #footer-index {
   width: 15%;
 }
@@ -81,9 +83,14 @@ body {
   width: 25%;
 }
 
-#footer-column {
+.footer-column {
   width: 30%;
 }
+
+.footer-links:hover {
+  color: black;
+  padding-left: 6px;
+  font-weight: bold;
 
 .social-links {
   width: 100%;
@@ -99,10 +106,9 @@ body {
   line-height: 40px;
   border-radius: 50%;
   color: white;
-  transition: all .5s ease;
 }
 
-#youtube:hover{
+#youtube:hover {
   background-color: red;
 }
 
@@ -115,21 +121,24 @@ body {
 }
 
 #tiktok:hover {
-  background-color: #b955ff;
+  background-color: mediumpurple;
 }
 
 #x-twitter:hover {
   background-color: black;
 }
 
-#footer-text {
+.footer-text {
   width: 100%;
   color: #363636;
   text-align: center;
-  border-top: 2px solid #363636;
   padding-top: 10px;
   display: inline-block;
   margin-top: 10px;
+}
+
+#extended-footer {
+  border-top: 2px solid #363636;
 }
 
 @media(max-width: 1000px) {
@@ -154,11 +163,9 @@ body {
 
   #footer-index {
     width: 100%;
-    margin-bottom: 30px;
   }
 
   #footer-company {
     width: 100%;
-    margin-bottom: 30px;
   }
 }
