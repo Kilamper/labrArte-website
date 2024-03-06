@@ -1,3 +1,7 @@
+* {
+  font-family: Inter, serif;
+}
+
 .catalogue-container {
   width: 100%;
   display: flex;
@@ -13,37 +17,36 @@
   align-items: center;
 }
 
-.catalogue-catalogue {
+#item-components {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.catalogue-section {
   gap: 66px;
   width: 100%;
   height: auto;
   display: flex;
-  overflow: hidden;
-  position: relative;
   align-items: center;
-  flex-shrink: 0;
+  flex-wrap: wrap;
   flex-direction: column;
   justify-content: space-between;
   background-color: rgba(255, 255, 255, 1);
 }
 
-.catalogue-text {
-  color: rgba(0, 0, 0, 1);
-  width: 1266px;
+.catalogue-title {
+  width: 90%;
   height: auto;
   font-size: 40px;
-  align-self: flex-start;
-  text-align: left;
-  font-family: Inter, serif;
   font-weight: 500;
   line-height: normal;
   margin-left: var(--dl-space-space-sixunits);
+  margin-top: var(--dl-space-space-threeunits);
   font-stretch: normal;
-  margin-right: var(--dl-space-space-sixunits);
-  text-decoration: none;
 }
 
-.catalogue-pagination {
+.pagination {
   gap: 8px;
   width: 347px;
   height: 50px;
@@ -67,23 +70,6 @@
   align-items: center;
 }
 
-.catalogue-carat {
-  top: 4px;
-  left: 4px;
-  width: 24px;
-  height: 24px;
-  position: absolute;
-}
-
-.catalogue-page1 {
-  width: 32px;
-  height: 32px;
-  display: flex;
-  position: relative;
-  align-items: flex-start;
-  flex-shrink: 0;
-}
-
 .catalogue-pageactive {
   width: 32px;
   height: 32px;
@@ -92,7 +78,7 @@
   position: absolute;
   align-items: flex-start;
   flex-shrink: 0;
-  border-color: rgba(66, 0, 255, 1);
+  border-color: blue;
   border-style: solid;
   border-width: 1px;
   border-radius: 4px;
@@ -102,7 +88,7 @@
 #actual-page {
   top: 5px;
   left: 4px;
-  color: rgba(66, 0, 255, 1);
+  color: blue;
   width: 24px;
   height: auto;
   position: absolute;
@@ -113,19 +99,6 @@
   line-height: 20px;
   font-stretch: normal;
   text-decoration: none;
-}
-
-.catalogue-page2 {
-  width: 32px;
-  height: 32px;
-  display: flex;
-  position: relative;
-  align-items: flex-start;
-  flex-shrink: 0;
-  border-color: rgba(223, 227, 232, 1);
-  border-style: solid;
-  border-width: 1px;
-  border-radius: 4px;
 }
 
 .other-pages {
@@ -142,112 +115,4 @@
   line-height: 20px;
   font-stretch: normal;
   text-decoration: none;
-}
-
-.catalogue-page3 {
-  width: 32px;
-  height: 32px;
-  display: flex;
-  position: relative;
-  align-items: flex-start;
-  flex-shrink: 0;
-  border-color: rgba(223, 227, 232, 1);
-  border-style: solid;
-  border-width: 1px;
-  border-radius: 4px;
-}
-
-.catalogue-text4 {
-  top: 5px;
-  left: 4px;
-  color: var(--dl-color-darkgrey-400);
-  width: 24px;
-  height: auto;
-  position: absolute;
-  font-size: 14px;
-  text-align: center;
-  font-family: Inter, serif;
-  font-weight: 700;
-  line-height: 20px;
-  font-stretch: normal;
-  text-decoration: none;
-}
-
-.catalogue-page4 {
-  width: 32px;
-  height: 32px;
-  display: flex;
-  position: relative;
-  align-items: flex-start;
-  flex-shrink: 0;
-  border-color: rgba(223, 227, 232, 1);
-  border-style: solid;
-  border-width: 1px;
-  border-radius: 4px;
-}
-
-.catalogue-text6 {
-  top: 5px;
-  left: 4px;
-  color: var(--dl-color-darkgrey-400);
-  width: 24px;
-  height: auto;
-  position: absolute;
-  font-size: 14px;
-  text-align: center;
-  font-family: Inter, serif;
-  font-weight: 700;
-  line-height: 20px;
-  font-stretch: normal;
-  text-decoration: none;
-}
-
-.catalogue-page5 {
-  width: 32px;
-  height: 32px;
-  display: flex;
-  position: relative;
-  align-items: flex-start;
-  flex-shrink: 0;
-  border-color: rgba(223, 227, 232, 1);
-  border-style: solid;
-  border-width: 1px;
-  border-radius: 4px;
-}
-
-.catalogue-text7 {
-  top: 5px;
-  left: 4px;
-  color: var(--dl-color-darkgrey-400);
-  width: 24px;
-  height: auto;
-  position: absolute;
-  font-size: 14px;
-  text-align: center;
-  font-family: Inter, serif;
-  font-weight: 700;
-  line-height: 20px;
-  font-stretch: normal;
-  text-decoration: none;
-}
-
-.catalogue-page6 {
-  width: 32px;
-  height: 32px;
-  display: flex;
-  position: relative;
-  align-items: flex-start;
-  flex-shrink: 0;
-  border-color: rgba(223, 227, 232, 1);
-  border-style: solid;
-  border-width: 1px;
-  border-radius: 4px;
-}
-
-.catalogue-carat1 {
-  top: 4px;
-  left: 4px;
-  width: 24px;
-  height: 24px;
-  position: absolute;
 }
