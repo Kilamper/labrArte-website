@@ -1,3 +1,7 @@
+* {
+  font-family: Inter, serif;
+}
+
 .courses-container {
   width: 100%;
   display: flex;
@@ -5,8 +9,10 @@
   min-height: 100vh;
   align-items: center;
   flex-direction: column;
+  padding-bottom: 30px;
 }
-.courses-courses {
+
+.courses-section {
   gap: 74px;
   width: 100%;
   height: auto;
@@ -16,92 +22,41 @@
   flex-shrink: 0;
   flex-direction: column;
   justify-content: space-between;
-  background-color: rgba(255, 255, 255, 1);
 }
-.courses-text {
-  color: rgba(0, 0, 0, 1);
+
+.courses-title {
   width: 1229px;
   height: auto;
   font-size: 40px;
-  align-self: flex-start;
-  text-align: left;
-  font-family: Inter, serif;
+  justify-self: left;
   font-weight: 500;
   line-height: normal;
   font-stretch: normal;
   margin: var(--dl-space-space-unit) var(--dl-space-space-sixunits);
   text-decoration: none;
 }
-.courses-frame1 {
+
+.courses-frames {
   gap: 125px;
   display: flex;
   align-items: center;
+  margin: var(--dl-space-space-unit) var(--dl-space-space-sixunits);
 }
-.courses-text2 {
-  color: rgba(0, 0, 0, 1);
+
+.courses-texts {
   width: 736px;
   height: auto;
   font-size: 20px;
   text-align: left;
-  font-family: Inter, serif;
   font-weight: 500;
   line-height: normal;
   font-stretch: normal;
   text-decoration: none;
 }
-.courses-image {
+
+.courses-images {
   width: 354px;
   height: 355px;
   object-fit: cover;
 }
-.courses-frame2 {
-  gap: 140px;
-  display: flex;
-  align-items: center;
-}
-.courses-image1 {
-  width: 354px;
-  height: 355px;
-  object-fit: cover;
-}
-.courses-text4 {
-  color: rgba(0, 0, 0, 1);
-  width: 736px;
-  height: auto;
-  font-size: 20px;
-  text-align: left;
-  font-family: Inter, serif;
-  font-weight: 500;
-  line-height: normal;
-  font-stretch: normal;
-  text-decoration: none;
-}
-.courses-frame3 {
-  gap: 125px;
-  display: flex;
-  align-items: center;
-}
-.courses-text6 {
-  color: rgba(0, 0, 0, 1);
-  width: 736px;
-  height: auto;
-  font-size: 20px;
-  text-align: left;
-  font-family: Inter, serif;
-  font-weight: 500;
-  line-height: normal;
-  font-stretch: normal;
-  text-decoration: none;
-}
-.courses-image2 {
-  width: 354px;
-  height: 355px;
-  object-fit: cover;
-}
-.courses-container1 {
-  width: 100%;
-  border: 2px dashed rgba(120, 120, 120, 0.4);
-  height: 56px;
-  display: flex;
-  align-items: flex-start;
-}
+
