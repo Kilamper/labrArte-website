@@ -1,76 +1,51 @@
 <!DOCTYPE html>
 <html lang="es">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>labrArte - Items</title>
-    <script src="xlu-include-file.js"></script>
-    <link rel="stylesheet" href="styles/items.css"/>
-    <link rel="stylesheet" href="styles/style.css"/>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-  </head>
-  <body>
-    <header id="header" xlu-include-file="components/header.html"></header>
-    <div class="items-container">
-      <div class="items-container1"></div>
-      <div class="items-items">
-        <span class="items-text"><span>Productos</span></span>
-        <div class="items-order">
-          <span class="items-text02">Ordenar por:</span>
-          <div class="items-property1-default">
-            <span class="items-text03">Precio&nbsp;</span>
-            <svg viewBox="0 0 1024 1024" class="items-icon">
-              <path
-                d="M1024 512c0-282.77-229.23-512-512-512s-512 229.23-512 512 229.23 512 512 512 512-229.23 512-512zM96 512c0-229.75 186.25-416 416-416s416 186.25 416 416-186.25 416-416 416-416-186.25-416-416z"
-              ></path>
-              <path
-                d="M317.256 354.744l-90.512 90.512 285.256 285.254 285.254-285.256-90.508-90.508-194.746 194.744z"
-              ></path>
-            </svg>
-          </div>
-        </div>
-        <item-components id="item-components" xlu-include-file="components/item-components.html"></item-components>
-        <div class="items-pagination">
-          <div class="items-page">
-            <img
-              alt="caratI291"
-              src="https://play.teleporthq.io/static/svg/placeholders/no-image.svg"
-              class="items-carat"
-            />
-          </div>
-          <div class="items-page1">
-            <div class="items-pageactive">
-              <span class="items-text04">1</span>
-            </div>
-          </div>
-          <div class="items-page2"><span class="items-text05">2</span></div>
-          <div class="items-page3">
-            <span class="items-text06"><span>...</span></span>
-          </div>
-          <div class="items-page4"><span class="items-text08">9</span></div>
-          <div class="items-page5">
-            <span class="items-text09"><span>10</span></span>
-          </div>
-          <div class="items-page6">
-            <img
-              alt="caratI291"
-              src="https://play.teleporthq.io/static/svg/placeholders/no-image.svg"
-              class="items-carat1"
-            />
-          </div>
-        </div>
-        <button type="button" class="items-return">
-          <svg viewBox="0 0 1024 1024" class="items-icon3">
-            <path
-              d="M761.862 1024c113.726-206.032 132.888-520.306-313.862-509.824v253.824l-384-384 384-384v248.372c534.962-13.942 594.57 472.214 313.862 775.628z"
-            ></path>
-          </svg>
-          <span class="items-volver">Volver</span>
-        </button>
-        <div class="items-container2"></div>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>labrArte - Productos</title>
+  <script src="xlu-include-file.js"></script>
+  <link rel="stylesheet" href="styles/catalogue.css"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+<header id="header" xlu-include-file="components/header.html"></header>
+<div class="catalogue-section">
+  <h2 class="catalogue-title">Productos</h2>
+  <item-components id="item-components" xlu-include-file="components/item-components.html"></item-components>
+  <div class="pagination">
+    <div class="page-numeration">
+      <i class="fa-solid fa-caret-left"></i>
+    </div>
+    <div class="page-numeration">
+      <div class="catalogue-pageactive">
+        <span id="actual-page">1</span>
       </div>
     </div>
-    <footer id="footer" xlu-include-file="components/footer.html"></footer>
-    <script>xLuIncludeFile();</script>
-  </body>
+    <div class="page-numeration">
+      <span class="other-pages">2</span>
+    </div>
+    <div class="page-numeration">
+      <span class="other-pages">3</span>
+    </div>
+    <div class="page-numeration">
+      <span class="other-pages">...</span>
+    </div>
+    <div class="page-numeration">
+      <span class="other-pages">9</span>
+    </div>
+    <div class="page-numeration">
+      <span class="other-pages">10</span>
+    </div>
+    <div class="page-numeration">
+      <i class="fa-solid fa-caret-right"></i>
+    </div>
+  </div>
+  <div id="producto-return">
+    <a href="catalogue.html"><i class="fa-solid fa-reply"></i>Volver</a>
+  </div>
+</div>
+<footer id="footer" xlu-include-file="components/footer.html"></footer>
+<script>xLuIncludeFile();</script>
+</body>
 </html>
