@@ -1,3 +1,7 @@
+* {
+  font-family: Inter, serif;
+}
+
 .producto-container {
   width: 100%;
   display: flex;
@@ -6,12 +10,14 @@
   align-items: center;
   flex-direction: column;
 }
-.producto-text {
+
+.producto-title {
   margin: var(--dl-space-space-sixunits);
   font-size: 3em;
   align-self: flex-start;
 }
-.producto-producto {
+
+.producto-section {
   gap: 185px;
   width: 90%;
   height: 40%;
@@ -25,7 +31,7 @@
   flex-direction: column;
   background-color: rgba(255, 255, 255, 1);
 }
-.producto-product-viewer {
+.product-viewer {
   width: 100%;
   height: 40%;
   display: flex;
@@ -33,37 +39,18 @@
   align-items: flex-start;
   flex-shrink: 1;
 }
-.producto-text3 {
+.producto-text {
   left: 575px;
-  color: rgba(0, 0, 0, 1);
   width: 311px;
   height: auto;
   position: absolute;
   font-size: 48px;
-  font-style: Medium;
   text-align: left;
-  font-family: Inter, serif;
   font-weight: 500;
   line-height: normal;
   font-stretch: normal;
-  text-decoration: none;
 }
-.producto-text5 {
-  top: 126px;
-  left: 552px;
-  color: rgba(0, 0, 0, 1);
-  width: auto;
-  height: auto;
-  position: absolute;
-  font-size: 32px;
-  font-style: Medium;
-  text-align: left;
-  font-family: Inter, serif;
-  font-weight: 500;
-  line-height: normal;
-  font-stretch: normal;
-  text-decoration: none;
-}
+
 .producto-image {
   width: 534px;
   height: 100%;
@@ -84,18 +71,14 @@
   align-self: center;
 }
 .producto-comprar {
-  color: rgba(0, 0, 0, 1);
   width: 119px;
   height: auto;
   font-size: 24px;
   align-self: center;
-  font-style: Normal;
   text-align: center;
-  font-family: Inter, serif;
   font-weight: 400;
-  line-height: 129.99999523162842%;
+  line-height: 130%;
   font-stretch: normal;
-  text-decoration: none;
 }
 .producto-boton-contactar {
   width: 20%;
@@ -112,17 +95,13 @@
   align-self: center;
 }
 .producto-contactar {
-  color: rgb(0, 0, 0);
   width: 119px;
   height: auto;
   font-size: 24px;
-  font-style: Normal;
   text-align: center;
-  font-family: "Inter", serif;
   font-weight: 400;
   line-height: 130%;
   font-stretch: normal;
-  text-decoration: none;
 }
 .producto-return {
   right: 48px;
@@ -140,7 +119,7 @@
   height: 26px;
   align-self: center;
 }
-.producto-volver {
+.product-return {
   top: 0;
   color: rgb(0, 0, 0);
   right: 0;
@@ -150,13 +129,10 @@
   margin: auto;
   position: absolute;
   font-size: 24px;
-  font-style: Normal;
   text-align: center;
-  font-family: "Inter", serif;
   font-weight: 400;
   line-height: 130%;
   font-stretch: normal;
-  text-decoration: none;
 }
 .producto-container1 {
   flex: 0 0 auto;

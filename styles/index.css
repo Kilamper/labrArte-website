@@ -1,3 +1,7 @@
+* {
+  font-family: Inter, serif;
+}
+
 .index-container {
   width: 100%;
   display: flex;
@@ -14,8 +18,8 @@
   overflow: hidden;
   position: relative;
   align-items: center;
-  flex-shrink: 0;
   flex-direction: column;
+  padding-top: 50px;
   background-color: rgba(255, 255, 255, 1);
 }
 
@@ -44,7 +48,7 @@
   text-align: left;
   font-family: Inter, serif;
   font-weight: 500;
-  text-decoration: none;
+  padding-bottom: 20px;
 }
 
 .index-image {

@@ -12,59 +12,28 @@
   <body>
   <header id="header" xlu-include-file="components/header.html"></header>
     <div class="producto-container">
-      <h1 class="producto-text">
-        <span>Item</span>
-        <br />
-      </h1>
-      <div class="producto-producto">
-        <div class="producto-product-viewer">
-          <span class="producto-text3"><span>5.99 €</span></span>
-          <span class="producto-text5">
-            <span>
-              Lorem ipsum dolor sit amet consectetur. Viverra id tortor lorem
-              aliquam eget id quis. Imperdiet non purus orci senectus. Tortor
-              id suspendisse id pellentesque ac. Mattis dignissim aenean
-              senectus volutpat donec duis tellus lorem.
-            </span>
-          </span>
+      <h1 class="producto-title">Item</h1>
+      <div class="producto-section">
+        <div class="product-viewer">
+          <h3 class="producto-price">5.99 €</h3>
+          <p class="producto-text">
+            Lorem ipsum dolor sit amet consectetur. Viverra id tortor lorem
+            aliquam eget id quis. Imperdiet non purus orci senectus. Tortor
+            id suspendisse id pellentesque ac. Mattis dignissim aenean
+            senectus volutpat donec duis tellus lorem.
+          </p>
           <img
             alt="image"
             src="https://play.teleporthq.io/static/svg/default-img.svg"
             class="producto-image"
           />
-          <div class="producto-boton-compra">
-            <svg viewBox="0 0 1024 1024" class="producto-icon">
-              <path
-                d="M384 928c0 53.019-42.981 96-96 96s-96-42.981-96-96c0-53.019 42.981-96 96-96s96 42.981 96 96z"
-              ></path>
-              <path
-                d="M1024 928c0 53.019-42.981 96-96 96s-96-42.981-96-96c0-53.019 42.981-96 96-96s96 42.981 96 96z"
-              ></path>
-              <path
-                d="M1024 512v-384h-768c0-35.346-28.654-64-64-64h-192v64h128l48.074 412.054c-29.294 23.458-48.074 59.5-48.074 99.946 0 70.696 57.308 128 128 128h768v-64h-768c-35.346 0-64-28.654-64-64 0-0.218 0.014-0.436 0.016-0.656l831.984-127.344z"
-              ></path>
-            </svg>
-            <span class="producto-comprar"><span>Comprar</span></span>
-          </div>
-          <div class="producto-boton-contactar">
-            <svg viewBox="0 0 1024 1024" class="producto-icon4">
-              <path
-                d="M726 512q0 18-13 30t-31 12h-426l-170 172v-598q0-18 12-30t30-12h554q18 0 31 12t13 30v384zM896 256q18 0 30 12t12 30v640l-170-170h-470q-18 0-30-12t-12-30v-86h554v-384h86z"
-              ></path>
-            </svg>
-            <span class="producto-contactar">Contactar</span>
-          </div>
+          <a><i class="fa-solid fa-shopping-cart"></i>Comprar</a>
+          <a><i class="fa-solid fa-message"></i>Contactar</a>
         </div>
-        <button type="button" class="producto-return">
-          <svg viewBox="0 0 1024 1024" class="producto-icon6">
-            <path
-              d="M761.862 1024c113.726-206.032 132.888-520.306-313.862-509.824v253.824l-384-384 384-384v248.372c534.962-13.942 594.57 472.214 313.862 775.628z"
-            ></path>
-          </svg>
-          <span class="producto-volver">Volver</span>
-        </button>
+        <div class="producto-return">
+          <a href="items.html"><i class="fa-solid fa-reply"></i>Volver</a>
+        </div>
       </div>
-      <div class="producto-container1"></div>
     </div>
     <footer id="footer" xlu-include-file="components/footer.html"></footer>
     <script>xLuIncludeFile();</script>

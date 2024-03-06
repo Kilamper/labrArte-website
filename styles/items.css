@@ -1,3 +1,6 @@
+* {
+  font-family: Inter, serif;
+}
 
 #item-components {
   display: flex;

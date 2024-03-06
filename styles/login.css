@@ -28,15 +28,23 @@ body {
     filter: drop-shadow(2px 2px #595959);
 }
 
-.login-section {
+.box-section {
     box-sizing: border-box;
     width: 400px;
-    height: 450px;
     background-color: white;
     padding-top: 20px;
     margin: auto;
     display: block;
-    box-shadow: 5px 5px 15px black;
+    box-shadow: 4px 4px 12px black;
+    border-radius: 1rem;
+}
+
+#login-box {
+    height: 430px;
+}
+
+#signup-box {
+    height: 490px;
 }
 
 .fields {
@@ -52,7 +60,7 @@ body {
 
 .login-icons {
     text-decoration: none;
-    scale: 1.5;
+    scale: 2;
 }
 
 #login-footer {
@@ -60,4 +68,17 @@ body {
     padding-top: 10px;
     display: inline-block;
     margin-top: 10px;
+}
+
+.fa-square-facebook {
+    color: #003EB3;
+}
+
+.fa-google {
+    background: conic-gradient(from -45deg, #ea4335 110deg, #4285f4 90deg 180deg, #34a853 180deg 270deg, #fbbc05 270deg)
+        73% 55%/150% 150% no-repeat;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    -webkit-text-fill-color: transparent;
 }
