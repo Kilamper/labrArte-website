@@ -1,3 +1,7 @@
+body {
+    background-image: linear-gradient(315deg, rgb(189, 195, 199) 0.00%,rgb(255, 255, 255) 100.00%);
+}
+
 .login-page {
     text-align: center;
     display: block;
@@ -5,9 +9,10 @@
 
 .logo-container {
     padding-top: 30px;
-    display: block;
+    display: flex;
     justify-content: center;
-    text-align: center;
+    align-items: center;
+    padding-bottom: 20px;
 }
 
 #logo-image {
@@ -24,10 +29,35 @@
 }
 
 .login-section {
-    padding-top: 50px;
+    box-sizing: border-box;
+    width: 400px;
+    height: 450px;
+    background-color: white;
+    padding-top: 20px;
+    margin: auto;
     display: block;
+    box-shadow: 5px 5px 15px black;
 }
 
-.login-fields {
-    padding-bottom: 10px;
+.fields {
+    width: 75%;
+    margin-bottom: 15px;
+    padding: 8px 8px;
+}
+
+#button {
+    width: 30%;
+    padding: 6px 6px;
+}
+
+.login-icons {
+    text-decoration: none;
+    scale: 1.5;
+}
+
+#login-footer {
+    color: #363636;
+    padding-top: 10px;
+    display: inline-block;
+    margin-top: 10px;
 }

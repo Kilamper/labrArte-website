@@ -13,37 +13,35 @@
         <div class="login-page">
             <div class="logo-container">
                 <img alt="image" src="/assets/logo.png" id="logo-image">
-                <span id="logo-name">labrArte®</span>
+                <h1 id="logo-name">labrArte®</h1>
             </div>
             <div class="login-section">
-                <span>¿Es tu primera vez?</span>
-                <a href="#"><span>Regístrate</span></a>
-                <div class="login-fields">
-                    <span>Correo electrónico:</span>
-                    <label>
-                        <input type="text">
-                    </label>
-                </div>
-                <div>
-                    <span>Contraseña:</span>
-                    <label>
-                        <input type="text">
-                    </label>
-                </div>
-                <a href="#"><span>¿Olvidaste tu contraseña?</span></a>
-                <div>
-                    <label>
-                        <input type="button" value="Iniciar sesión">
-                    </label>
-                </div>
-                <div class="login-other">
-                    <a><span>o conéctate con</span></a>
+                <h3>Inicio de Sesión</h3>
+                <p><span>¿Es tu primera vez?</span>
+                    <a class="login-links" href="#">Regístrate</a>
+                </p>
+                <label>
+                    <input class="fields" type="text" placeholder="Usuario">
+                </label>
+                <label>
+                    <input class="fields" type="password" placeholder="Contraseña">
+                </label>
+                <p><a class="login-links" href="#">¿Olvidaste tu contraseña?</a></p>
+                <label>
+                    <input id="button" type="submit" value="Iniciar sesión">
+                </label>
+                <p><a>o conéctate con</a></p>
+                <div class="login-icons">
                     <a href="#"><i id="facebook-login" class="fa-brands fa-square-facebook"></i></a>
                     <a href="#"><i id="google-login" class="fa-brands fa-google"></i></a>
                 </div>
             </div>
-            <footer id="footer" xlu-include-file="components/minimal-footer.html"></footer>
-            <script>xLuIncludeFile();</script>
+            <footer id="login-footer">
+                <p>
+                    labrArte® - Autoriza la divulgación o utilización del contenido de
+                    esta web, haciendo referencia de la misma.
+                </p>
+            </footer>
         </div>
     </body>
 </html>
