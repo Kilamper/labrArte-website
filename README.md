@@ -53,7 +53,7 @@
 
 <p>Las historias de usuario recogidas son las siguientes:</p>
 
-| First Header  | Second Header |
+| Identificador  | HU1 |
 | ------------- | ------------- |
 | Content Cell  | Content Cell  |
 | Content Cell  | Content Cell  |
