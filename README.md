@@ -58,7 +58,7 @@
 | Nombre                                                                                                                | Navegación fluida |
 | Descripción                                                                                                           | Como usuario me gustaría poder navegar fácilmente por las distintas secciones de la página web a través del menú principal. |
 | Criterios de validación                                                                                               |
-| *   El menú principal debe ser visible en todas las páginas de la web.
+*   El menú principal debe ser visible en todas las páginas de la web.
 *   La navegación debe ser intuitiva y fácil de entender para los usuarios.
 *   Cada sección del menú debe redirigir correctamente a la página correspondiente. |
 | Estimación                                                                                                            | 2 horas |
