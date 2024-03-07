@@ -1,4 +1,8 @@
-.item-component-container {
+* {
+  font-family: Inter, serif;
+}
+
+.product-element-container {
   flex: 0 0 auto;
   width: 333px;
   height: auto;
@@ -7,7 +11,7 @@
   align-items: center;
   flex-direction: column;
 }
-.item-component-container1 {
+.product-element-container1 {
   flex: 0 0 auto;
   width: auto;
   height: auto;
@@ -15,7 +19,7 @@
   align-items: center;
   flex-direction: column;
 }
-.item-component-container2 {
+.product-element-container2 {
   width: 100%;
   border: 2px dashed rgba(120, 120, 120, 0.4);
   height: 339px;
@@ -26,7 +30,7 @@
   background-image: url('https://play.teleporthq.io/static/svg/default-img.svg');
   background-position: center;
 }
-.item-component-container3 {
+.product-element-container3 {
   flex: 0 0 auto;
   width: auto;
   height: 101px;
@@ -34,7 +38,7 @@
   align-items: flex-start;
   justify-content: center;
 }
-.item-component-container4 {
+.product-element-container4 {
   flex: 0 0 auto;
   width: auto;
   height: 100%;
@@ -42,25 +46,25 @@
   flex-direction: column;
   justify-content: center;
 }
-.item-component-text {
+.product-element-text {
   font-size: 18px;
   align-self: flex-start;
   padding-top: var(--dl-space-space-halfunit);
   padding-bottom: var(--dl-space-space-halfunit);
 }
-.item-component-text1 {
+.product-element-text1 {
   font-size: 18px;
   align-self: flex-start;
   padding-top: var(--dl-space-space-halfunit);
   padding-bottom: var(--dl-space-space-halfunit);
 }
-.item-component-text2 {
+.product-element-text2 {
   font-size: 21px;
   align-self: flex-start;
   margin-top: var(--dl-space-space-halfunit);
   margin-bottom: var(--dl-space-space-halfunit);
 }
-.item-component-container5 {
+.product-element-container5 {
   flex: 0 0 auto;
   width: auto;
   height: auto;
@@ -68,7 +72,7 @@
   align-items: center;
   flex-direction: column;
 }
-.item-component-container6 {
+.product-element-container6 {
   flex: 0 0 auto;
   width: 205px;
   height: 100%;
@@ -76,7 +80,7 @@
   align-items: flex-start;
   flex-direction: column;
 }
-.item-component-container7 {
+.product-element-container7 {
   flex: 0 0 auto;
   width: auto;
   height: auto;
@@ -85,17 +89,17 @@
   align-items: flex-start;
   justify-content: flex-start;
 }
-.item-component-icon {
+.product-element-icon {
   width: 32px;
   height: 32px;
   align-self: center;
 }
-.item-component-navlink {
+.product-element-navlink {
   align-self: flex-end;
   margin: var(--dl-space-space-halfunit);
   text-decoration: none;
 }
-.item-component-container8 {
+.product-element-container8 {
   flex: 0 0 auto;
   width: auto;
   height: auto;
@@ -104,17 +108,12 @@
   align-items: flex-start;
   justify-content: flex-end;
 }
-.item-component-icon4 {
+.product-element-icon4 {
   width: 32px;
   height: 32px;
   align-self: center;
 }
-.item-component-button {
+.product-element-button {
   align-self: flex-end;
   margin: var(--dl-space-space-halfunit);
-}
-
-
-.item-components-root-class-name {
-  width: 100%;
 }

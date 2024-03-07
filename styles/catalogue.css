@@ -11,13 +11,13 @@
   flex-direction: column;
 }
 
-#products-component {
+#categories-list {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-#item-components {
+#products-list {
   display: flex;
   justify-content: center;
   align-items: center;

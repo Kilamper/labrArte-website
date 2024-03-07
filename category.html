@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>labrArte - Categoría</title>
+    <script src="xlu-include-file.js"></script>
+    <link rel="stylesheet" href="styles/catalogue.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  </head>
+    <body>
+      <header id="header" xlu-include-file="components/header.html"></header>
+      <div class="catalogue-section">
+        <h2 class="catalogue-title">Productos</h2>
+        <products-list id="products-list" xlu-include-file="components/products-list.html"></products-list>
+        <div class="pagination">
+          <div class="page-numeration">
+            <i class="fa-solid fa-caret-left"></i>
+          </div>
+          <div class="page-numeration">
+            <div class="catalogue-pageactive">
+              <span id="actual-page">1</span>
+            </div>
+          </div>
+          <div class="page-numeration">
+            <span class="other-pages">2</span>
+          </div>
+          <div class="page-numeration">
+            <span class="other-pages">3</span>
+          </div>
+          <div class="page-numeration">
+            <span class="other-pages">...</span>
+          </div>
+          <div class="page-numeration">
+            <span class="other-pages">9</span>
+          </div>
+          <div class="page-numeration">
+            <span class="other-pages">10</span>
+          </div>
+          <div class="page-numeration">
+            <i class="fa-solid fa-caret-right"></i>
+          </div>
+        </div>
+        <div id="producto-return">
+          <a href="catalogue.html"><i class="fa-solid fa-reply"></i>Volver</a>
+        </div>
+      </div>
+      <footer id="footer" xlu-include-file="components/footer.html"></footer>
+      <script>xLuIncludeFile();</script>
+      </body>
+</html>

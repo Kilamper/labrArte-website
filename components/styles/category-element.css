@@ -1,4 +1,4 @@
-.product-component-container {
+.category-element-container {
   flex: 0 0 auto;
   width: 333px;
   height: auto;
@@ -7,10 +7,10 @@
   align-items: center;
   flex-direction: column;
 }
-.product-component-navlink {
+.category-element-navlink {
   display: contents;
 }
-.product-component-container1 {
+.category-element-container1 {
   width: 333px;
   border: 2px dashed rgba(120, 120, 120, 0.4);
   height: 339px;
@@ -22,7 +22,7 @@
   background-image: url('https://play.teleporthq.io/static/svg/default-img.svg');
   background-position: center;
 }
-.product-component-container2 {
+.category-element-container2 {
   flex: 0 0 auto;
   width: auto;
   height: 101px;
@@ -30,7 +30,7 @@
   align-items: flex-start;
   justify-content: center;
 }
-.product-component-container3 {
+.category-element-container3 {
   flex: 0 0 auto;
   width: 129px;
   height: 100%;
@@ -38,7 +38,7 @@
   flex-direction: column;
   justify-content: center;
 }
-.product-component-navlink1 {
+.category-element-navlink1 {
   font-size: 18px;
   align-self: center;
   padding-top: var(--dl-space-space-halfunit);
