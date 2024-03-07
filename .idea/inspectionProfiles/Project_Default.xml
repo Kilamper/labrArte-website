@@ -26,7 +26,7 @@
     <inspection_tool class="HtmlUnknownTag" enabled="true" level="WARNING" enabled_by_default="true">
       <option name="myValues">
         <value>
-          <list size="12">
+          <list size="17">
             <item index="0" class="java.lang.String" itemvalue="nobr" />
             <item index="1" class="java.lang.String" itemvalue="noembed" />
             <item index="2" class="java.lang.String" itemvalue="comment" />
@@ -39,6 +39,11 @@
             <item index="9" class="java.lang.String" itemvalue="products-component" />
             <item index="10" class="java.lang.String" itemvalue="item-component" />
             <item index="11" class="java.lang.String" itemvalue="item-components" />
+            <item index="12" class="java.lang.String" itemvalue="categories-list" />
+            <item index="13" class="java.lang.String" itemvalue="product-element" />
+            <item index="14" class="java.lang.String" itemvalue="products-list" />
+            <item index="15" class="java.lang.String" itemvalue="category-element" />
+            <item index="16" class="java.lang.String" itemvalue="pagination" />
           </list>
         </value>
       </option>
