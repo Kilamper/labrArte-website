@@ -1,3 +1,7 @@
+* {
+    font-family: Inter, serif;
+}
+
 body {
     background-image: linear-gradient(315deg, rgb(189, 195, 199) 0.00%,rgb(255, 255, 255) 100.00%);
 }
@@ -13,6 +17,7 @@ body {
     justify-content: center;
     align-items: center;
     padding-bottom: 20px;
+    text-decoration: none;
 }
 
 #logo-image {
@@ -25,6 +30,7 @@ body {
     font-size: 42px;
     font-family: Papyrus, fantasy;
     font-weight: bold;
+    color: black;
     filter: drop-shadow(2px 2px #595959);
 }
 
