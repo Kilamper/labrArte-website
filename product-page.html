@@ -11,29 +11,25 @@
 </head>
   <body>
   <header id="header" xlu-include-file="components/header.html"></header>
-    <div class="producto-container">
-      <h2 class="producto-title">Producto</h2>
-      <div class="producto-section">
+    <div class="product-container">
+      <h2 class="product-title">Producto</h2>
+      <div class="product-section">
+        <img alt="image" class="product-image" src="https://play.teleporthq.io/static/svg/default-img.svg"/>
         <div class="product-viewer">
-          <h3 class="producto-price">5.99 €</h3>
-          <p class="producto-text">
+          <h3 id="product-price">5.99 €</h3>
+          <p class="product-text">
             Lorem ipsum dolor sit amet consectetur. Viverra id tortor lorem
             aliquam eget id quis. Imperdiet non purus orci senectus. Tortor
             id suspendisse id pellentesque ac. Mattis dignissim aenean
             senectus volutpat donec duis tellus lorem.
           </p>
-          <img
-            alt="image"
-            src="https://play.teleporthq.io/static/svg/default-img.svg"
-            class="producto-image"
-          />
-          <a><i class="fa-solid fa-shopping-cart"></i>Comprar</a>
-          <a><i class="fa-solid fa-message"></i>Contactar</a>
-        </div>
-        <div id="producto-return">
-          <a href="category.html"><i class="fa-solid fa-reply"></i>Volver</a>
+          <div id="product-actions">
+            <a class="product-buttons"><i class="fa-solid fa-shopping-cart"></i> Comprar</a>
+            <a class="product-buttons"><i class="fa-solid fa-message"></i> Contactar</a>
+          </div>
         </div>
       </div>
+      <a href="category.html" id="product-return"><i class="fa-solid fa-reply"></i> Volver</a>
     </div>
     <footer id="footer" xlu-include-file="components/footer.html"></footer>
     <script>xLuIncludeFile();</script>

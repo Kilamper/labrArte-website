@@ -43,7 +43,7 @@
   padding-bottom: var(--dl-space-space-halfunit);
 }
 
-.product-buttons {
+#product-actions {
   width: 50%;
   display: flex;
   flex-direction: column;
@@ -52,10 +52,15 @@
   padding-bottom: var(--dl-space-space-halfunit);
 }
 
-.product-buttons a {
+.product-buttons {
   text-decoration: none;
-  color: black;
+  color: #363636;
   margin: 10px
+}
+
+.product-buttons:hover {
+  color: black;
+  filter: drop-shadow(1px 1px #595959);
 }
 
 .category-navlink {
