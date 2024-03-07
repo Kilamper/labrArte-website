@@ -3,14 +3,24 @@
 }
 
 body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
     background-image: linear-gradient(315deg, rgb(189, 195, 199) 0.00%,rgb(255, 255, 255) 100.00%);
 }
 
 .login-page {
     text-align: center;
     display: block;
+    flex: 1;
 }
 
+.footer {
+    text-align: center;
+    padding: 10px;
+    color: #363636;
+    flex-shrink: 0;
+}
 .logo-container {
     padding-top: 30px;
     display: flex;
