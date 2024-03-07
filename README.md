@@ -53,7 +53,10 @@
 
 <p>Las historias de usuario recogidas son las siguientes:</p>
 
-| Identificador  | HU1 |
-| ------------- | ------------- |
-| Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  |
+::: tabularx
+\|X\|X\| & **Nombre de la historia:** Creación de usuario\
+& **Estimación:** 4 horas\
+\
+\
+:::
+
