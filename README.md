@@ -38,6 +38,7 @@
 ### 5. Funcionalidad:
 
 <p>Entre las funcionalidades necesarias se incluyen:</p>
+
 1. Registro de usuarios: Permitirá a los artesanos crear perfiles y gestionar sus productos.
 2. Catálogo de productos: Presentará una amplia variedad de productos artesanales organizados por categorías.
 3. Compras: Permitirá a los usuarios seleccionar y comprar productos de manera conveniente.
