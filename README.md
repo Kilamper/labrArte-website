@@ -68,7 +68,7 @@
 
 ![image](https://github.com/Kilamper/web-page/assets/73082382/50d15244-4a2f-4e63-b982-5a2a8cb670b7)
 
-#### Categories
+#### Category
 
 ![image](https://github.com/Kilamper/web-page/assets/73082382/adeb8c07-6204-4cf0-a81d-c44309f63847)
 
