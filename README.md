@@ -47,7 +47,11 @@
 
 <p>El software resolverá problemas como la limitada visibilidad de los artesanos en el mercado tradicional, al proporcionarles una plataforma accesible a nivel mundial para promocionar y vender sus productos. Además, ofrecerá a los consumidores la oportunidad de descubrir y adquirir productos artesanales de alta calidad que de otro modo podrían no haber conocido.</p>
 
-## Historias de Usuario
+## 6. Mockups
+
+
+
+## 7. Historias de Usuario
 
 <p>Se han empleado historias de usuario para recoger los requisitos de la plataforma, de manera que cumpla con las necesidades del artesano y de sus clientes.</p>
 
