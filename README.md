@@ -1,6 +1,4 @@
-# Sprint 1
-
-## Programación Web y Móvil (PWM)
+# Sprint 1 - Programación Web y Móvil (PWM)
 
 ### Grupo 43.6
 
