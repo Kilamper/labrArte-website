@@ -47,11 +47,11 @@
 
 <p>El software resolverá problemas como la limitada visibilidad de los artesanos en el mercado tradicional, al proporcionarles una plataforma accesible a nivel mundial para promocionar y vender sus productos. Además, ofrecerá a los consumidores la oportunidad de descubrir y adquirir productos artesanales de alta calidad que de otro modo podrían no haber conocido.</p>
 
-## 6. Mockups
+### 6. Mockups
 
 
 
-## 7. Historias de Usuario
+### 7. Historias de Usuario
 
 <p>Se han empleado historias de usuario para recoger los requisitos de la plataforma, de manera que cumpla con las necesidades del artesano y de sus clientes.</p>
 
@@ -61,9 +61,6 @@
 | ----------------------------------------------------------------------------------------------------------------------| --- |
 | Nombre                                                                                                                | Navegación fluida |
 | Descripción                                                                                                           | Como usuario me gustaría poder navegar fácilmente por las distintas secciones de la página web a través del menú principal. |
-| Criterios de validación                                                                                               |
-*   El menú principal debe ser visible en todas las páginas de la web.
-*   La navegación debe ser intuitiva y fácil de entender para los usuarios.
-*   Cada sección del menú debe redirigir correctamente a la página correspondiente. |
+| Criterios de validación                                                                                               | <p> 1. El menú principal debe ser visible en todas las páginas de la web.</p> <p> 2. La navegación debe ser intuitiva y fácil de entender para los usuarios.</p> <p>Cada sección del menú debe redirigir correctamente a la página correspondiente.</p> |
 | Estimación                                                                                                            | 2 horas |
 | Prioridad                                                                                                             | Alta |
