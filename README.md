@@ -49,7 +49,43 @@
 
 ### 6. Mockups
 
+<p>El diseño de las páginas principales de la web seguirán los siguientes mockups:</p>
 
+#### Header
+
+![image](https://github.com/Kilamper/web-page/assets/73082382/cf5829ff-5314-4f39-941e-da9845c2a099)
+
+#### Footer
+
+![image](https://github.com/Kilamper/web-page/assets/73082382/cefa92ad-6492-47db-9366-0055bda0e1a2)
+
+#### Homepage
+
+![image](https://github.com/Kilamper/web-page/assets/73082382/4bac14f8-291e-4996-98cd-0e73f1bd47d7)
+
+#### Catalogue
+
+![image](https://github.com/Kilamper/web-page/assets/73082382/50d15244-4a2f-4e63-b982-5a2a8cb670b7)
+
+#### Categories
+
+![image](https://github.com/Kilamper/web-page/assets/73082382/adeb8c07-6204-4cf0-a81d-c44309f63847)
+
+#### Blog
+
+![image](https://github.com/Kilamper/web-page/assets/73082382/775cef53-81ec-456f-bdca-e36146109207)
+
+#### Product Page
+
+![image](https://github.com/Kilamper/web-page/assets/73082382/d437bcc0-a509-477b-9a1b-d3f64e964394)
+
+#### Courses
+
+![image](https://github.com/Kilamper/web-page/assets/73082382/ae6487cf-e5ad-41be-aece-14467d6b41ef)
+
+#### Login Page
+
+![image](https://github.com/Kilamper/web-page/assets/73082382/706871e9-90a8-411d-b452-4f8064dcbfaa)
 
 ### 7. Historias de Usuario
 
