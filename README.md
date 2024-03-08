@@ -5,7 +5,7 @@
 ### Miembros:
 <p>Asmae Ez Zaim Driouch</p>
 <p>Álvaro Trancho Dorta</p>
-> Kilian Armas Pérez
+<p>Kilian Armas Pérez</p>
 
 ## Introducción
 
