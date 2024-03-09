@@ -143,7 +143,7 @@
 | Identificador                                                                                                         | HU04 |
 | ----------------------------------------------------------------------------------------------------------------------| --- |
 | Nombre                                                                                                                | Visualizar perfil del artesano |
-| Descripción                                                                                                           | Los usuarios deben poder ver el perfil del artesanos, incluyendo su biografía, experiencia y obras destacadas. |
+| Descripción                                                                                                           | Los usuarios deben poder ver el perfil del artesano, incluyendo su biografía, experiencia y obras destacadas. |
 | Criterios de validación                                                                                               | <p> 1. Debe haber una sección dedicada al perfil del artesano en la página web.</p> <p> 2. Los perfiles deben incluir información relevante sobre el artesano, como su biografía y experiencia.</p> <p>3. Los usuarios pueden acceder al perfil del artesano desde cualquier parte de la página web.</p> |
 | Estimación                                                                                                            | 7 horas |
 | Prioridad                                                                                                             | Media |
