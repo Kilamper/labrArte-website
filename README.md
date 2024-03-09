@@ -94,7 +94,25 @@
 
 ### 7. Historias de Usuario
 
-<p>Se han empleado historias de usuario para recoger los requisitos de la plataforma, de manera que cumpla con las necesidades del artesano y de sus clientes.</p>
+<p>Se han empleado historias de usuario para recoger los requisitos de la plataforma, de manera que cumpla con las necesidades del artesano y de sus clientes. .</p>
+
+* Registro y autenticación
+* Navegación intuitiva por el menú principal
+* Ver galería :
+    * ver galería de fotos
+    * ver vídeos
+    * ver noticias
+* Seleccionar producto para ver Información detallada del producto
+* Visualizar el perfil de los artesanos: Biografía, experiencia y obras
+* Contactar artesano: Para realizar consultas o pedidos personalizados
+* Buscar productos por categoría
+* Comprar producto
+* Acceder a cursos
+* Acceso a vídeos
+* Valorar y comentar
+* Poner en favoritos
+* Filtrar productos por precio
+
 
 <p>Las historias de usuario recogidas son las siguientes:</p>
 
