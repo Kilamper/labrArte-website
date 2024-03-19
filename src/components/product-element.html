@@ -1,29 +1,32 @@
 <!DOCTYPE html>
 <html lang="es">
-  <head>
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Product Element</title>
-    <link rel="stylesheet" href="components/styles/element-box.css">
-    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="../styles/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-  </head>
-  <body>
-    <section class="element-box-container">
-      <div class="element-image"></div>
-      <section class="product-text-container">
-        <div class="product-info">
-          <h4 class="product-text">Producto 1</h4>
-          <p class="product-text">
-            [Descripción]
-          </p>
-          <p class="product-text">5.99€</p>
+</head>
+<body>
+<section class="flex flex-auto w-80 h-auto relative items-center flex-col">
+    <div class="w-80 h-80 flex items-end bg-cover justify-center bg-center element-image"></div>
+    <article class="w-full flex">
+        <div class="w-1/2 flex flex-col flex-auto justify-start text-lg">
+            <h4 class="font-medium">Producto 1</h4>
+            <p class="font-medium">[Descripción]</p>
+            <p class="font-semibold">5.99€</p>
         </div>
-        <a id="product-actions">
-          <a href="product-page.html" class="product-buttons"><i class="fa-solid fa-shopping-cart"></i> Comprar</a>
-          <a class="product-buttons"><i class="fa-solid fa-message"></i> Contactar</a>
+        <a class="flex flex-col text-right">
+            <a href="../pages/product-page.html"
+               class="flex items-center gap-1 no-underline text-gray-800 m-2.5 hover:text-black buttons"><i
+                    class="fa-solid fa-shopping-cart"></i>
+                Comprar</a>
+            <a class="flex items-center gap-1 no-underline text-gray-800 m-2.5 hover:text-black buttons"><i
+                    class="fa-solid fa-message"></i>
+                Contactar</a>
         </a>
-      </section>
-    </section>
-  </body>
+    </article>
+</section>
+</body>
 </html>

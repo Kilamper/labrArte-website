@@ -1,67 +1,59 @@
-* {
-    font-family: Inter, serif;
+.container-carousel {
+    position: relative;
+    width: 500px;
+    height: 300px;
+    background-color: #e0e0e0;
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.66);
+    border-radius: 15px;
+    overflow: hidden;
 }
 
-.slider {
-    width: 100%;
+.carruseles {
+    width: 1000%;
+    height: 100%;
     display: flex;
-    align-items: center;
-    flex-direction: column;
+
 }
 
-.form {
-    width: 100%;
-    height: 554px;
-    display: flex;
+.slider-section {
+    width: calc(100% / 10);
+    height: 100%;
 }
 
-.slide {
+.slider-section img {
     width: 100%;
     height: 100%;
-    margin: auto;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+.btn-left,
+.btn-right {
     display: flex;
-    flex-direction: column;
-    overflow: hidden;
     position: absolute;
-    text-align: center;
-    align-content: space-around;
-    background-color: rgba(221, 221, 221, 1);
+    top: 50%;
+    font-size: 1.5rem;
+    background-color: transparent;
+    border-radius: 50%;
+    padding: 5px;
+    font-weight: 600;
+    cursor: pointer;
+    color: #ffffff81;
+    transform: translate(0, -50%);
+    transition: .5s ease;
+    user-select: none;
 }
 
-.slider-title {
-    top: 194px;
-    width: 100%;
-    font-size: 24px;
-    text-align: center;
-    font-weight: 700;
-    font-stretch: normal;
-    text-decoration: none;
-    padding: 60px 0;
+.btn-left:hover,
+.btn-right:hover {
+    background-color: #333333d4;
+    color: #fff;
 }
 
-#slide-button {
-    font-size: 18px;
-    margin-bottom: 50px;
-    align-self: center;
-    padding: 10px 20px;
+.btn-left {
+    left: 10px;
 }
 
-.slider-text {
-    width: 100%;
-    height: auto;
-    font-size: 16px;
-    text-align: center;
-    font-weight: 500;
-    line-height: 18px;
-    font-stretch: normal;
-    padding-bottom: 50px;
-}
-
-.slider-navigation {
-    gap: 12px;
-    width: 128px;
-    margin: auto;
-    display: flex;
-    align-items: flex-start;
-    align-self: flex-end;
+.btn-right {
+    right: 10px;
 }

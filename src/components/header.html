@@ -1,49 +1,50 @@
-<!DOCTYPE html>
-<html lang="es">
-  <head>
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Header</title>
-    <link rel="stylesheet" href="components/styles/header.css">
+    <link rel="stylesheet" href="../styles/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-  </head>
-  <body>
-    <header class="header">
-      <div class="header-row">
-        <a href="index.html" class="header-logo">
-          <img alt="image" src="/logo.png" id="header-logo-image">
-          <h1 id="header-logo-name">labrArte®</h1>
-        </a>
-        <section class="header-menu">
-          <a href="index.html" class="header-links">
+</head>
+<body>
+<header class="w-full mx-auto py-5 items-center justify-around flex flex-wrap shadow-lg">
+    <a href="../pages/index.html" class="flex items-center justify-start no-underline">
+        <img alt="image" src="../../public/logo.png" class="w-12 h-12 lg:w-16 lg:h-16">
+        <h1 class="pl-2 text-4xl font-bold lg:text-5xl logo-name">labrArte®</h1>
+    </a>
+    <section class="gap-2.5 flex items-center justify-end">
+        <a href="../pages/index.html"
+           class="flex w-auto px-2.5 items-center text-lg no-underline text-gray-700 hover:text-black header-links">
             <i class="fa-solid fa-house"></i>
-            <p class="link-names">Inicio</p>
-          </a>
-          <a href="catalogue.html" class="header-links">
+            <p class="pl-2.5">Inicio</p>
+        </a>
+        <a href="../pages/catalogue.html"
+           class="flex w-auto px-2.5 items-center text-lg no-underline text-gray-700 hover:text-black header-links">
             <i class="fa-solid fa-list"></i>
-            <span class="link-names">Catálogo</span>
-          </a>
-          <a href="blog.html" class="header-links">
+            <span class="pl-2.5">Catálogo</span>
+        </a>
+        <a href="../pages/blog.html"
+           class="flex w-auto px-2.5 items-center text-lg no-underline text-gray-700 hover:text-black header-links">
             <i class="fa-solid fa-book"></i>
-            <span class="link-names">Blog</span>
-          </a>
-          <a class="header-links">
+            <span class="pl-2.5">Blog</span>
+        </a>
+        <a class="flex w-auto px-2.5 items-center text-lg no-underline text-gray-700 hover:text-black header-links">
             <i class="fa-solid fa-image"></i>
-            <span class="link-names">Galería</span>
-            <i class="fa-solid fa-chevron-down"></i>
-          </a>
-          <a href="courses.html" class="header-links">
+            <span class="pl-2.5">Galería</span>
+            <i class="fa-solid fa-chevron-down pl-2"></i>
+        </a>
+        <a href="../pages/courses.html"
+           class="flex w-auto px-2.5 items-center text-lg no-underline text-gray-700 hover:text-black header-links">
             <i class="fa-solid fa-graduation-cap"></i>
-            <span class="link-names">Cursos</span>
-          </a>
-          <a class="header-links">
+            <span class="pl-2.5">Cursos</span>
+        </a>
+        <a class="flex w-auto px-2.5 items-center text-lg no-underline text-gray-700 hover:text-black header-links">
             <i class="fa-solid fa-magnifying-glass"></i>
-          </a>
-          <a href="login.html" class="header-links">
-            <i class="fa-solid fa-user"></i>
-          </a>
-        </section>
-      </div>
-    </header>
-  </body>
-</html>
+        </a>
+        <a href="../pages/login.html"
+           class="flex w-auto px-2.5 items-center text-lg no-underline text-gray-700 hover:text-black header-links">
+            <i class="fa-solid fa-user pl-5"></i>
+        </a>
+    </section>
+</header>
+</body>

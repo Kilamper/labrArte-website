@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>labrArte - Catálogo</title>
+    <script src="../scripts/xlu-include-file.js"></script>
+    <link rel="stylesheet" href="../styles/style.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body class="font-inter">
+<header id="header" xlu-include-file="../components/header.html"></header>
+<div class="w-full h-auto flex flex-col items-center justify-between gap-16">
+    <h2 class="w-4/5 mx-auto mt-16 text-4xl font-bold">Catálogo</h2>
+    <section id="categories-list" xlu-include-file="../components/categories-list.html"></section>
+    <section id="pagination" xlu-include-file="../components/pagination.html"></section>
+</div>
+<footer id="footer" xlu-include-file="../components/footer.html"></footer>
+<script>xLuIncludeFile();</script>
+</body>
+</html>

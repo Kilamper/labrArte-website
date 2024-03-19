@@ -1,77 +1,91 @@
-<!DOCTYPE html>
-<html lang="es">
-  <head>
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Footer</title>
-    <link rel="stylesheet" href="components/styles/footer.css">
+    <link rel="stylesheet" href="../styles/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-  </head>
-  <body>
-    <footer class="footer">
-      <div class="footer-row">
-        <a href="index.html" class="footer-logo">
-          <img alt="image" src="/logo.png" id="footer-logo-image">
-          <h1 id="footer-logo-name">labrArte®</h1>
-        </a>
-        <div id="footer-index" class="footer-menu">
-          <h4>Índice</h4>
-          <u1>
-            <li><a class="footer-links" href="catalogue.html">Catálogo</a></li>
-            <li><a class="footer-links" href="blog.html">Blog</a></li>
-            <li><a class="footer-links" href="#">Galería</a></li>
-            <li><a class="footer-links" href="courses.html">Cursos</a></li>
-          </u1>
-        </div>
-        <div id="footer-company" class="footer-menu">
-          <h4>Compañía</h4>
-          <u1>
-            <li><a class="footer-links" href="#">Sobre nosotros</a></li>
+</head>
+<body class="font-['sans-serif']">
+<footer class="w-full h-auto py-12 flex flex-wrap text-center lg:text-left justify-around footer">
+    <a href="../pages/index.html" class="w-[30%] flex pl-12 pr-10 items-center text-center no-underline">
+        <img alt="image" src="../../public/logo.png" class="w-20 h-20">
+        <h1 class="pl-2 text-5xl font-bold logo-name">labrArte®</h1>
+    </a>
+    <nav class="px-5 w-[15%]">
+        <h4 class="text-xl mb-4 font-bold border-black border-b-2 pb-2.5 inline-block">Índice</h4>
+        <u1 class="list-none text-lg no-underline text-gray-800 gap-3">
+            <li><a class="text-lg transition-all hover:text-black footer-links"
+                   href="../pages/catalogue.html">Catálogo</a></li>
+            <li><a class="text-lg transition-all hover:text-black footer-links"
+                   href="../pages/blog.html">Blog</a></li>
+            <li><a class="text-lg transition-all hover:text-black footer-links"
+                   href="#">Galería</a></li>
+            <li><a class="text-lg transition-all hover:text-black footer-links"
+                   href="../pages/courses.html">Cursos</a></li>
+        </u1>
+    </nav>
+    <nav class="px-5 w-1/4">
+        <h4 class="text-xl mb-4 font-bold border-black border-b-2 pb-2.5 inline-block">Compañía</h4>
+        <u1 class="list-none text-lg no-underline text-gray-800 gap-3">
+            <li><a class="text-lg transition-all hover:text-black footer-links"
+                   href="#">Sobre nosotros</a></li>
             <li><a>Localización:</a></li>
-            <li><a class="footer-links" href="#">
-              <i class="fa-solid fa-location-dot"></i>
-              <span>C/Carretera de Ejemplo n.º45, 35411 Arucas, Las Palmas de Gran Canaria</span>
+            <li><a class="text-lg transition-all hover:text-black footer-links"
+                   href="#">
+                <i class="fa-solid fa-location-dot"></i>
+                <span>C/Carretera de Ejemplo n.º45, 35411 Arucas, Las Palmas de Gran Canaria</span>
             </a></li>
-            <li><a class="footer-links" href="#">Política de Privacidad</a></li>
-            <li><a class="footer-links" href="#">Política de Cookies</a></li>
-          </u1>
-        </div>
-        <div class="footer-column">
-          <div class="footer-menu">
-            <h4>Contacto</h4>
-            <u1>
-              <li><a>
-                <i class="fa-solid fa-envelope"></i>
-                <span>correo.ejemplo@gmail.com</span>
-              </a></li>
-              <li><a>
-                <i class="fa-solid fa-phone"></i>
-                <span>+34 123 45 67 89</span>
-              </a></li>
-              <li><a>
-                <i class="fa-brands fa-whatsapp"></i>
-                <span>+34 928 12 34 56</span>
-              </a></li>
+            <li><a class="text-lg transition-all hover:text-black footer-links"
+                   href="#">Política de Privacidad</a></li>
+            <li><a class="text-lg transition-all hover:text-black footer-links"
+                   href="#">Política de Cookies</a></li>
+        </u1>
+    </nav>
+    <nav class="w-[30%] text-center lg:text-left">
+        <nav class="px-5">
+            <h4 class="text-xl mb-4 font-bold border-black border-b-2 pb-2.5 inline-block">Contacto</h4>
+            <u1 class="list-none text-lg no-underline text-gray-800 gap-3">
+                <li><a>
+                    <i class="fa-solid fa-envelope"></i>
+                    <span>correo.ejemplo@gmail.com</span>
+                </a></li>
+                <li><a>
+                    <i class="fa-solid fa-phone"></i>
+                    <span>+34 123 45 67 89</span>
+                </a></li>
+                <li><a>
+                    <i class="fa-brands fa-whatsapp"></i>
+                    <span>+34 928 12 34 56</span>
+                </a></li>
             </u1>
-          </div>
-          <div class="footer-menu">
-            <h4>Síguenos</h4>
-            <div class="social-links">
-              <a id="youtube" href="#"><i class="fa-brands fa-youtube"></i></a>
-              <a id="facebook" href="#"><i class="fa-brands fa-facebook"></i></a>
-              <a id="instagram" href="#"><i class="fa-brands fa-instagram"></i></a>
-              <a id="tiktok" href="#"><i class="fa-brands fa-tiktok"></i></a>
-              <a id="x-twitter" href="#"><i class="fa-brands fa-x-twitter"></i></a>
+        </nav>
+        <nav class="mt-4 px-5">
+            <h4 class="text-xl mb-4 font-bold border-black border-b-2 pb-2.5 inline-block">Síguenos</h4>
+            <div class="w-full flex gap-2">
+                <a class="inline-block w-10 h-10 rounded-3xl text-center leading-10 bg-gray-600 hover:bg-red-600"
+                   href="#"><i
+                        class="fa-brands fa-youtube text-white"></i></a>
+                <a class="inline-block w-10 h-10 rounded-3xl text-center leading-10 bg-gray-600 hover:bg-blue-900"
+                   href="#"><i
+                        class="fa-brands fa-facebook text-white"></i></a>
+                <a class="inline-block w-10 h-10 rounded-3xl text-center leading-10 bg-gray-600 hover:bg-pink-600"
+                   href="#"><i
+                        class="fa-brands fa-instagram text-white"></i></a>
+                <a class="inline-block w-10 h-10 rounded-3xl text-center leading-10 bg-gray-600 hover:bg-purple-500"
+                   href="#"><i
+                        class="fa-brands fa-tiktok text-white"></i></a>
+                <a class="inline-block w-10 h-10 rounded-3xl text-center leading-10 bg-gray-600 hover:bg-black"
+                   href="#"><i
+                        class="fa-brands fa-x-twitter text-white"></i></a>
             </div>
-          </div>
-        </div>
-        <article class="footer-text" id="extended-footer">
-          <p>
+        </nav>
+    </nav>
+    <article class="w-full text-gray-800 text-center pt-2.5 mt-4 inline-block border-t-2 border-gray-800">
+        <p>
             labrArte® - Autoriza la divulgación o utilización del contenido de
             esta web, haciendo referencia de la misma.
-          </p>
-        </article>
-      </div>
-    </footer>
-  </body>
-</html>
+        </p>
+    </article>
+</footer>
+</body>

@@ -1,0 +1,46 @@
+* {
+    font-family: "Inter", serif;
+}
+
+.logo-name {
+    font-family: Papyrus, fantasy;
+    filter: drop-shadow(2px 2px #595959);
+}
+
+.header-links:hover {
+    filter: drop-shadow(1px 1px #595959);
+}
+
+.footer {
+    background-image: linear-gradient(315deg, rgb(189, 195, 199) 0.00%, rgb(255, 255, 255) 100.00%);
+}
+
+.footer-links:hover {
+    padding-left: 6px;
+    font-weight: bold;
+}
+
+.buttons:hover {
+    filter: drop-shadow(1px 1px #595959);
+}
+
+.login-signup {
+    background-image: linear-gradient(315deg, rgb(189, 195, 199) 0.00%, rgb(255, 255, 255) 100.00%);
+}
+
+.fa-google {
+    background: conic-gradient(from -45deg, #ea4335 110deg, #4285f4 90deg 180deg, #34a853 180deg 270deg, #fbbc05 270deg) 73% 55%/150% 150% no-repeat;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    -webkit-text-fill-color: transparent;
+}
+
+.login-icons {
+    scale: 2;
+}
+
+.element-image {
+    border: 2px dashed rgba(120, 120, 120, 0.4);
+    background-image: url('https://play.teleporthq.io/static/svg/default-img.svg');
+}

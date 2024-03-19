@@ -1,39 +1,38 @@
 <!DOCTYPE html>
 <html lang="wa">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Pagination</title>
-        <link rel="stylesheet" href="components/styles/pagination.css">
-        <link rel="stylesheet" href="styles/style.css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-    </head>
-    <body>
-        <section class="pagination">
-                <div class="page-numeration">
-                    <i class="fa-solid fa-caret-left"></i>
-                </div>
-                <div class="page-numeration" id="actual-page">
-                <span class="page-num">1</span>
-            </div>
-            <div class="page-numeration">
-                <span class="page-num">2</span>
-            </div>
-            <div class="page-numeration">
-                <span class="page-num">3</span>
-            </div>
-            <div class="page-numeration">
-                <span class="page-num">...</span>
-            </div>
-            <div class="page-numeration">
-                <span class="page-num">9</span>
-            </div>
-            <div class="page-numeration">
-                <span class="page-num">10</span>
-            </div>
-            <div class="page-numeration">
-                <i class="fa-solid fa-caret-right"></i>
-            </div>
-        </section>
-    </body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagination</title>
+    <link rel="stylesheet" href="../styles/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body class="font-inter">
+<section class="flex my-8">
+    <div class="w-8 h-8 flex opacity-50 relative border rounded border-grey-600 items-center justify-center">
+        <a><i class="fa-solid fa-caret-left font-bold"></i></a>
+    </div>
+    <div class="w-8 h-8 flex opacity-50 relative border rounded border-blue-500 items-center justify-center">
+        <a class="font-bold text-blue-500">1</a>
+    </div>
+    <div class="w-8 h-8 flex opacity-50 relative border rounded border-grey-600 items-center justify-center">
+        <a class="font-bold">2</a>
+    </div>
+    <div class="w-8 h-8 flex opacity-50 relative border rounded border-grey-600 items-center justify-center">
+        <a class="font-bold">3</a>
+    </div>
+    <div class="w-8 h-8 flex opacity-50 relative border rounded border-grey-600 items-center justify-center">
+        <a class="font-bold">...</a>
+    </div>
+    <div class="w-8 h-8 flex opacity-50 relative border rounded border-grey-600 items-center justify-center">
+        <a class="font-bold">9</a>
+    </div>
+    <div class="w-8 h-8 flex opacity-50 relative border rounded border-grey-600 items-center justify-center">
+        <a class="font-bold">10</a>
+    </div>
+    <div class="w-8 h-8 flex opacity-50 relative border rounded border-grey-600 items-center justify-center">
+        <a><i class="fa-solid fa-caret-right font-bold"></i></a>
+    </div>
+</section>
+</body>
 </html>
