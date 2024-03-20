@@ -5,33 +5,37 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>labrArte - Producto</title>
     <script src="../scripts/xlu-include-file.js"></script>
-    <link rel="stylesheet" href="styles/product-page.css"/>
     <link rel="stylesheet" href="../styles/style.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 </head>
-<body>
-<header id="header" xlu-include-file="components/header.html"></header>
-<div class="product-container">
-    <h2 class="product-title">Producto</h2>
-    <div class="product-section">
-        <img alt="image" class="product-image" src="https://play.teleporthq.io/static/svg/default-img.svg"/>
-        <div class="product-viewer">
-            <h3 id="product-price">5.99 €</h3>
-            <p class="product-text">
+<body class="font-inter">
+<header id="header" xlu-include-file="../components/header.html"></header>
+<div class="w-full flex flex-col items-center min-h-screen overflow-auto">
+    <h2 class="w-4/5 mx-auto mt-16 text-4xl font-bold">Producto</h2>
+    <div class="w-4/5 mx-auto flex overflow-hidden relative flex-wrap gap-48 justify-between">
+        <img alt="image" class="w-1/3 object-cover" src="https://play.teleporthq.io/static/svg/default-img.svg"/>
+        <div class="w-1/2 flex flex-col relative items-start flex-1">
+            <h3 class="text-2xl font-semibold mb-10">5.99 €</h3>
+            <p class="text-xl text-left font-medium">
                 Lorem ipsum dolor sit amet consectetur. Viverra id tortor lorem
                 aliquam eget id quis. Imperdiet non purus orci senectus. Tortor
                 id suspendisse id pellentesque ac. Mattis dignissim aenean
                 senectus volutpat donec duis tellus lorem.
             </p>
-            <div id="product-actions">
-                <a class="product-buttons"><i class="fa-solid fa-shopping-cart"></i> Comprar</a>
-                <a class="product-buttons"><i class="fa-solid fa-message"></i> Contactar</a>
+            <div class="w-1/2 flex text-right">
+                <a class="no-underline text-gray-800 m-2.5 hover:text-black buttons"><i
+                        class="fa-solid fa-shopping-cart"></i> Comprar</a>
+                <a class="no-underline text-gray-800 m-2.5 hover:text-black buttons"><i class="fa-solid fa-message"></i>
+                    Contactar</a>
             </div>
         </div>
     </div>
-    <a href="category.html" id="product-return"><i class="fa-solid fa-reply"></i> Volver</a>
+    <a href="../pages/category.html"
+       class="text-xl font-medium no-underline text-gray-800 mb-10 hover:text-black buttons"><i
+            class="fa-solid fa-reply"></i> Volver</a>
 </div>
-<footer id="footer" xlu-include-file="components/footer.html"></footer>
+<footer id="footer" xlu-include-file="../components/footer.html"></footer>
 <script>xLuIncludeFile();</script>
 </body>
 </html>
