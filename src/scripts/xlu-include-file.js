@@ -5,17 +5,19 @@ function xLuIncludeFile() {
         let file = element.getAttribute('xlu-include-file');
         let xhttp = new XMLHttpRequest();
 
-        // Agregar una clase de carga al elemento
+        // Add a loading class to the element
         element.classList.add('loading');
 
         xhttp.onreadystatechange = function () {
             if (xhttp.readyState === 4 && xhttp.status === 200) {
-                element.innerHTML = xhttp.responseText;
-                executeScripts(element); // Ejecutar scripts después de insertar el HTML
-                assignEventListeners(); // Asignar eventos después de cargar el contenido
+                element.innerHTML = xhttp.responseText; // Insert the HTML into the element
+                executeScripts(element); // Execute scripts after inserting the HTML
 
-                // Remover la clase de carga para mostrar el contenido
+                // Remove the loading class to display the content
                 element.classList.remove('loading');
+
+                // Assign events after loading the content
+                assignEventListeners();
             }
         };
 
