@@ -1,60 +1,60 @@
 document.addEventListener('DOMContentLoaded', async function () {
-    await cargarEstructura();
-    // Dado que cargarEstructura es async, ahora puedes asegurarte de que todo ha cargado
+    await loadStructure();
+    // Dado que loadStructure es async, ahora puedes asegurarte de que todo ha cargado
     //cargarContenidoDinamico();
 });
 
-async function cargarEstructura() {
+async function loadStructure() {
     let pagesDiv = document.getElementsByClassName('pages');
 
     // Cargar header común a todas las páginas
     for (let i = 0; i < pagesDiv.length; i++) {
-        pagesDiv[i].appendChild(await cargarTemplate('../templates/header.html'));
+        pagesDiv[i].appendChild(await loadTemplate('../templates/header.html'));
     }
 
     let indexDiv = document.getElementById('index');
 
     if (indexDiv != null) {
         // Cargar estructura estática de index
-        indexDiv.appendChild(await cargarTemplate('../components/slider.html'));
-        indexDiv.appendChild(await cargarTemplate('../templates/main.html'));
+        indexDiv.appendChild(await loadTemplate('../components/slider.html'));
+        indexDiv.appendChild(await loadTemplate('../templates/main.html'));
     }
 
     let blogDiv = document.getElementById('blog');
 
     if (blogDiv != null) {
         // Cargar estructura estática de blog
-        blogDiv.appendChild(await cargarTemplate('../templates/blog-main.html'));
+        blogDiv.appendChild(await loadTemplate('../templates/blog-main.html'));
     }
 
     let coursesDiv = document.getElementById('courses');
 
     if (coursesDiv != null) {
         // Cargar estructura estática de cursos
-        coursesDiv.appendChild(await cargarTemplate('../templates/courses-main.html'));
+        coursesDiv.appendChild(await loadTemplate('../templates/courses-main.html'));
     }
 
     let productsDiv = document.getElementById('product');
 
     if (productsDiv != null) {
         // Cargar estructura estática de productos
-        productsDiv.appendChild(await cargarTemplate('../templates/products-main.html'));
+        productsDiv.appendChild(await loadTemplate('../templates/products-main.html'));
     }
 
     let catalogueDiv = document.getElementById('catalogue');
 
     if (catalogueDiv != null) {
         // Cargar estructura estática de catálogo
-        catalogueDiv.appendChild(await cargarTemplate('../components/categories-list.html'));
+        catalogueDiv.appendChild(await loadTemplate('../components/categories-list.html'));
     }
 
     // Cargar footer común a todas las páginas
     for (let i = 0; i < pagesDiv.length; i++) {
-        pagesDiv[i].appendChild(await cargarTemplate('../templates/footer.html'));
+        pagesDiv[i].appendChild(await loadTemplate('../templates/footer.html'));
     }
 }
 
-async function cargarTemplate(url) {
+async function loadTemplate(url) {
     let response = await fetch(url);
     let text = await response.text();
 
