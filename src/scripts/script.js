@@ -1,13 +1,13 @@
 document.addEventListener('DOMContentLoaded', async function () {
     await loadStructure();
     // Dado que loadStructure es async, ahora puedes asegurarte de que todo ha cargado
-    //cargarContenidoDinamico();
+    cargarContenidoDinamico();
 });
 
 async function loadStructure() {
     let pagesDiv = document.getElementsByClassName('pages');
 
-    // Cargar header común a todas las páginas
+    // Load header common to all pages
     for (let i = 0; i < pagesDiv.length; i++) {
         pagesDiv[i].appendChild(await loadTemplate('../templates/header.html'));
     }
@@ -15,7 +15,7 @@ async function loadStructure() {
     let indexDiv = document.getElementById('index');
 
     if (indexDiv != null) {
-        // Cargar estructura estática de index
+        // Load static structure of index
         indexDiv.appendChild(await loadTemplate('../components/slider.html'));
         indexDiv.appendChild(await loadTemplate('../templates/main.html'));
     }
@@ -23,32 +23,33 @@ async function loadStructure() {
     let blogDiv = document.getElementById('blog');
 
     if (blogDiv != null) {
-        // Cargar estructura estática de blog
+        // Load static structure of blog
         blogDiv.appendChild(await loadTemplate('../templates/blog-main.html'));
     }
 
     let coursesDiv = document.getElementById('courses');
 
     if (coursesDiv != null) {
-        // Cargar estructura estática de cursos
+        // Load static structure of courses
         coursesDiv.appendChild(await loadTemplate('../templates/courses-main.html'));
     }
 
     let productsDiv = document.getElementById('product');
 
     if (productsDiv != null) {
-        // Cargar estructura estática de productos
+        // Load static structure of products
         productsDiv.appendChild(await loadTemplate('../templates/products-main.html'));
     }
 
     let catalogueDiv = document.getElementById('catalogue');
 
     if (catalogueDiv != null) {
-        // Cargar estructura estática de catálogo
-        catalogueDiv.appendChild(await loadTemplate('../components/categories-list.html'));
+        // Load static structure of catalogue
+        let categoriesList = await loadTemplate('../components/categories-list.html');
+        catalogueDiv.appendChild(categoriesList);
     }
 
-    // Cargar footer común a todas las páginas
+    // Load footer common to all pages
     for (let i = 0; i < pagesDiv.length; i++) {
         pagesDiv[i].appendChild(await loadTemplate('../templates/footer.html'));
     }
@@ -63,21 +64,44 @@ async function loadTemplate(url) {
     return document.importNode(template.content, true);
 }
 
-/*function cargarContenidoDinamico() {
-    // Ahora esta función no recibe mainContent, ya que buscará en el DOM actualizado
-    fetch('data/content.json')
+function cargarContenidoDinamico() {
+    // Fetch the JSON data
+    fetch('src/data/content.json')
         .then(response => response.json())
         .then(data => {
-            let dynamicContentSection = document.querySelector('#dynamicContent');
-            if (!dynamicContentSection) {
-                console.error('No se encontró #dynamicContent en el DOM');
-                return;
+            // Get the catalogue object
+            let catalogue = data.data['api::catalogue.catalogue'];
+            let files = data.data['plugin::upload.file'];
+
+            // Get the element container
+            let elementContainer = document.getElementById('element-container');
+
+            // Iterate over the catalogue object
+            for (let key in catalogue) {
+                let item = catalogue[key];
+
+                // Create a new category element
+                let categoryElement = document.createElement('a');
+                categoryElement.href = "../pages/category.html";
+                categoryElement.className = "contents no-underline text-center text-black";
+
+                // Create the image div
+                let imageDiv = document.createElement('div');
+                imageDiv.className = "w-80 h-80 flex items-end bg-cover justify-center bg-center element-image";
+                imageDiv.style.backgroundImage = `url(${files[item.image[0]].url})`;
+
+                // Create the category name paragraph
+                let categoryName = document.createElement('p');
+                categoryName.className = "text-xl font-semibold";
+                categoryName.textContent = item.category;
+
+                // Append the image div and category name to the category element
+                categoryElement.appendChild(imageDiv);
+                categoryElement.appendChild(categoryName);
+
+                // Append the category element to the element container
+                elementContainer.appendChild(categoryElement);
             }
-            data.forEach(item => {
-                let article = document.createElement('article');
-                article.innerHTML = `<h2>${item.title}</h2><p>${item.description}</p>`;
-                dynamicContentSection.appendChild(article);
-            });
         })
         .catch(error => console.error('Error:', error));
-}*/
+}
