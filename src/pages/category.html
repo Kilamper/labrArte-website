@@ -10,16 +10,12 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 </head>
 <body>
-<header id="header" xlu-include-file="../components/header.html"></header>
-<div class="w-full h-auto flex flex-col items-center justify-between gap-16">
-    <h2 class="w-4/5 mx-auto mt-16 text-4xl font-bold">Productos</h2>
-    <section id="products-list" xlu-include-file="components/products-list.html"></section>
-    <section id="pagination" xlu-include-file="components/pagination.html"></section>
-    <a href="../pages/catalogue.html"
-       class="text-xl font-medium no-underline -mt-10 mb-10 text-gray-800 hover:text-black buttons"><i
-            class="fa-solid fa-reply"></i> Volver</a>
-</div>
-<footer id="footer" xlu-include-file="../components/footer.html"></footer>
-<script>xLuIncludeFile();</script>
+<div id="header"></div>
+<div id="category" class="flex flex-wrap gap-24 justify-center"></div>
+<div id="pagination" class="flex justify-center mt-8"></div>
+<div id="return-button" class="text-center mt-8"></div>
+<div id="footer" class="mt-16"></div>
+<script type="module" src="../scripts/commonLoader.js"></script>
+<script type="module" src="../scripts/categoryLoader.js"></script>
 </body>
 </html>
