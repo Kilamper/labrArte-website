@@ -32,8 +32,8 @@ function loadDynamicContent() {
                         article.innerHTML =
                             `<div class="rounded-xl border border-gray-400">
                                 <a href="../pages/category.html" class="text-center">
-                                    <img class="rounded-xl w-80 h-80" src=${category.img} alt=${category.name}>
-                                    <p class="text-xl font-semibold mt-2 border-t border-gray-400">${category.name}</p>
+                                    <img class="rounded-xl w-80 border border-gray-400" src=${category.image} alt=${category.name}>
+                                    <p class="text-xl font-semibold">${category.name}</p>
                                 </a>
                             </div>`;
                         dynamicCatalogueSection.appendChild(article);
