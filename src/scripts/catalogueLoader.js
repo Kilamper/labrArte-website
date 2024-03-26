@@ -5,9 +5,6 @@ document.addEventListener('DOMContentLoaded', async function () {
 });
 
 async function loadStructure() {
-    let pagesDiv = document.getElementsByClassName('pages');
-
-
     let catalogueDiv = document.getElementById('catalogue');
 
     if (catalogueDiv != null) {
