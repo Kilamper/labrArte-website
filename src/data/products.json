@@ -64,5 +64,11 @@
     "name": "Número Pegado con Forma de Isla",
     "price": "50,00 €",
     "image": "https://i0.wp.com/www.labrarte.com/wp-content/uploads/2020/08/numero-19-pegado.-en-isla-de-GC.png?resize=300%2C264&ssl=1"
+  },
+  {
+    "id": 12,
+    "name": "Número Tallado en Fondo Picada",
+    "price": "40,00 €",
+    "image": "https://i0.wp.com/www.labrarte.com/wp-content/uploads/2020/08/Numero-318-tallado...png?resize=300%2C225&ssl=1"
   }
 ]
