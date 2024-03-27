@@ -8,7 +8,7 @@ async function loadStructure() {
     let catalogueDiv = document.getElementById('catalogue');
 
     if (catalogueDiv != null) {
-        catalogueDiv.innerHTML += '<h2 class="w-4/5 mx-auto text-4xl font-bold mt-16">Catálogo</h2>';
+        catalogueDiv.innerHTML += '<div class="w-full"><h2 class="w-4/5 mx-auto text-4xl font-bold mt-16">Catálogo</h2></div>';
         await loadDynamicContent();
     }
 

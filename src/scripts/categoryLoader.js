@@ -9,7 +9,7 @@ async function loadStructure() {
     let categoryDiv = document.getElementById('category');
 
     if (categoryDiv != null) {
-        categoryDiv.innerHTML += '<h2 class="w-4/5 mx-auto text-4xl font-bold mt-16">Productos</h2>';
+        categoryDiv.innerHTML += '<div class="w-full"><h2 class="w-4/5 mx-auto text-4xl font-bold mt-16">Productos</h2></div>';
         await loadDynamicContent();
     }
 
