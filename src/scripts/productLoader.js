@@ -31,21 +31,24 @@ function loadDynamicContent() {
     return new Promise((resolve, reject) => {
         let urlParams = new URLSearchParams(window.location.search);
         let productId = parseInt(urlParams.get('id'));
+        let categoryId = Math.floor(parseInt(urlParams.get('id')) / 1000);
 
-        fetch('../data/products.json')
+        fetch('../data/catalogue.json')
             .then(response => response.json())
             .then(data => {
-                let product = data.find(product => product.id === productId);
-                if (product) {
-                    let productImage = document.getElementById('product-image');
-                    productImage.src = product.image;
-                    let productName = document.getElementById('product-name');
-                    productName.textContent = product.name;
-                    let productPrice = document.getElementById('product-price');
-                    productPrice.textContent = product.price;
-                    let productDescription = document.getElementById('product-description');
-                    productDescription.textContent = "AÑADIR DESCRIPCIÓN AL FICHERO JSON Y CAMBIAR ESTE TEXTO POR product.description";
-
+                let category = data.find(category => category.categoryId === categoryId);
+                if (category) {
+                    let product = category.productsList.find(product => product.id === productId);
+                    if (product) {
+                        let productImage = document.getElementById('product-image');
+                        productImage.src = product.image;
+                        let productName = document.getElementById('product-name');
+                        productName.textContent = product.name;
+                        let productPrice = document.getElementById('product-price');
+                        productPrice.textContent = product.price;
+                        let productDescription = document.getElementById('product-description');
+                        productDescription.textContent = product.description;
+                    }
                 }
                 resolve();
             })
