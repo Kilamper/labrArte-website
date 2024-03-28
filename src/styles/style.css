@@ -47,3 +47,7 @@
     border: 2px dashed rgba(120, 120, 120, 0.4);
     background-image: url('https://play.teleporthq.io/static/svg/default-img.svg');
 }
+
+input.invalid {
+    border: 2px solid red;
+}

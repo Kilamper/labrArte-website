@@ -38,7 +38,7 @@ function loadDynamicContent() {
                         let article = document.createElement('article');
                         article.innerHTML =
                             `<div class="rounded-t-xl border-t border-r border-l border-gray-400">
-                                <a href="../pages/product.html" class="text-center">
+                                <a href="../pages/product.html?id=${product.id}" class="text-center">
                                     <img class="rounded-xl w-80 border-b border-gray-400" src=${product.image} alt=${product.name}>
                                     <p class="text-xl font-semibold">${product.name}</p>
                                     <p class="text-xl font-semibold">${product.price}</p>
