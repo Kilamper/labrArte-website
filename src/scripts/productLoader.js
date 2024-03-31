@@ -23,7 +23,9 @@ async function loadStructure() {
     let returnButton = document.getElementById('return-button');
 
     if (returnButton != null) {
-        returnButton.appendChild(await loadButton('../pages/category.html', 'reply', 'Volver'));
+        let urlParams = new URLSearchParams(window.location.search);
+        let categoryId = Math.floor(parseInt(urlParams.get('id')) / 1000);
+        returnButton.appendChild(await loadButton(`../pages/category.html?id=${categoryId}`, 'reply', 'Volver'));
     }
 }
 
@@ -31,7 +33,7 @@ function loadDynamicContent() {
     return new Promise((resolve, reject) => {
         let urlParams = new URLSearchParams(window.location.search);
         let productId = parseInt(urlParams.get('id'));
-        let categoryId = Math.floor(parseInt(urlParams.get('id')) / 1000);
+        let categoryId = Math.floor(productId / 1000);
 
         fetch('../data/catalogue.json')
             .then(response => response.json())
