@@ -8,7 +8,7 @@ async function loadStructure() {
     let catalogueDiv = document.getElementById('catalogue');
 
     if (catalogueDiv != null) {
-        catalogueDiv.innerHTML += '<h2 class="w-4/5 mx-auto text-4xl font-bold mt-16">Catálogo</h2>';
+        catalogueDiv.innerHTML += '<div class="w-full"><h2 class="w-4/5 mx-auto text-4xl font-bold mt-16">Catálogo</h2></div>';
         await loadDynamicContent();
     }
 
@@ -21,7 +21,7 @@ async function loadStructure() {
 
 function loadDynamicContent() {
     return new Promise((resolve, reject) => {
-        fetch('../data/categories.json')
+        fetch('../data/catalogue.json')
             .then(response => response.json())
             .then(data => {
                 let dynamicCatalogueSection = document.querySelector('#catalogue');
@@ -31,9 +31,9 @@ function loadDynamicContent() {
                         let article = document.createElement('article');
                         article.innerHTML =
                             `<div class="rounded-xl border border-gray-400">
-                                <a href="../pages/category.html" class="text-center">
-                                    <img class="rounded-xl w-80 border border-gray-400" src=${category.image} alt=${category.name}>
-                                    <p class="text-xl font-semibold">${category.name}</p>
+                                <a href="../pages/category.html?id=${category.categoryId}" class="text-center">
+                                    <img class="rounded-xl w-80 border border-gray-400" src=${category.categoryImage} alt=${category.categoryName}>
+                                    <p class="text-xl font-semibold">${category.categoryName}</p>
                                 </a>
                             </div>`;
                         dynamicCatalogueSection.appendChild(article);

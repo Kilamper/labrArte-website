@@ -7,6 +7,10 @@
     filter: drop-shadow(2px 2px #595959);
 }
 
+.logo {
+    filter: drop-shadow(1px 1px #595959);
+}
+
 .header-links:hover {
     filter: drop-shadow(1px 1px #595959);
 }
@@ -42,4 +46,12 @@
 .element-image {
     border: 2px dashed rgba(120, 120, 120, 0.4);
     background-image: url('https://play.teleporthq.io/static/svg/default-img.svg');
+}
+
+input.invalid {
+    border: 2px solid red;
+}
+
+input.valid {
+    border: 2px solid green;
 }

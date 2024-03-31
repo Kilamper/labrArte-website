@@ -10,6 +10,7 @@ async function loadStructure() {
 
     if (productsDiv != null) {
         productsDiv.appendChild(await loadTemplate('../templates/product-main.html'));
+        await loadDynamicContent();
     }
 
     let productButtons = document.getElementById('product-buttons');
@@ -22,6 +23,40 @@ async function loadStructure() {
     let returnButton = document.getElementById('return-button');
 
     if (returnButton != null) {
-        returnButton.appendChild(await loadButton('../pages/category.html', 'reply', 'Volver'));
+        let urlParams = new URLSearchParams(window.location.search);
+        let categoryId = Math.floor(parseInt(urlParams.get('id')) / 1000);
+        returnButton.appendChild(await loadButton(`../pages/category.html?id=${categoryId}`, 'reply', 'Volver'));
     }
+}
+
+function loadDynamicContent() {
+    return new Promise((resolve, reject) => {
+        let urlParams = new URLSearchParams(window.location.search);
+        let productId = parseInt(urlParams.get('id'));
+        let categoryId = Math.floor(productId / 1000);
+
+        fetch('../data/catalogue.json')
+            .then(response => response.json())
+            .then(data => {
+                let category = data.find(category => category.categoryId === categoryId);
+                if (category) {
+                    let product = category.productsList.find(product => product.id === productId);
+                    if (product) {
+                        let productImage = document.getElementById('product-image');
+                        productImage.src = product.image;
+                        let productName = document.getElementById('product-name');
+                        productName.textContent = product.name;
+                        let productPrice = document.getElementById('product-price');
+                        productPrice.textContent = product.price;
+                        let productDescription = document.getElementById('product-description');
+                        productDescription.textContent = product.description;
+                    }
+                }
+                resolve();
+            })
+            .catch(error => {
+                console.error('Error:', error);
+                reject(error);
+            });
+    });
 }

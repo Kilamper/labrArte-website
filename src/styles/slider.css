@@ -1,7 +1,7 @@
 .container-carousel {
     position: relative;
-    width: 500px;
-    height: 300px;
+    width: 100%;
+    height: auto;
     background-color: #e0e0e0;
     box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.66);
     border-radius: 15px;
@@ -9,14 +9,14 @@
 }
 
 .carruseles {
-    width: 1000%;
+    width: 300%;
     height: 100%;
     display: flex;
 
 }
 
 .slider-section {
-    width: calc(100% / 10);
+    width: calc(100% / 3);
     height: 100%;
 }
 

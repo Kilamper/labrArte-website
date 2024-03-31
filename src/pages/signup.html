@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>labrArte - Signup</title>
+    <script src="../scripts/register-form-validation.js"></script>
+    <link rel="shortcut icon" type="image/x-icon" href="../../public/logo.svg"/>
     <link rel="stylesheet" href="../styles/style.css"/>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
@@ -11,24 +13,27 @@
 <body class="flex flex-col min-h-screen login-signup">
 <div class="text-center block flex-1">
     <a href="../pages/index.html" class="pt-12 flex justify-center items-center pb-5 w-fit mx-auto">
-        <img alt="image" src="../../public/logo.png" class="w-16 h-16">
+        <img alt="image" src="../../public/logo.svg" class="w-16 h-16 logo">
         <h1 class="pl-1.5 text-4xl font-bold text-black no-underline logo-name">labrArte®</h1>
     </a>
-    <form class="border rounded-lg w-96 m-auto block bg-white shadow-3xl shadow-black py-5 h-auto">
+    <form method="post" class="border rounded-lg w-96 m-auto block bg-white shadow-3xl shadow-black py-5 h-auto">
         <h3 class="text-2xl font-semibold mb-2">Formulario de Registro</h3>
         <p class="mb-5 text-lg font-medium">¿Ya tienes una cuenta?
             <a class="underline text-blue-700" href="../pages/login.html">Inicia sesión</a>
         </p>
         <label>
-            <input id="name" class="w-3/4 mb-4 p-2 border border-gray-500 rounded" type="text" placeholder="Nombre completo"
+            <input id="name" class="w-3/4 mb-4 p-2 border border-gray-500 rounded" type="text"
+                   placeholder="Nombre completo"
                    required>
         </label>
         <label>
-            <input id="email" class="w-3/4 mb-4 p-2 border border-gray-500 rounded" type="email" placeholder="Correo electrónico"
+            <input id="email" class="w-3/4 mb-4 p-2 border border-gray-500 rounded" type="email"
+                   placeholder="Correo electrónico"
                    required>
         </label>
         <label>
-            <input id="password" class="w-3/4 mb-4 p-2 border border-gray-500 rounded" type="password" placeholder="Contraseña"
+            <input id="password" class="w-3/4 mb-4 p-2 border border-gray-500 rounded" type="password"
+                   placeholder="Contraseña"
                    required>
         </label>
         <label>
@@ -54,5 +59,4 @@
     </footer>
 </div>
 </body>
-<script src="../scripts/form-validation.js"></script>
 </html>

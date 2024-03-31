@@ -2,6 +2,9 @@ import {loadTemplate} from './templateLoader.js';
 
 document.addEventListener('DOMContentLoaded', async function () {
     await loadStructure();
+    document.getElementById('burger-menu').addEventListener('click', function() {
+        document.getElementById('navbar-dropdown').classList.toggle('hidden');
+    });
 });
 
 async function loadStructure() {
