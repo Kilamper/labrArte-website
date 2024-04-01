@@ -1,0 +1,16 @@
+* {
+  font-family: "Inter", serif;
+}
+
+.logo-name {
+  font-family: Papyrus, fantasy;
+  filter: drop-shadow(2px 2px #595959);
+}
+
+.logo {
+  filter: drop-shadow(1px 1px #595959);
+}
+
+.header-links:hover {
+  filter: drop-shadow(1px 1px #595959);
+}
