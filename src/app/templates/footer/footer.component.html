@@ -1,5 +1,5 @@
 <footer class="font-inter w-full h-auto py-12 flex flex-wrap text-center lg:text-left justify-around footer">
-  <a href="../pages/index.html" class="w-[25%] flex pl-12 pr-10 items-center text-center no-underline">
+  <a [routerLink]="['']" class="w-[25%] flex pl-12 pr-10 items-center text-center no-underline">
     <img alt="image" ngSrc="../../../assets/logo.svg" class="w-20 h-20 logo" height="80" width="80">
     <h1 class="pl-2 text-5xl font-bold logo-name">labrArte®</h1>
   </a>
@@ -7,13 +7,13 @@
     <h4 class="text-xl mb-4 font-bold border-black border-b-2 pb-2.5 inline-block">Índice</h4>
     <ul class="list-none text-lg no-underline text-gray-800 gap-3">
       <li><a class="text-lg transition-all hover:text-black footer-links"
-             href="../pages/catalogue.html">Catálogo</a></li>
+             [routerLink]="['/catalogue']">Catálogo</a></li>
       <li><a class="text-lg transition-all hover:text-black footer-links"
-             href="../pages/blog.html">Blog</a></li>
+             [routerLink]="['/blog']">Blog</a></li>
       <li><a class="text-lg transition-all hover:text-black footer-links"
              href="#">Galería</a></li>
       <li><a class="text-lg transition-all hover:text-black footer-links"
-             href="../pages/courses.html">Cursos</a></li>
+             [routerLink]="['/courses']">Cursos</a></li>
     </ul>
   </nav>
   <nav class="px-5 w-1/4">

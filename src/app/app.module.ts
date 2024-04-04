@@ -11,6 +11,10 @@ import { SliderComponent } from './components/slider/slider.component';
 import { CatalogueComponent } from './templates/catalogue/catalogue.component';
 import {HttpClientModule} from "@angular/common/http";
 import {RouterModule} from "@angular/router";
+import {BlogComponent} from "./templates/blog/blog.component";
+import {CoursesComponent} from "./templates/courses/courses.component";
+import {LoginComponent} from "./login/login.component";
+import {SignupComponent} from "./signup/signup.component";
 
 @NgModule({
   declarations: [
@@ -20,6 +24,10 @@ import {RouterModule} from "@angular/router";
     HomeComponent,
     SliderComponent,
     CatalogueComponent,
+    BlogComponent,
+    CoursesComponent,
+    LoginComponent,
+    SignupComponent,
   ],
   imports: [
     BrowserModule,
