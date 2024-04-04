@@ -9,6 +9,8 @@ import {NgOptimizedImage} from "@angular/common";
 import { HomeComponent } from './templates/home/home.component';
 import { SliderComponent } from './components/slider/slider.component';
 import { CatalogueComponent } from './templates/catalogue/catalogue.component';
+import {HttpClientModule} from "@angular/common/http";
+import {RouterModule} from "@angular/router";
 
 @NgModule({
   declarations: [
@@ -22,7 +24,9 @@ import { CatalogueComponent } from './templates/catalogue/catalogue.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    NgOptimizedImage
+    NgOptimizedImage,
+    HttpClientModule,
+    RouterModule
   ],
   providers: [],
   bootstrap: [AppComponent]
