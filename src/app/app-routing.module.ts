@@ -4,8 +4,8 @@ import { HomeComponent } from './templates/home/home.component';
 import { CatalogueComponent } from "./templates/catalogue/catalogue.component";
 import {BlogComponent} from "./templates/blog/blog.component";
 import {CoursesComponent} from "./templates/courses/courses.component";
-import {LoginComponent} from "./login/login.component";
-import {SignupComponent} from "./signup/signup.component";
+import {LoginComponent} from "./forms/login/login.component";
+import {SignupComponent} from "./forms/signup/signup.component";
 
 const routes: Routes = [
   { path: '', component: HomeComponent },

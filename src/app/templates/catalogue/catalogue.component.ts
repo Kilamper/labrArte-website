@@ -4,7 +4,6 @@ import { HttpClient } from '@angular/common/http';
 @Component({
   selector: 'app-catalogue',
   templateUrl: './catalogue.component.html',
-  styleUrls: ['./catalogue.component.css']
 })
 export class CatalogueComponent implements OnInit {
   catalogueData: any[] = [];
