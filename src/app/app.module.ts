@@ -9,6 +9,7 @@ import {NgOptimizedImage} from "@angular/common";
 import { HomeComponent } from './templates/home/home.component';
 import { SliderComponent } from './templates/slider/slider.component';
 import { SignupComponent } from './signup/signup.component';
+import { LoginComponent } from './login/login.component';
 
 @NgModule({
   declarations: [
@@ -18,6 +19,7 @@ import { SignupComponent } from './signup/signup.component';
     HomeComponent,
     SliderComponent,
     SignupComponent,
+    LoginComponent,
   ],
   imports: [
     BrowserModule,
