@@ -7,4 +7,13 @@ import { Component } from '@angular/core';
 })
 export class HeaderComponent {
 
+  constructor() {}
+
+  ngOnInit(): void {
+      document.getElementById('burger-menu')?.addEventListener('click', function(): void {
+        const navbarDropdown = document.getElementById('navbar-dropdown');
+        navbarDropdown?.classList.toggle('hidden');
+      });
+  }
+
 }
