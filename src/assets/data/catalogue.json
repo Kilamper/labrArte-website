@@ -1,0 +1,296 @@
+[
+  {
+    "categoryId": 1,
+    "categoryName": "Números en Piedra",
+    "categoryImage": "https://i0.wp.com/www.labrarte.com/wp-content/uploads/2024/03/Numeros-tallados-a-mano-en-Canteria.jpg?resize=300%2C300&ssl=1",
+    "productsList": [
+      {
+        "id": 1001,
+        "name": "Número Tallado en Fondo Picado",
+        "price": "40,00 €",
+        "image": "https://i0.wp.com/www.labrarte.com/wp-content/uploads/2021/03/IMG_20210127_221838-removebg-preview-1.png?w=489&ssl=1",
+        "description": "Número tallado a mano en piedra de Arucas, con fondo picado a puntero, con faja en el borde y curvas en las esquinas. Medidas: 20x20x3cm."
+      },
+      {
+        "id": 1002,
+        "name": "Letras Sueltas",
+        "price": "10,00 €",
+        "image": "https://i0.wp.com/www.labrarte.com/wp-content/uploads/2021/12/IMG_20211209_215930.png?w=426&ssl=1",
+        "description": "Letras sueltas realizadas en piedra de Arucas. Medidas: 10x6x1cm."
+      },
+      {
+        "id": 1003,
+        "name": "Letras Sueltas de 30cm",
+        "price": "25,00 €",
+        "image": "https://i0.wp.com/www.labrarte.com/wp-content/uploads/2021/02/letras-sueltas-.-de-30cm..c.png?fit=666%2C375&ssl=1",
+        "description": "Letras sueltas realizadas en piedra natural de Arucas. Se pueden realizar en otras piedras naturales. Medidas: 30x25x3cm."
+      },
+      {
+        "id": 1004,
+        "name": "Números Dedo de Dios",
+        "price": "50,00 €",
+        "image": "https://i0.wp.com/www.labrarte.com/wp-content/uploads/2021/02/numero-con-la-forma-del-dedo-de-dios-e1619187134955.png?w=374&ssl=1",
+        "description": "Número tallado en la silueta del famoso Dedo de Dios de Agaete, realizado a mano en piedra de Arucas."
+      },
+      {
+        "id": 1005,
+        "name": "Clave Fondo Picado",
+        "price": "35,00 €",
+        "image": "https://i0.wp.com/www.labrarte.com/wp-content/uploads/2021/02/clave-fondo-picado-arucas...-e1618565425262.jpg?fit=678%2C686&ssl=1",
+        "description": "Clave realizada en piedra de Arucas, con fondo picado a puntero y faja lisa."
+      },
+      {
+        "id": 1006,
+        "name": "Número Pegado en Fondo Liso",
+        "price": "40,00 €",
+        "image": "https://i0.wp.com/www.labrarte.com/wp-content/uploads/2020/08/Numero-318-tallado...png?fit=577%2C433&ssl=1",
+        "description": "Número pegado en piedra natural de Arucas con el fondo liso. Número pegado en cantería de Arucas. Sin marco, solo el número esta en alto relieve, con esto logramos que el número resalte aún más. Medidas: 20x20x3cm."
+      }
+    ]
+  },
+  {
+    "categoryId": 2,
+    "categoryName": "Buzones de Cartas",
+    "categoryImage": "https://i0.wp.com/www.labrarte.com/wp-content/uploads/2024/03/buzones-de-cartas-tallados-a-mano-en-Canteria.png?resize=300%2C300&ssl=1",
+    "productsList": [
+      {
+        "id": 2001,
+        "name": "Buzón de Cartas en Piedra",
+        "price": "120,00 €",
+        "image": "https://i0.wp.com/www.labrarte.com/wp-content/uploads/2020/08/buzon-de-cartas.png?fit=577%2C433&ssl=1",
+        "description": "Buzón para cartas labrado a mano, en piedra de Arucas con el fondo picado a puntero. Con ranura y letras talladas en la misma piedra. Cuando nos realizan un encargo de un buzón para la cartas, siempre damos la opción de que el cliente elija un modelo ya existente o por lo contrario el diseño uno el cual nosotros realizaremos, tal cual el diseño dado. Medidas: 50x30x3cm"
+      },
+      {
+        "id": 2002,
+        "name": "Buzón de Cartas en bajo Relieve",
+        "price": "120,00 €",
+        "image": "https://i0.wp.com/www.labrarte.com/wp-content/uploads/2022/07/Buzon-de-Cartas-en-bajo-relieve.png?w=500&ssl=1",
+        "description": "Buzón para cartas con letras tallados en bajo relieve, hecho en piedra de Arucas. Medidas 40x30x2cm."
+      },
+      {
+        "id": 2003,
+        "name": "Buzón con Puerta",
+        "price": "240,00 €",
+        "image": "https://i0.wp.com/www.labrarte.com/wp-content/uploads/2014/04/1022-Buzon-con-Puerta.jpg?fit=800%2C594&ssl=1",
+        "description": "Buzón para cartas realizado en cantería de Arucas, tiene puerta con llave para poder acceder al correo. En este buzón de cartas pueden realizado a partir de una idea de un cliente, el cual quería que se lo realizáramos igual que uno de metal y le añadimos una figura al gusto del cliente. Por supuesto el cliente quedó encantado, no pensaba que pudiéramos realizarlo. Medidas: 33x28x14."
+      },
+      {
+        "id": 2004,
+        "name": "Buzón para Cartas en Piedra",
+        "price": "130,00 €",
+        "image": "https://i0.wp.com/www.labrarte.com/wp-content/uploads/2020/08/buzon-cartas..-scaled-e1645880111936.jpg?fit=600%2C451&ssl=1",
+        "description": "Buzón para cartas labrado a mano, en piedra de Arucas con el fondo picado a puntero. Con ranura y letras talladas en la misma piedra. Cuando nos realizan un encargo de un buzón para la cartas, siempre damos la opción de que el cliente elija un modelo ya existente o por lo contrario realizamos un nuevo diseño con las peticiones de nuestro cliente. Medidas: 50x30x3cm."
+      },
+      {
+        "id": 2005,
+        "name": "Buzón de Cartas Tallado",
+        "price": "200,00 €",
+        "image": "https://i0.wp.com/www.labrarte.com/wp-content/uploads/2020/08/buzon-tallado-en-canteria.jpg?w=510&ssl=1",
+        "description": "Buzón de cartas tallado en piedra de Arucas, con ranura para cartas y con letras, preparado para empotrar en pared. En este buzón se le realizó un pequeño volado imitando a las tejas de una casa y un tallado decorativo. Medidas: 30x50x3cm."
+      },
+      {
+        "id": 2006,
+        "name": "Buzón de Cartas con Volado",
+        "price": "40,00 €",
+        "image": "https://i0.wp.com/www.labrarte.com/wp-content/uploads/2014/04/1032-Buzon-de-Cartas.jpg?fit=800%2C461&ssl=1",
+        "description": "Buzón de cartas tallado en piedra de Arucas, con ranura para cartas y sin letras, preparado para empotrar en pared. En este buzón aunque algo sencillo, se le realizó un pequeño volado imitando a las tejas de una casa. Medidas: 35x22x3cm."
+      }
+    ]
+  },
+  {
+    "categoryId": 3,
+    "categoryName": "Letreros y Escudos",
+    "categoryImage": "https://i0.wp.com/www.labrarte.com/wp-content/uploads/2024/03/letrero-y-escudos-tallados-a-mano-en-Canteria.png?resize=300%2C300&ssl=1",
+    "productsList": [
+      {
+        "id": 3001,
+        "name": "Letrero en Alto Relieve",
+        "price": "160,00 €",
+        "image": "https://i0.wp.com/www.labrarte.com/wp-content/uploads/2021/02/letrero-tallado-en-canteria..png?fit=666%2C375&ssl=1",
+        "description": "Letrero labrado con letras en alto relieve, realizado en cantería de Arucas. Medidas: 40x30x3."
+      },
+      {
+        "id": 3002,
+        "name": "Letrero Tallado en Alto Relieve.",
+        "price": "300,00 €",
+        "image": "https://i0.wp.com/www.labrarte.com/wp-content/uploads/2021/02/letrero-labrado-en-alto-relieve.jpg?fit=835%2C617&ssl=1",
+        "description": "Letrero labrado con letras en alto relieve, realizado en piedra de Arucas. Medidas: 50x40x3."
+      },
+      {
+        "id": 3003,
+        "name": "Letrero en Bajo Relieve",
+        "price": "300,00 €",
+        "image": "https://i0.wp.com/www.labrarte.com/wp-content/uploads/2021/02/letrero-grabado-en-bajo-relieve.jpg?fit=832%2C464&ssl=1",
+        "description": "Letrero en piedra natural de Arucas pulido y grabado en bajo relieve. Con borde pegado. Medidas: 70x50x2cm."
+      },
+      {
+        "id": 3004,
+        "name": "Letrero Tallado",
+        "price": "120,00 €",
+        "image": "https://i0.wp.com/www.labrarte.com/wp-content/uploads/2014/04/1128-Letrero-Tallado.jpg?fit=800%2C308&ssl=1",
+        "description": "Letrero labrado en piedra roja, tallado a mano en alto relieve. Medidas: 50x25x4cm."
+      },
+      {
+        "id": 3005,
+        "name": "Escudo labrArte",
+        "price": "680,00 €",
+        "image": "https://i0.wp.com/www.labrarte.com/wp-content/uploads/2014/04/1086-Escudo-labrarte.jpg?fit=800%2C846&ssl=1",
+        "description": "Escudo labrado en piedra natural tallado a mano."
+      },
+      {
+        "id": 3006,
+        "name": "Letrero labrArte",
+        "price": "180,00 €",
+        "image": "https://i0.wp.com/www.labrarte.com/wp-content/uploads/2014/04/1126-Letrero-labrarte.jpg?fit=800%2C454&ssl=1",
+        "description": "Letrero de nuestra empresa realizado con piedra de Arucas, con letras en alto y bajo relieve, bordes irregulares. Medidas: 60x30x5cm."
+      }
+    ]
+  },
+  {
+    "categoryId": 4,
+    "categoryName": "Relojes de Piedra",
+    "categoryImage": "https://i0.wp.com/www.labrarte.com/wp-content/uploads/2024/03/relojes-tallados-a-mano-en-Canteria.png?resize=300%2C300&ssl=1",
+    "productsList": [
+      {
+        "id": 4001,
+        "name": "Reloj de Pared",
+        "price": "350,00 €",
+        "image": "https://i0.wp.com/www.labrarte.com/wp-content/uploads/2014/04/1187-Reloj-de-Pared.jpg?fit=800%2C808&ssl=1",
+        "description": "Reloj de péndulo labrado en piedra de Arucas, para colgar en pared, replica de un reloj antiguo envejecido. Medidas: 60x30x4cm."
+      },
+      {
+        "id": 4002,
+        "name": "Reloj de Sol",
+        "price": "10,00 €",
+        "image": "https://i0.wp.com/www.labrarte.com/wp-content/uploads/2015/07/1260-Reloj-de-Sol.jpg?fit=800%2C711&ssl=1",
+        "description": "Reloj de sol realizado en cantería de Arucas en bajo relieve, palo de madera incluido. El reloj de sol fue usado desde tiempos muy remotos para poder medir el paso del tiempo. Medidas: 60x40x2cm."
+      },
+      {
+        "id": 4003,
+        "name": "Reloj de G.C. Grabado",
+        "price": "90,00 €",
+        "image": "https://i0.wp.com/www.labrarte.com/wp-content/uploads/2014/12/1203-Reloj-de-G.C.-grabado.jpg?fit=800%2C654&ssl=1",
+        "description": "Reloj en forma de la isla de Gran Canaria con base, realizado en piedra de Arucas pulida, con escudo grabado. Medidas: 20x20cm."
+      },
+      {
+        "id": 4004,
+        "name": "Paloma Grabada en Piedra",
+        "price": "75,00 €",
+        "image": "https://i0.wp.com/www.labrarte.com/wp-content/uploads/2014/06/1204-Paloma-Grabada.jpg?fit=800%2C887&ssl=1",
+        "description": "Reloj con Paloma grabada, en piedra de Arucas pulida."
+      },
+      {
+        "id": 4005,
+        "name": "Reloj Dedo de Dios",
+        "price": "40,00 €",
+        "image": "https://i0.wp.com/www.labrarte.com/wp-content/uploads/2014/05/1196-Reloj-Dedo-de-Dios.jpg?fit=730%2C800&ssl=1",
+        "description": "Reloj con la forma del dedo de Dios, (monumento natural de Agaete, Gran Canaria) realizado en piedra amarilla de Ayagaure y piedra gris de Arucas. Medidas: 17x25x1cm."
+      },
+      {
+        "id": 4006,
+        "name": "Reloj para Colgar en Pared",
+        "price": "140,00 €",
+        "image": "https://i0.wp.com/www.labrarte.com/wp-content/uploads/2014/04/1195-Reloj-de-Colgar.jpg?fit=800%2C811&ssl=1",
+        "description": "Reloj para colgar en pared, realizado en piedra de Arucas y piedra de Ayagaure, con grabados. Medidas: 60x36x3cm."
+      }
+    ]
+  },
+  {
+    "categoryId": 5,
+    "categoryName": "Objetos en Piedra",
+    "categoryImage": "https://i0.wp.com/www.labrarte.com/wp-content/uploads/2024/03/objetos-decorativos-tallados-a-mano-en-Canteria.png?resize=300%2C300&ssl=1",
+    "productsList": [
+      {
+        "id": 5001,
+        "name": "Banco Canario",
+        "price": "40,00 €",
+        "image": "https://i0.wp.com/www.labrarte.com/wp-content/uploads/2020/09/banco-mediano-en-piedra.png?resize=300%2C169&ssl=1",
+        "description": "Banco típico Canario realizado en piedra de Arucas, con base, este banco es un elemento decorativo. Ideal para decoración, realizado a imagen y semejanza de los bancos típicos canarios que podemos encontrar en cualquier parque canario. Este banco fue realizado por un encargo de un cliente, que necesitaba un elemento original para decorar en su hogar. Fue realizado en varias piezas. Medidas: 20x7,5x3cm."
+      },
+      {
+        "id": 5002,
+        "name": "Cubre lámpara de Exterior",
+        "price": "100,00 €",
+        "image": "https://i0.wp.com/www.labrarte.com/wp-content/uploads/2021/02/lampara-de-pared-2.png?fit=837%2C611&ssl=1",
+        "description": "Cubre lámpara de exterior en piedra natural de Arucas con luna tallada en piedra de Ayagaure.\n\nMedidas: 30x20x12cm."
+      },
+      {
+        "id": 5003,
+        "name": "Timple en Piedra",
+        "price": "350,00 €",
+        "image": "https://i0.wp.com/www.labrarte.com/wp-content/uploads/2014/04/1211-Timple-en-Piedra.jpg?fit=800%2C654&ssl=1",
+        "description": "Timple labrado a tamaño natural en piedra de Arucas, replica de un timple real realizado en una pieza maciza. Medidas: 50x18x10cm."
+      },
+      {
+        "id": 5004,
+        "name": "Mortero / Almirez en Piedra",
+        "price": "80,00 €",
+        "image": "https://i0.wp.com/www.labrarte.com/wp-content/uploads/2014/04/1139-Mortero-y-Almirez.jpg?fit=800%2C718&ssl=1",
+        "description": "El mortero / almirez es un instrumento para machacar, es un mortero o utensilio pequeño y portátil, que sirve para machacar y triturar sustancias, utilizado en la cocina para moler en él especias, semillas, ajos u otros ingredientes gastronómicos, consistente en un recipiente en forma de cuenco y un mazo que se coge con una sola mano y a base de golpear la base y los laterales internos del cuenco muele el producto contenido en él. Medidas: 13x8cm."
+      },
+      {
+        "id": 5005,
+        "name": "Soporte para Incienso",
+        "price": "10,00 €",
+        "image": "https://i0.wp.com/www.labrarte.com/wp-content/uploads/2014/05/1181-Soporte-Incienso.jpg?fit=800%2C682&ssl=1",
+        "description": "Soporte para incienso realizado en Cantería de Arucas pulida. Medidas: 15x4x2cm."
+      },
+      {
+        "id": 5006,
+        "name": "Molinillo Pequeño en Piedra",
+        "price": "35,00 €",
+        "image": "https://i0.wp.com/www.labrarte.com/wp-content/uploads/2014/04/1108-Molinillo-Pequeno.jpg?fit=800%2C670&ssl=1",
+        "description": "Molinillo de para gofio tallado en piedra de Arucas, como elemento decorativo."
+      }
+    ]
+  },
+  {
+    "categoryId": 6,
+    "categoryName": "Islas Canarias en Piedra",
+    "categoryImage": "https://i0.wp.com/www.labrarte.com/wp-content/uploads/2024/03/islas-del-archipielago-canario-tallados-a-mano-en-Canteria.png?resize=300%2C300&ssl=1",
+    "productsList": [
+      {
+        "id": 6001,
+        "name": "8 Islas Canarias con Relieve",
+        "price": "200,00 €",
+        "image": "https://i0.wp.com/www.labrarte.com/wp-content/uploads/2014/05/1269-Islas-Canarias-peq-alto-relieve-e1645902627952.jpg?fit=800%2C365&ssl=1",
+        "description": "Islas Canarias talladas en alto relieve en cantería de Arucas, para colocar en una pared o fachada. Para la colocación pedir presupuesto. Medidas por el diámetro de Gran Canaria = 20cm."
+      },
+      {
+        "id": 6002,
+        "name": "Isla con Grabado",
+        "price": "100,00 €",
+        "image": "https://i0.wp.com/www.labrarte.com/wp-content/uploads/2021/02/isla-de-G.C-con-grabado.png?fit=577%2C433&ssl=1",
+        "description": "Isla de Gran Canaria pulida con grabado."
+      },
+      {
+        "id": 6003,
+        "name": "Soporte para Cuchillo",
+        "price": "40,00 €",
+        "image": "https://i0.wp.com/www.labrarte.com/wp-content/uploads/2021/02/IMG_20210130_111607-removebg-preview.png?fit=577%2C433&ssl=1",
+        "description": "Base para cuchillo canario en piedra de Arucas."
+      },
+      {
+        "id": 6004,
+        "name": "Isla con Base",
+        "price": "50,00 €",
+        "image": "https://i0.wp.com/www.labrarte.com/wp-content/uploads/2015/07/1258-Isla-con-base.jpg?fit=800%2C699&ssl=1",
+        "description": "Isla en cantería de Arucas, con la silueta de Gran Canaria con base en lisa. Medidas: Gran Canaria – 20x20x1."
+      },
+      {
+        "id": 6005,
+        "name": "Reloj con Forma de Isla",
+        "price": "35,00 €",
+        "image": "https://i0.wp.com/www.labrarte.com/wp-content/uploads/2014/04/1194-Reloj-de-Colgar.jpg?fit=800%2C663&ssl=1",
+        "description": "Reloj realizado con la forma de la isla de Gran Canaria, con gancho para colgar de la pared. Medidas: 25x25x2."
+      },
+      {
+        "id": 6006,
+        "name": "8 Islas Canarias Lisas",
+        "price": "100,00 €",
+        "image": "https://i0.wp.com/www.labrarte.com/wp-content/uploads/2014/05/529-Islas-Canarias-Grandes.jpg?fit=640%2C480&ssl=1",
+        "description": "Las 8 Islas Canarias realizadas en cantería de Arucas, para colocar en una pared o fachada. El Archipiélago Canario puede hacer en cualquier otra piedra natural, piedra de Ayagaure, piedra de la India, piedra Italiana, etc. Para más información contactar. Para la colocación pedir presupuesto. Medidas aproximadas por el diámetro de Gran Canaria = 20x20cm – grosor:  2cm."
+      }
+    ]
+  }
+]

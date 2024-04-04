@@ -1,0 +1,11 @@
+<div id="catalogue" class="w-full">
+  <h2 class="w-4/5 mx-auto text-4xl font-bold mt-16">Catálogo</h2>
+  <article *ngFor="let category of displayData">
+    <div class="rounded-xl border border-gray-400">
+      <a href="../pages/category.html?id={{category.categoryId}}" class="text-center">
+        <img class="rounded-xl w-80 border border-gray-400" [src]="category.categoryImage" [alt]="category.categoryName">
+        <p class="text-xl font-semibold">{{category.categoryName}}</p>
+      </a>
+    </div>
+  </article>
+</div>
