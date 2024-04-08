@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "labrarte": {
+      "hosting": {
+        "angular-web-page": [
+          "labrarte"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "labrarte"
+  }
+}

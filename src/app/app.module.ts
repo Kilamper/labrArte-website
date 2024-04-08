@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-
+import { ReactiveFormsModule} from "@angular/forms";
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './templates/header/header.component';
@@ -15,6 +15,10 @@ import {BlogComponent} from "./templates/blog/blog.component";
 import {CoursesComponent} from "./templates/courses/courses.component";
 import {LoginComponent} from "./forms/login/login.component";
 import {SignupComponent} from "./forms/signup/signup.component";
+import { initializeApp, provideFirebaseApp } from '@angular/fire/app';
+import { getAuth, provideAuth } from '@angular/fire/auth';
+import { getFirestore, provideFirestore } from '@angular/fire/firestore';
+import { environment } from '../enviroments/enviroment';
 
 @NgModule({
   declarations: [
@@ -34,7 +38,11 @@ import {SignupComponent} from "./forms/signup/signup.component";
     AppRoutingModule,
     NgOptimizedImage,
     HttpClientModule,
-    RouterModule
+    RouterModule,
+    provideFirebaseApp(() => initializeApp(environment.firebase)),
+    provideAuth(() => getAuth()),
+    provideFirestore(() => getFirestore()),
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
