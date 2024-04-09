@@ -4,29 +4,65 @@
     <img alt="image" src="../../../assets/logo.svg" class="w-16 h-16 logo">
     <h1 class="pl-1.5 text-4xl font-bold text-black no-underline logo-name">labrArte®</h1>
   </a>
-  <form method="post" class="border rounded-lg w-96 m-auto block bg-white shadow-3xl shadow-black py-5 h-auto">
+  <form [formGroup]="registerForm" (ngSubmit)="registerUser()" class="border rounded-lg w-96 m-auto block bg-white shadow-3xl shadow-black py-5 h-auto">
     <h3 class="text-2xl font-semibold mb-2">Formulario de Registro</h3>
     <p class="mb-5 text-lg font-medium">¿Ya tienes una cuenta?
       <a class="underline text-blue-700" [routerLink]="['/login']">Inicia sesión</a>
     </p>
     <label>
-      <input id="name" class="w-3/4 mb-4 p-2 border border-gray-500 rounded" type="text"
+      <input formControlName="name" id="name" class="w-3/4 mb-4 p-2 border border-gray-500 rounded" type="text"
              placeholder="Nombre completo"
              required>
     </label>
+    <div *ngIf="name?.invalid && ( name?.dirty || name?.touched)" class="text-xs text-red-600">
+      <div *ngIf="name?.errors?.['required']">
+        El nombre es un campo obligatorio
+      </div>
+      <div *ngIf="name?.errors?.['pattern']">
+        El nombre solo puede tener caracteres alfabéticos.
+      </div>
+    </div>
     <label>
-      <input id="email" class="w-3/4 mb-4 p-2 border border-gray-500 rounded" type="email"
+      <input formControlName="email" id="email" class="w-3/4 mb-4 p-2 border border-gray-500 rounded" type="email"
              placeholder="Correo electrónico"
              required>
     </label>
+    <div *ngIf="email?.invalid && ( email?.dirty || email?.touched)" class="text-xs text-red-600">
+      <div *ngIf="email?.errors?.['required']">
+        El correo electrónico es un campo obligatorio
+      </div>
+      <div *ngIf="email?.errors?.['email']">
+        El correo electrónico no es válido
+      </div>
+    </div>
     <label>
-      <input id="password" class="w-3/4 mb-4 p-2 border border-gray-500 rounded" type="password"
+      <input formControlName="password" id="password" class="w-3/4 mb-4 p-2 border border-gray-500 rounded" type="password"
              placeholder="Contraseña"
              required>
     </label>
+    <div *ngIf="password?.errors && ( password?.dirty || password?.touched)" class="text-xs text-red-600">
+      <div *ngIf="password?.errors?.['required']">
+        La contraseña es un campo obligatorio
+      </div>
+      <div *ngIf="password?.errors?.['minlength']">
+        La contraseña debe tener al menos 6 caracteres
+      </div>
+      <div *ngIf="password?.errors?.['maxlength']">
+        La contraseña no puede tener más de 10 caracteres
+      </div>
+    </div>
     <label>
-      <input id="confirmPassword" class="w-3/4 mb-4 p-2 border border-gray-500 rounded" type="password"
+      <input formControlName="confirmPassword" id="confirmPassword" class="w-3/4 mb-4 p-2 border border-gray-500 rounded" type="password"
              placeholder="Confirmar contraseña" required>
+      <div *ngIf="confirmPassword?.errors && ( confirmPassword?.dirty || confirmPassword?.touched)"
+           class="text-xs text-red-600">
+        <div *ngIf="confirmPassword?.errors?.['required']">
+          La confirmación de la contraseña es un campo obligatorio
+        </div>
+        <div *ngIf="confirmPassword?.invalid">
+          Las contraseñas no coinciden
+        </div>
+      </div>
     </label>
     <label>
       <input class="w-1/3 p-1.5 bg-gray-400 rounded mb-4 mt-2" type="submit" value="Registrarse">

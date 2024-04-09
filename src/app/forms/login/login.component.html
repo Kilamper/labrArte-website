@@ -4,17 +4,24 @@
     <img alt="image" src="../../../assets/logo.svg" class="w-16 h-16 logo">
     <h1 class="pl-1.5 text-4xl font-bold text-black no-underline logo-name">labrArte®</h1>
   </a>
-  <form class="border rounded-lg w-96 m-auto block bg-white shadow-3xl shadow-black py-5 h-auto">
+  <form [formGroup]="loginForm" (ngSubmit)="loginUser()" class="border rounded-lg w-96 m-auto block bg-white shadow-3xl shadow-black py-5 h-auto">
     <h3 class="text-2xl font-semibold mb-2">Inicio de Sesión</h3>
     <p class="mb-5 text-lg font-medium">¿Es tu primera vez?
       <a class="underline text-blue-700" [routerLink]="['/signup']">Regístrate</a>
     </p>
     <label>
-      <input id="email-login" class="w-3/4 mb-4 p-2 border border-gray-500 rounded" type="email" placeholder="Correo electrónico" required>
+      <input formControlName="email" id="email-login" class="w-3/4 mb-4 p-2 border border-gray-500 rounded" type="email" placeholder="Correo electrónico" required>
     </label>
+    <div *ngIf="email?.invalid && email?.touched" class="text-red-500 text-sm mb-4">
+      <p *ngIf="email?.errors?.['required']">El correo electrónico es obligatorio</p>
+      <p *ngIf="email?.errors?.['email']">El correo electrónico no es válido</p>
+    </div>
     <label>
-      <input id="password-login" class="w-3/4 mb-4 p-2 border border-gray-500 rounded" type="password" placeholder="Contraseña" required>
+      <input formControlName="password" id="password-login" class="w-3/4 mb-4 p-2 border border-gray-500 rounded" type="password" placeholder="Contraseña" required>
     </label>
+    <div *ngIf="password?.invalid && password?.touched" class="text-red-500 text-sm mb-4">
+      <p *ngIf="password?.errors?.['required']">La contraseña es obligatoria</p>
+    </div>
     <p class="mb-4"><a class="underline text-blue-700 text-lg font-medium" href="#">¿Olvidaste tu contraseña?</a>
     </p>
     <label>
