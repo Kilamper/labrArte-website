@@ -2,10 +2,8 @@
   <h2 class="w-4/5 mx-auto text-4xl font-bold mt-16 self-center">Catálogo</h2>
   <article class="flex margin: 0; w-11/12 max-w-7xl flex-wrap gap-24 justify-center py-16">
     <div *ngFor="let category of displayData" class="rounded-xl border border-gray-400">
-      <a href="../pages/category.html?id={{category.categoryId}}" class="text-center">
-        <img class="rounded-xl w-80 border border-gray-400" [src]="category.categoryImage" [alt]="category.categoryName">
-        <p class="text-xl font-semibold">{{category.categoryName}}</p>
-      </a>
+      <app-category [categoryId]="category.categoryId" [categoryName]="category.categoryName"
+                    [categoryImage]="category.categoryImage"></app-category>
     </div>
   </article>
 </section>
