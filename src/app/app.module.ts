@@ -23,6 +23,7 @@ import {getAuth, provideAuth} from '@angular/fire/auth';
 import {getFirestore, provideFirestore} from '@angular/fire/firestore';
 import {environment} from '../enviroments/enviroment';
 import { SocialNetworkComponent } from './components/social-network/social-network.component';
+import { LogoComponent } from './components/logo/logo.component';
 
 @NgModule({
   declarations: [
@@ -39,6 +40,7 @@ import { SocialNetworkComponent } from './components/social-network/social-netwo
     NotfoundComponent,
     CategoryComponent,
     SocialNetworkComponent,
+    LogoComponent,
   ],
   imports: [
     BrowserModule,

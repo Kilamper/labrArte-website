@@ -1,34 +1,28 @@
-<footer
-  class="flex footer justify-center">
+<footer class="flex footer justify-center">
   <section
-    class="max-w-screen-2xl font-inter w-full h-auto py-12 flex flex-wrap text-center lg:text-left justify-around xl:flex-col">
-    <div class="flex justify-center">
-      <a [routerLink]="['']" class="w-1/4 flex pl-12 pr-10 items-center text-center no-underline">
-        <img alt="image" ngSrc="../../../assets/logo.svg" class="w-20 h-20 logo" height="80" width="80">
-        <h1 class="pl-2 text-5xl font-bold logo-name">labrArte®</h1>
-      </a>
-    </div>
-    <menu class="flex w-3/4 xl:w-full xl:mt-8 justify-center">
+    class="max-w-screen-2xl font-inter w-full h-auto py-12 flex flex-wrap text-center lg:text-left justify-around">
+    <app-logo></app-logo>
+    <menu class="flex w-full lg:w-3/4 xl:w-full xl:mt-8 justify-center">
       <nav class="px-5 w-1/4">
         <h4 class="text-xl mb-4 font-bold border-black border-b-2 pb-2.5 inline-block">Índice</h4>
         <ul class="list-none text-lg no-underline text-gray-800 gap-3">
-          <li><a class="text-lg transition-all hover:text-black footer-links"
-                 [routerLink]="['/catalogue']">Catálogo</a></li>
-          <li><a class="text-lg transition-all hover:text-black footer-links"
-                 [routerLink]="['/blog']">Blog</a></li>
-          <li><a class="text-lg transition-all hover:text-black footer-links"
-                 href="#">Galería</a></li>
-          <li><a class="text-lg transition-all hover:text-black footer-links"
-                 [routerLink]="['/courses']">Cursos</a></li>
+          <li><a class="text-lg transition-all hover:text-black menu-links"
+                 [routerLink]="['/catalogue']" (click)="scrollToTop()">Catálogo</a></li>
+          <li><a class="text-lg transition-all hover:text-black menu-links"
+                 [routerLink]="['/blog']" (click)="scrollToTop()">Blog</a></li>
+          <li><a class="text-lg transition-all hover:text-black menu-links"
+                 href="#" (click)="scrollToTop()">Galería</a></li>
+          <li><a class="text-lg transition-all hover:text-black menu-links"
+                 [routerLink]="['/courses']" (click)="scrollToTop()">Cursos</a></li>
         </ul>
       </nav>
       <nav class="px-5 w-1/4">
         <h4 class="text-xl mb-4 font-bold border-black border-b-2 pb-2.5 inline-block">Compañía</h4>
         <ul class="list-none text-lg no-underline text-gray-800 gap-3">
-          <li><a class="text-lg transition-all hover:text-black footer-links"
+          <li><a class="text-lg transition-all hover:text-black menu-links"
                  href="#">Sobre nosotros</a></li>
           <li><a>Dirección:</a></li>
-          <li><a class="text-lg transition-all hover:text-black footer-links"
+          <li><a class="text-lg transition-all hover:text-black menu-links"
                  href="https://www.google.es/maps/place/labrArte+-+Maestro+Artesano/@28.1153593,-15.5172339,16z/data=!3m1!4b1!4m6!3m5!1s0xc40937056116e61:0x95d7b0fe44b3141f!8m2!3d28.1153593!4d-15.514659!16s%2Fg%2F1tddc2lv?entry=ttu"
                  target="_blank">
             <i class="fa-solid fa-location-dot mr-1"></i>
@@ -41,7 +35,7 @@
         <nav class="px-5 -mt-4">
           <h4 class="text-xl mb-4 font-bold border-black border-b-2 pb-2.5 inline-block">Contacto</h4>
           <ul class="list-none text-lg no-underline text-gray-800 gap-3">
-            <li><a class="text-lg transition-all hover:text-black footer-links"
+            <li><a class="text-lg transition-all hover:text-black menu-links"
                    href="mailto:info@labrarte.com">
               <i class="fa-solid fa-envelope mr-1"></i>
               <span>info&#64;labrarte.com</span>
@@ -60,15 +54,15 @@
           <h4 class="text-xl mb-4 font-bold border-black border-b-2 pb-2.5 inline-block">Síguenos</h4>
           <div class="w-full flex gap-2">
             <app-social-network [name]="'YouTube'" [url]="'https://www.youtube.com/@labrarte'" [icon]="'fa-youtube'"
-                                [color]="'bg-red-600'"></app-social-network>
+                                [color]="'red-600'"></app-social-network>
             <app-social-network [name]="'Facebook'" [url]="'https://www.facebook.com/labrarte/'" [icon]="'fa-facebook'"
-                                [color]="'bg-blue-900'"></app-social-network>
+                                [color]="'blue-900'"></app-social-network>
             <app-social-network [name]="'Instagram'" [url]="'https://www.instagram.com/labrarte_maestro_artesano/'"
-                                [icon]="'fa-instagram'" [color]="'bg-pink-600'"></app-social-network>
+                                [icon]="'fa-instagram'" [color]="'pink-600'"></app-social-network>
             <app-social-network [name]="'TikTok'" [url]="'https://www.tiktok.com/@labrarte.com'" [icon]="'fa-tiktok'"
-                                [color]="'bg-purple-500'"></app-social-network>
+                                [color]="'purple-500'"></app-social-network>
             <app-social-network [name]="'X'" [url]="'#'" [icon]="'fa-x-twitter'"
-                                [color]="'bg-black'"></app-social-network>
+                                [color]="'black'"></app-social-network>
           </div>
         </nav>
       </menu>
