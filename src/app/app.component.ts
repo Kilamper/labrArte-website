@@ -8,18 +8,18 @@ import {Router, ActivatedRoute} from '@angular/router';
 })
 export class AppComponent {
   title = 'angular-web-page';
-  isForm = false;
+  isFormOrError = false;
 
   constructor(private router: Router, private activatedRoute: ActivatedRoute) {
   }
 
-  isLoginOrSignup(): boolean {
+  isLoginOrSignupOr404(): boolean {
     const route = this.activatedRoute.snapshot;
     const childRoute = route.firstChild;
     if (childRoute && childRoute.routeConfig) {
       const path = childRoute.routeConfig.path;
-      this.isForm = path === 'login' || path === 'signup';
+      this.isFormOrError = path === 'login' || path === 'signup' || path === '**';
     }
-    return this.isForm;
+    return this.isFormOrError;
   }
 }

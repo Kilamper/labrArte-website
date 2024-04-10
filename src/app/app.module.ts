@@ -1,3 +1,5 @@
+;
+import {NotfoundComponent} from './errors/notfound/notfound.component'
 import {NgModule} from '@angular/core';
 import {BrowserModule} from '@angular/platform-browser';
 import {ReactiveFormsModule} from "@angular/forms";
@@ -15,11 +17,11 @@ import {BlogComponent} from "./templates/blog/blog.component";
 import {CoursesComponent} from "./templates/courses/courses.component";
 import {LoginComponent} from "./forms/login/login.component";
 import {SignupComponent} from "./forms/signup/signup.component";
+import {CategoryComponent} from "./components/category/category.component";
 import {initializeApp, provideFirebaseApp} from '@angular/fire/app';
 import {getAuth, provideAuth} from '@angular/fire/auth';
 import {getFirestore, provideFirestore} from '@angular/fire/firestore';
 import {environment} from '../enviroments/enviroment';
-import {CategoryComponent} from './components/category/category.component';
 
 @NgModule({
   declarations: [
@@ -33,6 +35,7 @@ import {CategoryComponent} from './components/category/category.component';
     CoursesComponent,
     LoginComponent,
     SignupComponent,
+    NotfoundComponent,
     CategoryComponent,
   ],
   imports: [

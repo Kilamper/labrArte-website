@@ -1,6 +1,6 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 <body class="font-serif">
-<app-header *ngIf="!isLoginOrSignup()"></app-header>
+<app-header *ngIf="!isLoginOrSignupOr404()"></app-header>
 <router-outlet></router-outlet>
-<app-footer *ngIf="!isLoginOrSignup()"></app-footer>
+<app-footer *ngIf="!isLoginOrSignupOr404()"></app-footer>
 </body>
