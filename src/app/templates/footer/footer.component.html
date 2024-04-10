@@ -59,21 +59,16 @@
         <nav class="mt-4 px-5">
           <h4 class="text-xl mb-4 font-bold border-black border-b-2 pb-2.5 inline-block">Síguenos</h4>
           <div class="w-full flex gap-2">
-            <a class="inline-block w-10 h-10 rounded-3xl text-center leading-10 bg-gray-600 hover:bg-red-600"
-               href="https://www.youtube.com/@labrarte" target="_blank"><i
-              class="fa-brands fa-youtube text-white"></i></a>
-            <a class="inline-block w-10 h-10 rounded-3xl text-center leading-10 bg-gray-600 hover:bg-blue-900"
-               href="https://www.facebook.com/labrarte/" target="_blank"><i
-              class="fa-brands fa-facebook text-white"></i></a>
-            <a class="inline-block w-10 h-10 rounded-3xl text-center leading-10 bg-gray-600 hover:bg-pink-600"
-               href="https://www.instagram.com/labrarte_maestro_artesano/" target="_blank"><i
-              class="fa-brands fa-instagram text-white"></i></a>
-            <a class="inline-block w-10 h-10 rounded-3xl text-center leading-10 bg-gray-600 hover:bg-purple-500"
-               href="https://www.tiktok.com/@labrarte.com" target="_blank"><i
-              class="fa-brands fa-tiktok text-white"></i></a>
-            <a class="inline-block w-10 h-10 rounded-3xl text-center leading-10 bg-gray-600 hover:bg-black"
-               href="#"><i
-              class="fa-brands fa-x-twitter text-white"></i></a>
+            <app-social-network [name]="'YouTube'" [url]="'https://www.youtube.com/@labrarte'" [icon]="'fa-youtube'"
+                                [color]="'bg-red-600'"></app-social-network>
+            <app-social-network [name]="'Facebook'" [url]="'https://www.facebook.com/labrarte/'" [icon]="'fa-facebook'"
+                                [color]="'bg-blue-900'"></app-social-network>
+            <app-social-network [name]="'Instagram'" [url]="'https://www.instagram.com/labrarte_maestro_artesano/'"
+                                [icon]="'fa-instagram'" [color]="'bg-pink-600'"></app-social-network>
+            <app-social-network [name]="'TikTok'" [url]="'https://www.tiktok.com/@labrarte.com'" [icon]="'fa-tiktok'"
+                                [color]="'bg-purple-500'"></app-social-network>
+            <app-social-network [name]="'X'" [url]="'#'" [icon]="'fa-x-twitter'"
+                                [color]="'bg-black'"></app-social-network>
           </div>
         </nav>
       </menu>

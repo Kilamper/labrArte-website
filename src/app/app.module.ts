@@ -22,6 +22,7 @@ import {initializeApp, provideFirebaseApp} from '@angular/fire/app';
 import {getAuth, provideAuth} from '@angular/fire/auth';
 import {getFirestore, provideFirestore} from '@angular/fire/firestore';
 import {environment} from '../enviroments/enviroment';
+import { SocialNetworkComponent } from './components/social-network/social-network.component';
 
 @NgModule({
   declarations: [
@@ -37,6 +38,7 @@ import {environment} from '../enviroments/enviroment';
     SignupComponent,
     NotfoundComponent,
     CategoryComponent,
+    SocialNetworkComponent,
   ],
   imports: [
     BrowserModule,
