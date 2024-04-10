@@ -1,5 +1,5 @@
-import { Component } from '@angular/core';
-import { Router, ActivatedRoute } from '@angular/router';
+import {Component} from '@angular/core';
+import {Router, ActivatedRoute} from '@angular/router';
 
 @Component({
   selector: 'app-root',
@@ -8,15 +8,18 @@ import { Router, ActivatedRoute } from '@angular/router';
 })
 export class AppComponent {
   title = 'angular-web-page';
-  constructor(private router: Router, private activatedRoute: ActivatedRoute) {}
+  isForm = false;
+
+  constructor(private router: Router, private activatedRoute: ActivatedRoute) {
+  }
 
   isLoginOrSignup(): boolean {
     const route = this.activatedRoute.snapshot;
     const childRoute = route.firstChild;
     if (childRoute && childRoute.routeConfig) {
       const path = childRoute.routeConfig.path;
-      return path === 'login' || path === 'signup';
+      this.isForm = path === 'login' || path === 'signup';
     }
-    return false;
+    return this.isForm;
   }
 }
