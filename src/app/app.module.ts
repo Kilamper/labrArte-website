@@ -17,14 +17,16 @@ import {BlogComponent} from "./templates/blog/blog.component";
 import {CoursesComponent} from "./templates/courses/courses.component";
 import {LoginComponent} from "./forms/login/login.component";
 import {SignupComponent} from "./forms/signup/signup.component";
-import {CategoryComponent} from "./components/category/category.component";
 import {initializeApp, provideFirebaseApp} from '@angular/fire/app';
 import {getAuth, provideAuth} from '@angular/fire/auth';
 import {getFirestore, provideFirestore} from '@angular/fire/firestore';
 import {environment} from '../enviroments/enviroment';
-import { SocialNetworkComponent } from './components/social-network/social-network.component';
-import { LogoComponent } from './components/logo/logo.component';
-import { UserProfileComponent } from './templates/user-profile/user-profile.component';
+import {SocialNetworkComponent} from './components/social-network/social-network.component';
+import {LogoComponent} from './components/logo/logo.component';
+import {UserProfileComponent} from './templates/user-profile/user-profile.component';
+import {CategoryCartComponent} from './components/category-cart/category-cart.component';
+import { CategoryComponent } from './templates/category/category.component';
+import { ProductCartComponent } from './components/product-cart/product-cart.component';
 
 @NgModule({
   declarations: [
@@ -39,10 +41,12 @@ import { UserProfileComponent } from './templates/user-profile/user-profile.comp
     LoginComponent,
     SignupComponent,
     NotfoundComponent,
-    CategoryComponent,
     SocialNetworkComponent,
     LogoComponent,
     UserProfileComponent,
+    CategoryCartComponent,
+    CategoryComponent,
+    ProductCartComponent,
   ],
   imports: [
     BrowserModule,

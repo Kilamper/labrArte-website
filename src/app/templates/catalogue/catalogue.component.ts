@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+// src/app/templates/catalogue/catalogue.component.ts
+import { Component, OnInit, Output, EventEmitter } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 
 @Component({
@@ -8,6 +9,7 @@ import { HttpClient } from '@angular/common/http';
 export class CatalogueComponent implements OnInit {
   catalogueData: any[] = [];
   displayData: any[] = [];
+  @Output() categorySelected = new EventEmitter<number>();
 
   constructor(private http: HttpClient) { }
 
@@ -20,5 +22,9 @@ export class CatalogueComponent implements OnInit {
       this.catalogueData = data;
       this.displayData = this.catalogueData.slice(0, 6);
     });
+  }
+
+  onCategorySelected(categoryId: number) {
+    this.categorySelected.emit(categoryId);
   }
 }
