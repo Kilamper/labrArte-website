@@ -21,6 +21,8 @@
     </label>
     <div *ngIf="password?.invalid && password?.touched" class="text-red-500 text-sm mb-4">
       <p *ngIf="password?.errors?.['required']">La contraseña es obligatoria</p>
+      <p *ngIf="password?.errors?.['minlength']">La contraseña debe tener al menos 6 caracteres</p>
+      <p *ngIf="password?.errors?.['maxlength']">La contraseña no puede tener más de 18 caracteres</p>
     </div>
     <p class="mb-4"><a class="underline text-blue-700 text-lg font-medium" href="#">¿Olvidaste tu contraseña?</a>
     </p>

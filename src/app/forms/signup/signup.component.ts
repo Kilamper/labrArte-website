@@ -12,7 +12,7 @@ export class SignupComponent implements OnInit{
     this.registerForm = new FormGroup({
       name: new FormControl('',[Validators.required,Validators.pattern('^[a-zA-Z ]*$')]),
       email: new FormControl('',[Validators.required,Validators.email]),
-      password: new FormControl('',[Validators.required,Validators.minLength(6),Validators.maxLength(10)]),
+      password: new FormControl('',[Validators.required,Validators.minLength(6),Validators.maxLength(18)]),
       confirmPassword: new FormControl('',[Validators.required,this.confirmPasswordValidator('password')])
     });
   }

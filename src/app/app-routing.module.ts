@@ -7,6 +7,7 @@ import {CoursesComponent} from "./templates/courses/courses.component";
 import {LoginComponent} from "./forms/login/login.component";
 import {SignupComponent} from "./forms/signup/signup.component";
 import {NotfoundComponent} from "./errors/notfound/notfound.component";
+import {UserProfileComponent} from "./templates/user-profile/user-profile.component";
 
 const routes: Routes = [
   {path: '', component: HomeComponent},
@@ -15,6 +16,7 @@ const routes: Routes = [
   {path: 'courses', component: CoursesComponent},
   {path: 'login', component: LoginComponent},
   {path: 'signup', component: SignupComponent},
+  {path: 'profile', component: UserProfileComponent},
   {path: '**', component: NotfoundComponent}
 ];
 

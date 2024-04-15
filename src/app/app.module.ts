@@ -2,7 +2,7 @@
 import {NotfoundComponent} from './errors/notfound/notfound.component'
 import {NgModule} from '@angular/core';
 import {BrowserModule} from '@angular/platform-browser';
-import {ReactiveFormsModule} from "@angular/forms";
+import {FormsModule, ReactiveFormsModule} from "@angular/forms";
 import {AppRoutingModule} from './app-routing.module';
 import {AppComponent} from './app.component';
 import {HeaderComponent} from './templates/header/header.component';
@@ -24,6 +24,7 @@ import {getFirestore, provideFirestore} from '@angular/fire/firestore';
 import {environment} from '../enviroments/enviroment';
 import { SocialNetworkComponent } from './components/social-network/social-network.component';
 import { LogoComponent } from './components/logo/logo.component';
+import { UserProfileComponent } from './templates/user-profile/user-profile.component';
 
 @NgModule({
   declarations: [
@@ -41,6 +42,7 @@ import { LogoComponent } from './components/logo/logo.component';
     CategoryComponent,
     SocialNetworkComponent,
     LogoComponent,
+    UserProfileComponent,
   ],
   imports: [
     BrowserModule,
@@ -51,7 +53,8 @@ import { LogoComponent } from './components/logo/logo.component';
     provideFirebaseApp(() => initializeApp(environment.firebase)),
     provideAuth(() => getAuth()),
     provideFirestore(() => getFirestore()),
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
