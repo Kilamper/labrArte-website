@@ -1,10 +1,8 @@
 <body class="flex flex-col min-h-screen login-signup">
 <div class="text-center block flex-1">
-  <a [routerLink]="['']" class="pt-12 flex justify-center items-center pb-5 w-fit mx-auto">
-    <img alt="image" src="../../../assets/logo.svg" class="w-16 h-16 logo">
-    <h1 class="pl-1.5 text-4xl font-bold text-black no-underline logo-name">labrArte®</h1>
-  </a>
-  <form [formGroup]="registerForm" (ngSubmit)="registerUser()" class="border rounded-lg w-96 m-auto block bg-white shadow-3xl shadow-black py-5 h-auto">
+  <app-logo class="flex justify-center my-4 mt-8"></app-logo>
+  <form [formGroup]="registerForm" (ngSubmit)="registerUser()"
+        class="border rounded-lg w-96 m-auto block bg-white shadow-3xl shadow-black py-5 h-auto">
     <h3 class="text-2xl font-semibold mb-2">Formulario de Registro</h3>
     <p class="mb-5 text-lg font-medium">¿Ya tienes una cuenta?
       <a class="underline text-blue-700" [routerLink]="['/login']">Inicia sesión</a>
@@ -36,7 +34,8 @@
       </div>
     </div>
     <label>
-      <input formControlName="password" id="password" class="w-3/4 mb-4 p-2 border border-gray-500 rounded" type="password"
+      <input formControlName="password" id="password" class="w-3/4 mb-4 p-2 border border-gray-500 rounded"
+             type="password"
              placeholder="Contraseña"
              required>
     </label>
@@ -52,7 +51,8 @@
       </div>
     </div>
     <label>
-      <input formControlName="confirmPassword" id="confirmPassword" class="w-3/4 mb-4 p-2 border border-gray-500 rounded" type="password"
+      <input formControlName="confirmPassword" id="confirmPassword"
+             class="w-3/4 mb-4 p-2 border border-gray-500 rounded" type="password"
              placeholder="Confirmar contraseña" required>
       <div *ngIf="confirmPassword?.errors && ( confirmPassword?.dirty || confirmPassword?.touched)"
            class="text-xs text-red-600">
@@ -68,7 +68,7 @@
       <input class="w-1/3 p-1.5 bg-gray-400 rounded mb-4 mt-2" type="submit" value="Registrarse">
     </label>
     <p class="mb-4 text-lg font-medium"><a>o conéctate con</a></p>
-    <div class="login-icons">
+    <div class="login-icons flex justify-center gap-2">
       <a href="#"><i class="fa-brands fa-square-facebook text-blue-800"></i></a>
       <a href="#"><i class="fa-brands fa-google"></i></a>
     </div>
