@@ -1,6 +1,6 @@
 // src/app/templates/catalogue/catalogue.component.ts
-import { Component, OnInit, Output, EventEmitter } from '@angular/core';
-import { HttpClient } from '@angular/common/http';
+import {Component, OnInit, Output, EventEmitter} from '@angular/core';
+import {HttpClient} from '@angular/common/http';
 
 @Component({
   selector: 'app-catalogue',
@@ -11,7 +11,8 @@ export class CatalogueComponent implements OnInit {
   displayData: any[] = [];
   @Output() categorySelected = new EventEmitter<number>();
 
-  constructor(private http: HttpClient) { }
+  constructor(private http: HttpClient) {
+  }
 
   ngOnInit(): void {
     this.loadDynamicContent();
@@ -20,7 +21,7 @@ export class CatalogueComponent implements OnInit {
   loadDynamicContent(): void {
     this.http.get<any[]>('/assets/data/catalogue.json').subscribe(data => {
       this.catalogueData = data;
-      this.displayData = this.catalogueData.slice(0, 6);
+      this.displayData = this.catalogueData;
     });
   }
 

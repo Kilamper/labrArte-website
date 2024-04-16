@@ -1,31 +1,18 @@
 // src/app/templates/category/category.component.ts
-import { Component, OnInit, Input } from '@angular/core';
-import { HttpClient } from '@angular/common/http';
-
-interface Product {
-  id: number;
-  name: string;
-  image: string;
-  price: number;
-  description: string;
-}
-
-interface Category {
-  categoryId: number;
-  categoryName: string;
-  productsList: Product[];
-}
+import {Component, OnInit, Input} from '@angular/core';
+import {ActivatedRoute, Router} from '@angular/router';
+import {HttpClient} from '@angular/common/http';
 
 @Component({
   selector: 'app-category',
   templateUrl: './category.component.html',
 })
 export class CategoryComponent implements OnInit {
-  category?: Category;
   displayData: any[] = [];
+  title: string = 'Category';
   @Input() categoryId: number = 0;
 
-  constructor(private http: HttpClient) {
+  constructor(private http: HttpClient, private route: ActivatedRoute, private router: Router) {
   }
 
   ngOnInit(): void {
@@ -33,9 +20,15 @@ export class CategoryComponent implements OnInit {
   }
 
   loadDynamicContent(): void {
-    this.http.get<Category[]>('../data/catalogue.json').subscribe(data => {
-      this.category = data.find(category => category.categoryId === this.categoryId);
+    const id = this.route.snapshot.paramMap.get('id');
+    this.http.get<any[]>('/assets/data/catalogue.json').subscribe(data => {
+      const foundCategory = data.find(category => category.categoryId === Number(id));
+      this.title = foundCategory.categoryName;
+      if (foundCategory) {
+        this.displayData = foundCategory.productsList;
+      } else {
+        this.router.navigate(['/not-found']);
+      }
     });
-    this.displayData = this.category?.productsList.slice(0, 6) || [];
   }
 }
