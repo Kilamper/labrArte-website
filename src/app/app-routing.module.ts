@@ -9,6 +9,7 @@ import {SignupComponent} from "./forms/signup/signup.component";
 import {NotfoundComponent} from "./errors/notfound/notfound.component";
 import {UserProfileComponent} from "./templates/user-profile/user-profile.component";
 import {CategoryComponent} from "./templates/category/category.component";
+import {ProductComponent} from "./templates/product/product.component";
 
 const routes: Routes = [
   {path: '', component: HomeComponent},
@@ -19,6 +20,7 @@ const routes: Routes = [
   {path: 'signup', component: SignupComponent},
   {path: 'profile', component: UserProfileComponent},
   {path: 'category/:id', component: CategoryComponent},
+  {path: 'product/:id', component: ProductComponent},
   {path: '**', component: NotfoundComponent}
 ];
 

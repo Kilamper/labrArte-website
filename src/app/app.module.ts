@@ -1,4 +1,3 @@
-;
 import {NotfoundComponent} from './errors/notfound/notfound.component'
 import {NgModule} from '@angular/core';
 import {BrowserModule} from '@angular/platform-browser';
@@ -25,8 +24,9 @@ import {SocialNetworkComponent} from './components/social-network/social-network
 import {LogoComponent} from './components/logo/logo.component';
 import {UserProfileComponent} from './templates/user-profile/user-profile.component';
 import {CategoryCartComponent} from './components/category-cart/category-cart.component';
-import { CategoryComponent } from './templates/category/category.component';
-import { ProductCartComponent } from './components/product-cart/product-cart.component';
+import {CategoryComponent} from './templates/category/category.component';
+import {ProductCartComponent} from './components/product-cart/product-cart.component';
+import {ProductComponent} from './templates/product/product.component';
 
 @NgModule({
   declarations: [
@@ -47,6 +47,7 @@ import { ProductCartComponent } from './components/product-cart/product-cart.com
     CategoryCartComponent,
     CategoryComponent,
     ProductCartComponent,
+    ProductComponent,
   ],
   imports: [
     BrowserModule,

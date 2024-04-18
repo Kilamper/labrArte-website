@@ -23,11 +23,11 @@ export class CategoryComponent implements OnInit {
     const id = this.route.snapshot.paramMap.get('id');
     this.http.get<any[]>('/assets/data/catalogue.json').subscribe(data => {
       const foundCategory = data.find(category => category.categoryId === Number(id));
-      this.title = foundCategory.categoryName;
       if (foundCategory) {
+        this.title = foundCategory.categoryName;
         this.displayData = foundCategory.productsList;
       } else {
-        this.router.navigate(['/not-found']);
+        this.router.navigate(['/not-found']).then(r => r);
       }
     });
   }

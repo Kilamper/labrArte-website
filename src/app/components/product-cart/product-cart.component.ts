@@ -3,7 +3,7 @@ import {Component, Input, Output} from '@angular/core';
 @Component({
   selector: 'app-product-cart',
   template: `
-    <a href="#" class="text-center">
+    <a [routerLink]="['/product', productId]" class="text-center">
       <img class="rounded-xl w-80 border-b border-gray-400" [src]="productImage" [alt]="productName">
       <p class="text-xl font-semibold">{{ productName }}</p>
       <p class="text-xl font-semibold">{{ productPrice }}</p>
