@@ -31,6 +31,7 @@ import {ToastrModule} from "ngx-toastr";
 import {AngularFireModule} from "@angular/fire/compat";
 import {BrowserAnimationsModule} from "@angular/platform-browser/animations";
 import {provideAnimationsAsync} from "@angular/platform-browser/animations/async";
+import {ButtonComponent} from './components/button/button.component';
 
 @NgModule({
   declarations: [
@@ -52,6 +53,8 @@ import {provideAnimationsAsync} from "@angular/platform-browser/animations/async
     CategoryComponent,
     ProductCartComponent,
     ProductComponent,
+    ButtonComponent,
+
   ],
   imports: [
     BrowserModule,
