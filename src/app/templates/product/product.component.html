@@ -9,4 +9,7 @@
     <div id="product-buttons" class="w-1/2 flex text-right gap-10 mt-4"></div>
   </div>
 </div>
-<div id="return-button" class="my-10"></div>
+<div class="my-8 text-center">
+  <app-button class="text-xl" [url]="'/category/' + categoryId" [content]="'Volver'"
+              [icon]="'fa-solid fa-reply'"></app-button>
+</div>

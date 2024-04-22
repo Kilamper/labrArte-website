@@ -9,32 +9,16 @@
     <ul
       class="flex flex-col font-medium p-4 lg:p-0 mt-4 border border-gray-100 rounded-lg lg:space-x-8 rtl:space-x-reverse lg:flex-row lg:mt-0 lg:border-0">
       <li>
-        <a [routerLink]="['']"
-           class="block py-2 px-3 text-gray-700 lg:hover:bg-transparent lg:border-0 lg:hover:text-navy lg:p-0 hover:text-black menu-links">
-          <i class="fa-solid fa-house"></i>
-          <span class="pl-2.5">Inicio</span>
-        </a>
+        <app-button [url]="'/'" [content]="'Inicio'" [icon]="'fa-solid fa-house'"></app-button>
       </li>
       <li>
-        <a [routerLink]="['/catalogue']"
-           class="block py-2 px-3 text-gray-700 lg:hover:bg-transparent lg:border-0 lg:hover:text-navy lg:p-0 hover:text-black menu-links">
-          <i class="fa-solid fa-list"></i>
-          <span class="pl-2.5">Catálogo</span>
-        </a>
+        <app-button [url]="'/catalogue'" [content]="'Catálogo'" [icon]="'fa-solid fa-list'"></app-button>
       </li>
       <li>
-        <a [routerLink]="['/blog']"
-           class="block py-2 px-3 text-gray-700 lg:hover:bg-transparent lg:border-0 lg:hover:text-navy lg:p-0 hover:text-black menu-links">
-          <i class="fa-solid fa-book"></i>
-          <span class="pl-2.5">Blog</span>
-        </a>
+        <app-button [url]="'/blog'" [content]="'Blog'" [icon]="'fa-solid fa-book'"></app-button>
       </li>
       <li>
-        <a [routerLink]="['/courses']"
-           class="block py-2 px-3 text-gray-700 lg:hover:bg-transparent lg:border-0 lg:hover:text-navy lg:p-0 hover:text-black menu-links">
-          <i class="fa-solid fa-graduation-cap"></i>
-          <span class="pl-2.5">Cursos</span>
-        </a>
+        <app-button [url]="'/courses'" [content]="'Cursos'" [icon]="'fa-solid fa-graduation-cap'"></app-button>
       </li>
       <li>
         <a
@@ -43,10 +27,7 @@
         </a>
       </li>
       <li>
-        <a [routerLink]="['/login']"
-           class="block py-2 px-3 text-gray-700 lg:hover:bg-transparent lg:border-0 lg:hover:text-navy lg:p-0 hover:text-black menu-links">
-          <i class="fa-solid fa-user pl-5"></i>
-        </a>
+        <app-button [url]="'/login'" [icon]="'fa-solid fa-user'"></app-button>
       </li>
     </ul>
   </div>
