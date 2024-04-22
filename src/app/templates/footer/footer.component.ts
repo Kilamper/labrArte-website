@@ -1,15 +1,11 @@
 import {Component} from '@angular/core';
+import {ScrollService} from '../../services/scroll/scroll.service';
 
 @Component({
   selector: 'app-footer',
   templateUrl: './footer.component.html',
 })
 export class FooterComponent {
-  scrollToTop() {
-    window.scrollTo({
-      top: 0,
-      left: 0,
-      behavior: 'smooth'
-    });
+  constructor(public scrollService: ScrollService) {
   }
 }
