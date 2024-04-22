@@ -27,6 +27,10 @@ import {CategoryCartComponent} from './components/category-cart/category-cart.co
 import {CategoryComponent} from './templates/category/category.component';
 import {ProductCartComponent} from './components/product-cart/product-cart.component';
 import {ProductComponent} from './templates/product/product.component';
+import {ToastrModule} from "ngx-toastr";
+import {AngularFireModule} from "@angular/fire/compat";
+import {BrowserAnimationsModule} from "@angular/platform-browser/animations";
+import {provideAnimationsAsync} from "@angular/platform-browser/animations/async";
 
 @NgModule({
   declarations: [
@@ -54,14 +58,19 @@ import {ProductComponent} from './templates/product/product.component';
     AppRoutingModule,
     NgOptimizedImage,
     HttpClientModule,
+    BrowserAnimationsModule,
     RouterModule,
+    AngularFireModule.initializeApp(environment.firebase),
     provideFirebaseApp(() => initializeApp(environment.firebase)),
     provideAuth(() => getAuth()),
     provideFirestore(() => getFirestore()),
     ReactiveFormsModule,
-    FormsModule
+    FormsModule,
+    ToastrModule.forRoot(),
   ],
-  providers: [],
+  providers: [
+    provideAnimationsAsync()
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule {

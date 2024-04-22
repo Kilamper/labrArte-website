@@ -1,5 +1,9 @@
 import {Component, OnInit} from '@angular/core';
 import {AbstractControl, FormControl, FormGroup, ValidationErrors, ValidatorFn, Validators} from "@angular/forms";
+import {UserService} from "../../services/user.service";
+import {User} from "../../interfaces/user.interface";
+import {ToastrService} from "ngx-toastr";
+import {Router} from "@angular/router";
 
 @Component({
   selector: 'app-signup',
@@ -7,7 +11,12 @@ import {AbstractControl, FormControl, FormGroup, ValidationErrors, ValidatorFn, 
 })
 export class SignupComponent implements OnInit{
   registerForm!: FormGroup;
+  userData!: User;
+  backendErrorMessageRegister: string | null = null;
 
+  constructor(private toastr:ToastrService, private userService: UserService, private router: Router) {
+
+  }
   ngOnInit(): void {
     this.registerForm = new FormGroup({
       name: new FormControl('',[Validators.required,Validators.pattern('^[a-zA-Z ]*$')]),
@@ -26,7 +35,15 @@ export class SignupComponent implements OnInit{
       this.registerForm.markAllAsTouched()
       alert("Rellena todos los campos correctamente");
       return;
-    } else { console.log(this.registerForm.value); }
+    } else {
+      this.userData = this.registerForm.value
+      this.userService.register(this.userData).then(() => {
+        this.toastr.success('Usuario registrado con éxito', '¡Bienvenido a labrArte!');
+        this.router.navigate(['/login'])
+      }).catch((error) => {
+        this.backendErrorMessageRegister = error.message;
+      },);
+    }
   }
 
   confirmPasswordValidator(controlName: string): ValidatorFn {
