@@ -1,8 +1,7 @@
-/* You can add global styles to this file, and also import other style files */
+@import '../node_modules/ngx-toastr/toastr.css'; /* You can add global styles to this file, and also import other style files */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
 * {
   font-family: "Inter", serif;
 }
@@ -55,4 +54,9 @@ input.invalid {
 
 input.valid {
   border: 2px solid green;
+}
+
+.error-message{
+  color: #ff0000;
+  font-size: 11px !important;
 }
