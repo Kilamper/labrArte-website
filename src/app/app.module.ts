@@ -27,7 +27,6 @@ import {CategoryCartComponent} from './components/category-cart/category-cart.co
 import {CategoryComponent} from './templates/category/category.component';
 import {ProductCartComponent} from './components/product-cart/product-cart.component';
 import {ProductComponent} from './templates/product/product.component';
-import { ButtonComponent } from './components/button/button.component';
 
 @NgModule({
   declarations: [
@@ -49,7 +48,6 @@ import { ButtonComponent } from './components/button/button.component';
     CategoryComponent,
     ProductCartComponent,
     ProductComponent,
-    ButtonComponent,
   ],
   imports: [
     BrowserModule,
