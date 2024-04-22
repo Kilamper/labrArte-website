@@ -1,19 +1,19 @@
 <footer class="flex-col footer justify-center mx-auto text-center">
   <section
     class="max-w-screen-2xl font-inter w-full h-auto pt-12 flex flex-wrap text-center lg:text-left justify-around mx-auto items-center">
-    <app-logo class="ml-16"></app-logo>
-    <menu class="flex w-3/4 justify-center">
+    <app-logo class="ml-16 mb-8"></app-logo>
+    <menu class="flex w-full lg:w-3/4 justify-center">
       <nav class="px-5 w-1/4">
         <h4 class="text-xl mb-4 font-bold border-black border-b-2 pb-2.5 inline-block">Índice</h4>
         <ul class="list-none text-lg no-underline text-gray-800 gap-3">
           <li><a class="text-lg transition-all hover:text-black menu-links"
-                 [routerLink]="['/catalogue']" (click)="scrollToTop()">Catálogo</a></li>
+                 (click)="scrollService.scrollToTop()" [routerLink]="['/catalogue']">Catálogo</a></li>
           <li><a class="text-lg transition-all hover:text-black menu-links"
-                 [routerLink]="['/blog']" (click)="scrollToTop()">Blog</a></li>
+                 (click)="scrollService.scrollToTop()" [routerLink]="['/blog']">Blog</a></li>
           <li><a class="text-lg transition-all hover:text-black menu-links"
-                 href="#" (click)="scrollToTop()">Galería</a></li>
+                 (click)="scrollService.scrollToTop()" [routerLink]="['/']">Galería</a></li>
           <li><a class="text-lg transition-all hover:text-black menu-links"
-                 [routerLink]="['/courses']" (click)="scrollToTop()">Cursos</a></li>
+                 (click)="scrollService.scrollToTop()" [routerLink]="['/courses']">Cursos</a></li>
         </ul>
       </nav>
       <nav class="px-5 w-1/4">
