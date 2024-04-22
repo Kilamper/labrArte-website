@@ -1,5 +1,5 @@
 <section class="w-full flex flex-col justify-center items-center self-center">
-  <h2 class="w-4/5 mx-auto text-4xl font-bold mt-16 self-center">Catálogo</h2>
+  <h2 class="max-w-screen-xl w-4/5 mx-auto text-4xl font-bold mt-16 self-center">Catálogo</h2>
   <article class="flex margin: 0; w-11/12 max-w-7xl flex-wrap gap-24 justify-center py-16">
     <div *ngFor="let category of displayData" class="rounded-xl border border-gray-400">
       <app-category-cart [categoryId]="category.categoryId" [categoryName]="category.categoryName"
