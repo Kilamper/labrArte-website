@@ -1,6 +1,6 @@
 // src/app/templates/catalogue/catalogue.component.ts
 import {Component, OnInit, Output, EventEmitter} from '@angular/core';
-import {HttpClient} from '@angular/common/http';
+import {AngularFirestore} from '@angular/fire/compat/firestore';
 
 @Component({
   selector: 'app-catalogue',
@@ -11,7 +11,7 @@ export class CatalogueComponent implements OnInit {
   displayData: any[] = [];
   @Output() categorySelected = new EventEmitter<number>();
 
-  constructor(private http: HttpClient) {
+  constructor(private firestore: AngularFirestore) {
   }
 
   ngOnInit(): void {
@@ -19,7 +19,7 @@ export class CatalogueComponent implements OnInit {
   }
 
   loadDynamicContent(): void {
-    this.http.get<any[]>('/assets/data/catalogue.json').subscribe(data => {
+    this.firestore.collection<any>('catalogue').valueChanges().subscribe((data: any) => {
       this.catalogueData = data;
       this.displayData = this.catalogueData;
     });

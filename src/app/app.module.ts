@@ -54,6 +54,7 @@ import {ButtonComponent} from './components/button/button.component';
     ProductCartComponent,
     ProductComponent,
     ButtonComponent,
+    SliderComponent,
 
   ],
   imports: [
