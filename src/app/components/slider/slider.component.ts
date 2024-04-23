@@ -1,12 +1,13 @@
-import { Component } from '@angular/core';
+import {Component, OnInit} from '@angular/core';
 
 @Component({
   selector: 'app-slider',
   templateUrl: './slider.component.html',
   styleUrl: './slider.component.css'
 })
-export class SliderComponent {
-  constructor() {}
+export class SliderComponent implements OnInit {
+  constructor() {
+  }
 
   ngOnInit(): void {
     const btnLeft = document.querySelector(".btn-left") as HTMLElement,
