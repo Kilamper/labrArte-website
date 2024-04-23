@@ -7,11 +7,11 @@
         <h4 class="text-xl mb-4 font-bold border-black border-b-2 pb-2.5 inline-block">Índice</h4>
         <ul class="list-none text-lg no-underline text-gray-800 gap-3">
           <li><a class="text-lg transition-all hover:text-black menu-links"
+                 (click)="scrollService.scrollToTop()" [routerLink]="['/']">Inicio</a></li>
+          <li><a class="text-lg transition-all hover:text-black menu-links"
                  (click)="scrollService.scrollToTop()" [routerLink]="['/catalogue']">Catálogo</a></li>
           <li><a class="text-lg transition-all hover:text-black menu-links"
                  (click)="scrollService.scrollToTop()" [routerLink]="['/blog']">Blog</a></li>
-          <li><a class="text-lg transition-all hover:text-black menu-links"
-                 (click)="scrollService.scrollToTop()" [routerLink]="['/']">Galería</a></li>
           <li><a class="text-lg transition-all hover:text-black menu-links"
                  (click)="scrollService.scrollToTop()" [routerLink]="['/courses']">Cursos</a></li>
         </ul>
