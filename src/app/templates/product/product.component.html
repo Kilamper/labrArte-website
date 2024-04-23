@@ -6,7 +6,10 @@
     <p class="text-xl text-left font-medium">
       {{ productDescription }}
     </p>
-    <div id="product-buttons" class="w-1/2 flex text-right gap-10 mt-4"></div>
+    <div class="w-2/3 flex text-right gap-10 mt-8 text-lg">
+      <app-button [content]="'Añadir al carrito'" [icon]="'fa-solid fa-cart-plus'"></app-button>
+      <app-button [content]="'Contactar'" [icon]="'fa-solid fa-message'"></app-button>
+    </div>
   </div>
 </div>
 <div class="my-8 text-center">
