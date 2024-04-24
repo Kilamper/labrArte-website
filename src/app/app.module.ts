@@ -6,7 +6,6 @@ import {AppRoutingModule} from './app-routing.module';
 import {AppComponent} from './app.component';
 import {HeaderComponent} from './templates/header/header.component';
 import {FooterComponent} from './templates/footer/footer.component';
-import {NgForOf, NgOptimizedImage} from "@angular/common";
 import {HomeComponent} from './templates/home/home.component';
 import {SliderComponent} from './components/slider/slider.component';
 import {CatalogueComponent} from './templates/catalogue/catalogue.component';
@@ -32,6 +31,7 @@ import {AngularFireModule} from "@angular/fire/compat";
 import {BrowserAnimationsModule} from "@angular/platform-browser/animations";
 import {provideAnimationsAsync} from "@angular/platform-browser/animations/async";
 import {ButtonComponent} from './components/button/button.component';
+import {NgOptimizedImage} from "@angular/common";
 
 @NgModule({
   declarations: [
@@ -55,13 +55,12 @@ import {ButtonComponent} from './components/button/button.component';
     ProductComponent,
     ButtonComponent,
     SliderComponent,
-
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    NgOptimizedImage,
     HttpClientModule,
+    NgOptimizedImage,
     BrowserAnimationsModule,
     RouterModule,
     AngularFireModule.initializeApp(environment.firebase),
@@ -71,10 +70,6 @@ import {ButtonComponent} from './components/button/button.component';
     ReactiveFormsModule,
     FormsModule,
     ToastrModule.forRoot(),
-    NgForOf,
-    NgOptimizedImage,
-    NgOptimizedImage,
-    NgForOf,
   ],
   providers: [
     provideAnimationsAsync()
