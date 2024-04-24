@@ -9,8 +9,6 @@ export class LoadService {
   }
 
   loadContent(url: string): any {
-    this.firestore.collection<any[]>('catalogue').valueChanges().subscribe((data: any) => {
-      return data;
-    });
+    return this.firestore.collection<any[]>(url).valueChanges();
   }
 }

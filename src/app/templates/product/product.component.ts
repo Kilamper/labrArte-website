@@ -1,6 +1,6 @@
 import {Component, OnInit} from '@angular/core';
-import {AngularFirestore} from "@angular/fire/compat/firestore";
 import {ActivatedRoute, Router} from '@angular/router';
+import {LoadService} from "../../services/load/load.service";
 
 @Component({
   selector: 'app-product',
@@ -16,7 +16,7 @@ export class ProductComponent implements OnInit {
     '      id suspendisse id pellentesque ac. Mattis dignissim aenean\n' +
     '      senectus volutpat donec duis tellus lorem.';
 
-  constructor(private firestore: AngularFirestore, private route: ActivatedRoute, private router: Router) {
+  constructor(private loadService: LoadService, private route: ActivatedRoute, private router: Router) {
   }
 
   ngOnInit(): void {
@@ -26,7 +26,7 @@ export class ProductComponent implements OnInit {
   loadDynamicContent(): void {
     const id = Number(this.route.snapshot.paramMap.get('id'));
     this.categoryId = Math.floor(id / 1000);
-    this.firestore.collection<any[]>('catalogue').valueChanges().subscribe((data: any) => {
+    this.loadService.loadContent('/catalogue').subscribe((data: any) => {
       const foundCategory = data.find((category: any) => category.categoryId === this.categoryId);
       if (foundCategory) {
         const foundProduct = foundCategory.productsList.find((product: any) => product.id === id);
