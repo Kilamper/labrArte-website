@@ -6,7 +6,7 @@ import {AppRoutingModule} from './app-routing.module';
 import {AppComponent} from './app.component';
 import {HeaderComponent} from './templates/header/header.component';
 import {FooterComponent} from './templates/footer/footer.component';
-import {NgOptimizedImage} from "@angular/common";
+import {NgForOf, NgOptimizedImage} from "@angular/common";
 import {HomeComponent} from './templates/home/home.component';
 import {SliderComponent} from './components/slider/slider.component';
 import {CatalogueComponent} from './templates/catalogue/catalogue.component';
@@ -71,6 +71,10 @@ import {ButtonComponent} from './components/button/button.component';
     ReactiveFormsModule,
     FormsModule,
     ToastrModule.forRoot(),
+    NgForOf,
+    NgOptimizedImage,
+    NgOptimizedImage,
+    NgForOf,
   ],
   providers: [
     provideAnimationsAsync()

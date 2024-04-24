@@ -10,7 +10,7 @@ export class ProductComponent implements OnInit {
   categoryId: number = 0;
   productName: string = 'Product';
   productImage: string = 'https://th.bing.com/th/id/R.7493e5654057ed64161c7579703d56b4?rik=zhz13r4b96lqZA&pid=ImgRaw&r=0';
-  productPrice: string = '0€';
+  productPrice: number = 0;
   productDescription: string = 'Lorem ipsum dolor sit amet consectetur. Viverra id tortor lorem\n' +
     '      aliquam eget id quis. Imperdiet non purus orci senectus. Tortor\n' +
     '      id suspendisse id pellentesque ac. Mattis dignissim aenean\n' +

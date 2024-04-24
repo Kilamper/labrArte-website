@@ -7,7 +7,6 @@ import {AngularFirestore} from '@angular/fire/compat/firestore';
   templateUrl: './catalogue.component.html',
 })
 export class CatalogueComponent implements OnInit {
-  catalogueData: any[] = [];
   displayData: any[] = [];
   @Output() categorySelected = new EventEmitter<number>();
 
@@ -20,8 +19,7 @@ export class CatalogueComponent implements OnInit {
 
   loadDynamicContent(): void {
     this.firestore.collection<any>('catalogue').valueChanges().subscribe((data: any) => {
-      this.catalogueData = data;
-      this.displayData = this.catalogueData;
+      this.displayData = data;
     });
   }
 

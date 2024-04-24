@@ -1,15 +1,7 @@
 <section class="container-carousel">
   <div class="carruseles" id="slider">
-    <section class="slider-section">
-      <a href="https://www.youtube.com/labrarte" target="_blank"><img src="../../../assets/slides/image1.png"
-                                                                      alt="image"></a>
-    </section>
-    <section class="slider-section">
-      <a href="https://www.youtube.com/playlist?list=PL_RPb8eyRiDI8Rg2JXg20H9YA09BJRmHo" target="_blank"><img
-        src="../../../assets/slides/image2.png" alt="image"></a>
-    </section>
-    <section class="slider-section">
-      <a [routerLink]="['/catalogue']"><img src="../../../assets/slides/image3.png" alt="image"></a>
+    <section *ngFor="let slide of displayData" class="slider-section">
+      <a href="{{slide.link}}"><img src="{{slide.image}}" alt="image"></a>
     </section>
   </div>
   <div class="btn-left"><i class='fa fa-chevron-left'></i></div>

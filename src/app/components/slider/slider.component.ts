@@ -1,4 +1,5 @@
 import {Component, OnInit} from '@angular/core';
+import {AngularFirestore} from "@angular/fire/compat/firestore";
 
 @Component({
   selector: 'app-slider',
@@ -6,10 +7,27 @@ import {Component, OnInit} from '@angular/core';
   styleUrl: './slider.component.css'
 })
 export class SliderComponent implements OnInit {
-  constructor() {
+  displayData: any[] = [];
+
+  constructor(private firestore: AngularFirestore) {
   }
 
   ngOnInit(): void {
+    this.loadDynamicContent();
+  }
+
+  loadDynamicContent(): void {
+    this.firestore.collection<any[]>('slider').valueChanges().subscribe((data: any) => {
+      this.displayData = data;
+
+      // Wait for the data to be loaded and the view to be updated
+      setTimeout(() => {
+        this.initializeSlider();
+      }, 0);
+    });
+  }
+
+  initializeSlider(): void {
     const btnLeft = document.querySelector(".btn-left") as HTMLElement,
       btnRight = document.querySelector(".btn-right") as HTMLElement,
       slider = document.querySelector("#slider") as HTMLElement,
