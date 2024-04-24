@@ -1,23 +1,29 @@
 import {Component, OnInit} from '@angular/core';
-import {AngularFirestore} from "@angular/fire/compat/firestore";
+import {LoadService} from "../../services/load/load.service";
 
 @Component({
   selector: 'app-slider',
   templateUrl: './slider.component.html',
-  styleUrl: './slider.component.css'
+  styles: [`
+    .carruseles {
+      width: 300%;
+    }
+
+    .slider-section {
+      width: calc(100% / 3);
+    }
+  `]
 })
 export class SliderComponent implements OnInit {
   displayData: any[] = [];
+  numberOfSlides: number = 0;
 
-  constructor(private firestore: AngularFirestore) {
+  constructor(private loadService: LoadService) {
   }
 
   ngOnInit(): void {
-    this.loadDynamicContent();
-  }
-
-  loadDynamicContent(): void {
-    this.firestore.collection<any[]>('slider').valueChanges().subscribe((data: any) => {
+    this.loadService.loadContent('/slider').subscribe((data: any) => {
+      this.numberOfSlides = data.length;
       this.displayData = data;
 
       // Wait for the data to be loaded and the view to be updated

@@ -1,9 +1,16 @@
-<section class="container-carousel">
-  <div class="carruseles" id="slider">
-    <section *ngFor="let slide of displayData" class="slider-section">
-      <a href="{{slide.link}}"><img src="{{slide.image}}" alt="image"></a>
+<section class="container-carousel relative w-full h-auto rounded-2xl shadow-2xl overflow-hidden">
+  <div class="carruseles h-full flex" id="slider">
+    <section *ngFor="let slide of displayData" class="slider-section h-full">
+      <a href="{{slide.link}}" target="_blank"><img src="{{slide.image}}" alt="image"
+                                                    class="w-full h-full object-cover rounded-2xl"></a>
     </section>
   </div>
-  <div class="btn-left"><i class='fa fa-chevron-left'></i></div>
-  <div class="btn-right"><i class='fa fa-chevron-right'></i></div>
+  <div
+    class="btn-left text-gray-100 flex absolute top-1/2 text-2xl bg-transparent rounded-3xl font-semibold p-1.5 cursor-pointer left-2.5 hover:bg-gray-700 hover:text-white transition-all duration-500 ease-in-out">
+    <i
+      class='fa fa-chevron-left'></i>
+  </div>
+  <div
+    class="btn-right text-gray-100 flex absolute top-1/2 text-2xl bg-transparent rounded-3xl font-semibold p-1.5 cursor-pointer right-2.5 hover:bg-gray-700 hover:text-white transition-all duration-500 ease-in-out">
+    <i class='fa fa-chevron-right'></i></div>
 </section>
