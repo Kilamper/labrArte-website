@@ -26,6 +26,9 @@
     </div>
     <p class="mb-4"><a class="underline text-blue-700 text-lg font-medium" href="#">¿Olvidaste tu contraseña?</a>
     </p>
+    <div *ngIf="backendErrorMessageRegister" class="error-message">
+      {{backendErrorMessageRegister}}
+    </div>
     <label>
       <input class="w-1/3 p-1.5 bg-gray-400 rounded mb-4" type="submit" value="Iniciar sesión">
     </label>

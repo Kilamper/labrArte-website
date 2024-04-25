@@ -21,6 +21,7 @@ const routes: Routes = [
   {path: 'profile', component: UserProfileComponent},
   {path: 'category/:id', component: CategoryComponent},
   {path: 'product/:id', component: ProductComponent},
+  {path: 'profile', component: UserProfileComponent},
   {path: '**', component: NotfoundComponent}
 ];
 
