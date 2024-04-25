@@ -20,10 +20,6 @@ export class ProductComponent implements OnInit {
   }
 
   ngOnInit(): void {
-    this.loadDynamicContent();
-  }
-
-  loadDynamicContent(): void {
     const id = Number(this.route.snapshot.paramMap.get('id'));
     this.categoryId = Math.floor(id / 1000);
     this.loadService.loadContent('/catalogue').subscribe((data: any) => {
