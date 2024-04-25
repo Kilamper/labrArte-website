@@ -8,42 +8,42 @@
         "id": 1001,
         "name": "Número Tallado en Fondo Picado",
         "price": 40.00,
-        "image": "https://i0.wp.com/www.labrarte.com/wp-content/uploads/2020/05/Numero-tallado-en-piedra.jpg?fit=600%2C601&ssl=1",
+        "image": "https://firebasestorage.googleapis.com/v0/b/labrarte.appspot.com/o/categories%2Fnumeros%2FNumero-tallado-en-piedra.webp?alt=media&token=7a0a40c5-ce04-47b6-b5df-586c5c8ae005",
         "description": "Número tallado a mano en piedra de Arucas, con fondo picado a puntero, con faja en el borde y curvas en las esquinas. Medidas: 20x20x3cm."
       },
       {
         "id": 1002,
         "name": "Letras Sueltas",
         "price": 10.00,
-        "image": "https://i0.wp.com/www.labrarte.com/wp-content/uploads/2021/12/IMG_20211209_215930.png?w=426&ssl=1",
+        "image": "https://firebasestorage.googleapis.com/v0/b/labrarte.appspot.com/o/categories%2Fnumeros%2FLetras-sueltas-en-piedra.webp?alt=media&token=eca01606-6255-4351-8027-683fed30954f",
         "description": "Letras sueltas realizadas en piedra de Arucas. Medidas: 10x6x1cm."
       },
       {
         "id": 1003,
         "name": "Letras Sueltas de 30cm",
         "price": 25.00,
-        "image": "https://i0.wp.com/www.labrarte.com/wp-content/uploads/2021/04/letras-sueltas-.-de-30cm.c.jpg?fit=600%2C600&ssl=1",
+        "image": "https://firebasestorage.googleapis.com/v0/b/labrarte.appspot.com/o/categories%2Fnumeros%2Fletras-sueltas-de-30cm.webp?alt=media&token=a94a417f-e31d-44d7-8c48-d5197a0f2870",
         "description": "Letras sueltas realizadas en piedra natural de Arucas. Se pueden realizar en otras piedras naturales. Medidas: 30x25x3cm."
       },
       {
         "id": 1004,
         "name": "Números Dedo de Dios",
         "price": 50.00,
-        "image": "https://i0.wp.com/www.labrarte.com/wp-content/uploads/2021/04/numero-con-la-forma-del-dedo-de-dios.png?fit=600%2C600&ssl=1",
+        "image": "https://firebasestorage.googleapis.com/v0/b/labrarte.appspot.com/o/categories%2Fnumeros%2Fnumero-con-la-forma-del-dedo-de-dios.webp?alt=media&token=3968e45d-9b17-4ff9-88a1-56efb355969f",
         "description": "Número tallado en la silueta del famoso Dedo de Dios de Agaete, realizado a mano en piedra de Arucas."
       },
       {
         "id": 1005,
         "name": "Clave Fondo Picado",
         "price": 40.00,
-        "image": "https://i0.wp.com/www.labrarte.com/wp-content/uploads/2021/04/clave-fondo-picado-arucas.jpg?fit=600%2C600&ssl=1",
+        "image": "https://firebasestorage.googleapis.com/v0/b/labrarte.appspot.com/o/categories%2Fnumeros%2Fclave-fondo-picado-arucas.webp?alt=media&token=1f47de39-42b4-4571-b0d0-ac16f778b12f",
         "description": "Clave realizada en piedra de Arucas, con fondo picado a puntero y faja lisa."
       },
       {
         "id": 1006,
         "name": "Número Pegado en Fondo Liso",
         "price": 40.00,
-        "image": "https://i0.wp.com/www.labrarte.com/wp-content/uploads/2020/08/Numero-19-en-canteria.jpg?fit=816%2C805&ssl=1",
+        "image": "https://firebasestorage.googleapis.com/v0/b/labrarte.appspot.com/o/categories%2Fnumeros%2FNumero-19-en-canteria.webp?alt=media&token=eabf86a0-811b-4700-b917-1981030ad086",
         "description": "Número pegado en piedra natural de Arucas con el fondo liso. Número pegado en cantería de Arucas. Sin marco, solo el número esta en alto relieve, con esto logramos que el número resalte aún más. Medidas: 20x20x3cm."
       }
     ]
@@ -57,42 +57,42 @@
         "id": 2001,
         "name": "Buzón de Cartas en Piedra",
         "price": 130.00,
-        "image": "https://i0.wp.com/www.labrarte.com/wp-content/uploads/2021/01/Buzon-de-cartas.jpg?fit=600%2C600&ssl=1",
+        "image": "https://firebasestorage.googleapis.com/v0/b/labrarte.appspot.com/o/categories%2Fbuzones%2FBuzon-de-cartas.webp?alt=media&token=5e042442-5bec-45fa-aa80-d9729c220679",
         "description": "Buzón para cartas labrado a mano, en piedra de Arucas con el fondo picado a puntero. Con ranura y letras talladas en la misma piedra. Cuando nos realizan un encargo de un buzón para la cartas, siempre damos la opción de que el cliente elija un modelo ya existente o por lo contrario el diseño uno el cual nosotros realizaremos, tal cual el diseño dado. Medidas: 50x30x3cm"
       },
       {
         "id": 2002,
         "name": "Buzón de Cartas en bajo Relieve",
         "price": 100.00,
-        "image": "https://i0.wp.com/www.labrarte.com/wp-content/uploads/2022/07/Buzon-de-Cartas-en-bajo-relieve.png?w=500&ssl=1",
+        "image": "https://firebasestorage.googleapis.com/v0/b/labrarte.appspot.com/o/categories%2Fbuzones%2FBuzon-de-Cartas-en-bajo-relieve.webp?alt=media&token=e67abd39-bb59-41f3-b269-1d3f39801f1a",
         "description": "Buzón para cartas con letras tallados en bajo relieve, hecho en piedra de Arucas. Medidas 40x30x2cm."
       },
       {
         "id": 2003,
         "name": "Buzón con Puerta",
         "price": 240.00,
-        "image": "https://i0.wp.com/www.labrarte.com/wp-content/uploads/2014/04/1022-Buzon-con-Puerta.jpg?fit=800%2C594&ssl=1",
+        "image": "https://firebasestorage.googleapis.com/v0/b/labrarte.appspot.com/o/categories%2Fbuzones%2F1022-Buzon-con-Puerta.webp?alt=media&token=40e1cdfb-b58f-4b0d-864d-60eed0912a10",
         "description": "Buzón para cartas realizado en cantería de Arucas, tiene puerta con llave para poder acceder al correo. En este buzón de cartas pueden realizado a partir de una idea de un cliente, el cual quería que se lo realizáramos igual que uno de metal y le añadimos una figura al gusto del cliente. Por supuesto el cliente quedó encantado, no pensaba que pudiéramos realizarlo. Medidas: 33x28x14."
       },
       {
         "id": 2004,
         "name": "Buzón de Cartas con Volado",
         "price": 150.00,
-        "image": "https://i0.wp.com/www.labrarte.com/wp-content/uploads/2014/04/1032-Buzon-de-Cartas.jpg?fit=800%2C461&ssl=1",
+        "image": "https://firebasestorage.googleapis.com/v0/b/labrarte.appspot.com/o/categories%2Fbuzones%2F1032-Buzon-de-Cartas.webp?alt=media&token=89d7f8fa-05ca-471c-8dce-1b4923b287f4",
         "description": "Buzón de cartas tallado en piedra de Arucas, con ranura para cartas y sin letras, preparado para empotrar en pared. En este buzón aunque algo sencillo, se le realizó un pequeño volado imitando a las tejas de una casa. Medidas: 35x22x3cm."
       },
       {
         "id": 2005,
         "name": "Buzón de Cartas Tallado",
         "price": 230.00,
-        "image": "https://i0.wp.com/www.labrarte.com/wp-content/uploads/2020/08/buzon-tallado-en-canteria-1.jpg?fit=600%2C600&ssl=1",
+        "image": "https://firebasestorage.googleapis.com/v0/b/labrarte.appspot.com/o/categories%2Fbuzones%2Fbuzon-tallado-en-canteria-1.webp?alt=media&token=10222a24-498f-466f-8ac1-8b66420bbc82",
         "description": "Buzón de cartas tallado en piedra de Arucas, con ranura para cartas y con letras, preparado para empotrar en pared. En este buzón se le realizó un pequeño volado imitando a las tejas de una casa y un tallado decorativo. Medidas: 30x50x3cm."
       },
       {
         "id": 2006,
         "name": "Buzón con Puerta y Número",
         "price": 650.00,
-        "image": "https://i0.wp.com/www.labrarte.com/wp-content/uploads/2020/08/Buzon-para-cartas-y-paquetes-1.jpg?fit=600%2C600&ssl=1",
+        "image": "https://firebasestorage.googleapis.com/v0/b/labrarte.appspot.com/o/categories%2Fbuzones%2FBuzon-para-cartas-y-paquetes-1.webp?alt=media&token=f7ebc55f-8706-4f0e-88a2-ee0d36165188",
         "description": "Buzón para cartas realizado en cantería de Arucas, tiene puerta con llave para poder acceder al correo, por la parte trasera. En este buzón de cartas pueden realizado a partir de una idea de un cliente, el cual quería que se lo realizáramos igual que este o diseño propio. Medidas: 50x80x20 – aprox."
       }
     ]
@@ -106,42 +106,42 @@
         "id": 3001,
         "name": "Letrero en Alto Relieve",
         "price": 160.00,
-        "image": "https://i0.wp.com/www.labrarte.com/wp-content/uploads/2021/04/letrero-tallado-en-canteria.png?fit=600%2C600&ssl=1",
+        "image": "https://firebasestorage.googleapis.com/v0/b/labrarte.appspot.com/o/categories%2Fletreros%2Fletrero-tallado-en-canteria.webp?alt=media&token=47c368d4-b6da-436e-9295-4ce3b32b9e46",
         "description": "Letrero labrado con letras en alto relieve, realizado en cantería de Arucas. Medidas: 40x30x3."
       },
       {
         "id": 3002,
         "name": "Placa Tallada en Alto Relieve.",
         "price": 300.00,
-        "image": "https://i0.wp.com/www.labrarte.com/wp-content/uploads/2024/04/IMG_20230630_101856.jpg?fit=600%2C600&ssl=1",
+        "image": "https://firebasestorage.googleapis.com/v0/b/labrarte.appspot.com/o/categories%2Fletreros%2Fplaca%20tallada%20en%20alto%20relieve.webp?alt=media&token=7a6343ab-c5c8-4fea-ac00-2159600a618f",
         "description": "Letrero labrado con letras en alto relieve, realizado en piedra de Arucas. Medidas: 50x40x3."
       },
       {
         "id": 3003,
         "name": "Letrero en Bajo Relieve",
         "price": 340.00,
-        "image": "https://i0.wp.com/www.labrarte.com/wp-content/uploads/2021/04/letrero-en-piedra-con-grabados.png?fit=600%2C600&ssl=1",
+        "image": "https://firebasestorage.googleapis.com/v0/b/labrarte.appspot.com/o/categories%2Fletreros%2Fletrero-en-piedra-con-grabados.webp?alt=media&token=ed9c0e59-ba6e-4403-a360-4ff319f34087",
         "description": "Letrero en piedra natural de Arucas pulido y grabado en bajo relieve. Con borde pegado. Medidas: 70x50x2cm."
       },
       {
         "id": 3004,
         "name": "Letrero Tallado",
         "price": 140.00,
-        "image": "https://i0.wp.com/www.labrarte.com/wp-content/uploads/2020/01/1128-Letrero-Tallado.jpg?fit=600%2C600&ssl=1",
+        "image": "https://firebasestorage.googleapis.com/v0/b/labrarte.appspot.com/o/categories%2Fletreros%2Fletreros-tallados.webp?alt=media&token=09752d2a-40f0-4446-9bd2-be6ef3b4e6e3",
         "description": "Letrero labrado en piedra roja, tallado a mano en alto relieve. Medidas: 50x25x4cm."
       },
       {
         "id": 3005,
         "name": "Escudo labrArte",
         "price": 780.00,
-        "image": "https://i0.wp.com/www.labrarte.com/wp-content/uploads/2020/01/Escudo-de-la-empresa-labrarte.jpg?fit=600%2C600&ssl=1",
+        "image": "https://firebasestorage.googleapis.com/v0/b/labrarte.appspot.com/o/categories%2Fletreros%2FEscudo-de-la-empresa-labrarte.webp?alt=media&token=2c44c6be-eb16-4317-9ca4-a1d40588f7b9",
         "description": "Escudo labrado en piedra natural tallado a mano."
       },
       {
         "id": 3006,
         "name": "Letrero labrArte",
         "price": 230.00,
-        "image": "https://i0.wp.com/www.labrarte.com/wp-content/uploads/2024/04/letreros-tallados.jpg?fit=600%2C600&ssl=1",
+        "image": "https://firebasestorage.googleapis.com/v0/b/labrarte.appspot.com/o/categories%2Fletreros%2Fletreros-tallados.webp?alt=media&token=09752d2a-40f0-4446-9bd2-be6ef3b4e6e3",
         "description": "Letrero de nuestra empresa realizado con piedra de Arucas, con letras en alto y bajo relieve, bordes irregulares. Medidas: 60x30x5cm."
       }
     ]
@@ -155,42 +155,42 @@
         "id": 4001,
         "name": "Reloj de Pared",
         "price": 350.00,
-        "image": "https://i0.wp.com/www.labrarte.com/wp-content/uploads/2014/04/1187-Reloj-de-Pared.jpg?fit=800%2C808&ssl=1",
+        "image": "https://firebasestorage.googleapis.com/v0/b/labrarte.appspot.com/o/categories%2Frelojes%2F1187-Reloj-de-Pared.webp?alt=media&token=31f56994-a8e8-441c-b8e8-d035f71657c3",
         "description": "Reloj de péndulo labrado en piedra de Arucas, para colgar en pared, replica de un reloj antiguo envejecido. Medidas: 60x30x4cm."
       },
       {
         "id": 4002,
         "name": "Reloj de Sol",
         "price": 10.00,
-        "image": "https://i0.wp.com/www.labrarte.com/wp-content/uploads/2015/07/1260-Reloj-de-Sol.jpg?fit=800%2C711&ssl=1",
+        "image": "https://firebasestorage.googleapis.com/v0/b/labrarte.appspot.com/o/categories%2Frelojes%2F1260-Reloj-de-Sol.webp?alt=media&token=5c13eeb6-1d24-4a88-884e-edb927643119",
         "description": "Reloj de sol realizado en cantería de Arucas en bajo relieve, palo de madera incluido. El reloj de sol fue usado desde tiempos muy remotos para poder medir el paso del tiempo. Medidas: 60x40x2cm."
       },
       {
         "id": 4003,
         "name": "Reloj de G.C. Grabado",
         "price": 90.00,
-        "image": "https://i0.wp.com/www.labrarte.com/wp-content/uploads/2014/12/1203-Reloj-de-G.C.-grabado.jpg?fit=800%2C654&ssl=1",
+        "image": "https://firebasestorage.googleapis.com/v0/b/labrarte.appspot.com/o/categories%2Frelojes%2F1203-Reloj-de-G.C.-grabado.webp?alt=media&token=194c69f7-6fd2-49cf-aa24-abe73e7a2a48",
         "description": "Reloj en forma de la isla de Gran Canaria con base, realizado en piedra de Arucas pulida, con escudo grabado. Medidas: 20x20cm."
       },
       {
         "id": 4004,
         "name": "Paloma Grabada en Piedra",
         "price": 75.00,
-        "image": "https://i0.wp.com/www.labrarte.com/wp-content/uploads/2014/06/1204-Paloma-Grabada-1.jpg?fit=600%2C600&ssl=1",
+        "image": "https://firebasestorage.googleapis.com/v0/b/labrarte.appspot.com/o/categories%2Frelojes%2F1204-Paloma-Grabada-1.webp?alt=media&token=679665dc-f2e0-4dd3-b97e-ebcae3287431",
         "description": "Reloj con Paloma grabada, en piedra de Arucas pulida."
       },
       {
         "id": 4005,
         "name": "Reloj Dedo de Dios",
         "price": 40.00,
-        "image": "https://i0.wp.com/www.labrarte.com/wp-content/uploads/2014/05/1196-Reloj-Dedo-de-Dios.jpg?fit=730%2C800&ssl=1",
+        "image": "https://firebasestorage.googleapis.com/v0/b/labrarte.appspot.com/o/categories%2Frelojes%2Freloj-dedo-de-dios.webp?alt=media&token=2c428175-9621-4742-b1bf-9091eea3bd4a",
         "description": "Reloj con la forma del dedo de Dios, (monumento natural de Agaete, Gran Canaria) realizado en piedra amarilla de Ayagaure y piedra gris de Arucas. Medidas: 17x25x1cm."
       },
       {
         "id": 4006,
         "name": "Reloj para Colgar en Pared",
         "price": 140.00,
-        "image": "https://i0.wp.com/www.labrarte.com/wp-content/uploads/2014/04/1195-Reloj-de-Colgar.jpg?fit=800%2C811&ssl=1",
+        "image": "https://firebasestorage.googleapis.com/v0/b/labrarte.appspot.com/o/categories%2Frelojes%2F1195-Reloj-de-Colgar.webp?alt=media&token=e596ebc4-41a6-4b78-9d94-fe1069d4238a",
         "description": "Reloj para colgar en pared, realizado en piedra de Arucas y piedra de Ayagaure, con grabados. Medidas: 60x36x3cm."
       }
     ]
@@ -204,42 +204,42 @@
         "id": 5001,
         "name": "Banco Canario",
         "price": 50.00,
-        "image": "https://i0.wp.com/www.labrarte.com/wp-content/uploads/2020/09/banco-mediano-en-piedra.png?resize=300%2C169&ssl=1",
+        "image": "https://firebasestorage.googleapis.com/v0/b/labrarte.appspot.com/o/categories%2Fobjetos%2Fbanco-canario-en-piedra.webp?alt=media&token=efa689bf-82ca-4147-a2b0-b86131757ae6",
         "description": "Banco típico Canario realizado en piedra de Arucas, con base, este banco es un elemento decorativo. Ideal para decoración, realizado a imagen y semejanza de los bancos típicos canarios que podemos encontrar en cualquier parque canario. Este banco fue realizado por un encargo de un cliente, que necesitaba un elemento original para decorar en su hogar. Fue realizado en varias piezas. Medidas: 20x7,5x3cm."
       },
       {
         "id": 5002,
         "name": "Cubre lámpara de Exterior",
         "price": 180.00,
-        "image": "https://i0.wp.com/www.labrarte.com/wp-content/uploads/2021/02/lampara-de-pared-2.png?fit=837%2C611&ssl=1",
-        "description": "Cubre lámpara de exterior en piedra natural de Arucas con luna tallada en piedra de Ayagaure.\n\nMedidas: 30x20x12cm."
+        "image": "https://firebasestorage.googleapis.com/v0/b/labrarte.appspot.com/o/categories%2Fobjetos%2Flampara_de_pared_2.webp?alt=media&token=a7636851-2805-406a-b4e3-365efd383439",
+        "description": "Cubre lámpara de exterior en piedra natural de Arucas con luna tallada en piedra de Ayagaure. Medidas: 30x20x12cm."
       },
       {
         "id": 5003,
         "name": "Timple en Piedra",
         "price": 350.00,
-        "image": "https://i0.wp.com/www.labrarte.com/wp-content/uploads/2014/04/1211-Timple-en-Piedra.jpg?fit=800%2C654&ssl=1",
+        "image": "https://firebasestorage.googleapis.com/v0/b/labrarte.appspot.com/o/categories%2Fobjetos%2Ftimpla-en-piedra.webp?alt=media&token=686995a7-e8d1-4898-94d4-6d8c787a53bc",
         "description": "Timple labrado a tamaño natural en piedra de Arucas, replica de un timple real realizado en una pieza maciza. Medidas: 50x18x10cm."
       },
       {
         "id": 5004,
         "name": "Mortero / Almirez en Piedra",
         "price": 80.00,
-        "image": "https://i0.wp.com/www.labrarte.com/wp-content/uploads/2014/04/1139-Mortero-y-Almirez.jpg?fit=800%2C718&ssl=1",
+        "image": "https://firebasestorage.googleapis.com/v0/b/labrarte.appspot.com/o/categories%2Fobjetos%2Fmortero-y-almirez-normal.webp?alt=media&token=f67ce9a6-f4cc-42d5-92b2-5d262b7fdf8d",
         "description": "El mortero / almirez es un instrumento para machacar, es un mortero o utensilio pequeño y portátil, que sirve para machacar y triturar sustancias, utilizado en la cocina para moler en él especias, semillas, ajos u otros ingredientes gastronómicos, consistente en un recipiente en forma de cuenco y un mazo que se coge con una sola mano y a base de golpear la base y los laterales internos del cuenco muele el producto contenido en él. Medidas: 13x8cm."
       },
       {
         "id": 5005,
         "name": "Soporte para Incienso",
         "price": 15.00,
-        "image": "https://i0.wp.com/www.labrarte.com/wp-content/uploads/2014/05/1181-Soporte-Incienso-1.jpg?fit=600%2C600&ssl=1",
+        "image": "https://firebasestorage.googleapis.com/v0/b/labrarte.appspot.com/o/categories%2Fobjetos%2F1181-Soporte-Incienso-1.webp?alt=media&token=0af37197-00cc-4739-a8b4-69c171fc86a9",
         "description": "Soporte para incienso realizado en Cantería de Arucas pulida. Medidas: 15x4x2cm."
       },
       {
         "id": 5006,
         "name": "Molinillo Pequeño en Piedra",
         "price": 40.00,
-        "image": "https://i0.wp.com/www.labrarte.com/wp-content/uploads/2014/04/1108-Molinillo-Pequeno.jpg?fit=800%2C670&ssl=1",
+        "image": "https://firebasestorage.googleapis.com/v0/b/labrarte.appspot.com/o/categories%2Fobjetos%2Fmolinillo.webp?alt=media&token=8c01b874-3ff1-450d-8a53-f3c150b8a4f5",
         "description": "Molinillo de para gofio tallado en piedra de Arucas, como elemento decorativo."
       }
     ]
@@ -253,42 +253,42 @@
         "id": 6001,
         "name": "8 Islas Canarias con Relieve",
         "price": 200.00,
-        "image": "https://i0.wp.com/www.labrarte.com/wp-content/uploads/2014/05/1269-Islas-Canarias-peq-alto-relieve-e1645902627952.jpg?fit=800%2C365&ssl=1",
+        "image": "https://firebasestorage.googleapis.com/v0/b/labrarte.appspot.com/o/categories%2Fislas%2F1269-Islas-Canarias-peq-alto-relieve-e1645902627952.webp?alt=media&token=9b8985d5-8dbb-464a-9b40-4139d34d6a03",
         "description": "Islas Canarias talladas en alto relieve en cantería de Arucas, para colocar en una pared o fachada. Para la colocación pedir presupuesto. Medidas por el diámetro de Gran Canaria = 20cm."
       },
       {
         "id": 6002,
         "name": "Isla con Grabado",
         "price": 100.00,
-        "image": "https://i0.wp.com/www.labrarte.com/wp-content/uploads/2021/02/isla-de-G.C-con-grabado.png?fit=577%2C433&ssl=1",
+        "image": "https://firebasestorage.googleapis.com/v0/b/labrarte.appspot.com/o/categories%2Fislas%2Fisla_de_G.C_con_grabado.webp?alt=media&token=53e1fe97-f309-4cf3-8f9b-ed61e40ae161",
         "description": "Isla de Gran Canaria pulida con grabado."
       },
       {
         "id": 6003,
         "name": "Soporte para Cuchillo",
         "price": 40.00,
-        "image": "https://i0.wp.com/www.labrarte.com/wp-content/uploads/2021/02/IMG_20210130_111607-removebg-preview.png?fit=577%2C433&ssl=1",
+        "image": "https://firebasestorage.googleapis.com/v0/b/labrarte.appspot.com/o/categories%2Fislas%2FSoporte-para-cuchillo-canario.webp?alt=media&token=8966a175-9428-4286-a0e4-07e88093f1a6",
         "description": "Base para cuchillo canario en piedra de Arucas."
       },
       {
         "id": 6004,
         "name": "Isla con Base",
         "price": 50.00,
-        "image": "https://i0.wp.com/www.labrarte.com/wp-content/uploads/2015/07/1258-Isla-con-base.jpg?fit=800%2C699&ssl=1",
+        "image": "https://firebasestorage.googleapis.com/v0/b/labrarte.appspot.com/o/categories%2Fislas%2F1258-Isla-con-base.webp?alt=media&token=62896fed-3e6f-49a8-af7f-4d07cd70573d",
         "description": "Isla en cantería de Arucas, con la silueta de Gran Canaria con base en lisa. Medidas: Gran Canaria – 20x20x1."
       },
       {
         "id": 6005,
         "name": "Reloj con Forma de Isla",
         "price": 35.00,
-        "image": "https://i0.wp.com/www.labrarte.com/wp-content/uploads/2014/04/1194-Reloj-de-Colgar.jpg?fit=800%2C663&ssl=1",
+        "image": "https://firebasestorage.googleapis.com/v0/b/labrarte.appspot.com/o/categories%2Fislas%2Freloj-de-la-isla-de-La-Palma.webp?alt=media&token=963a6d84-8ce6-4b24-96fb-17015ddb6128",
         "description": "Reloj realizado con la forma de la isla de Gran Canaria, con gancho para colgar de la pared. Medidas: 25x25x2."
       },
       {
         "id": 6006,
         "name": "8 Islas Canarias Lisas",
         "price": 100.00,
-        "image": "https://i0.wp.com/www.labrarte.com/wp-content/uploads/2014/05/529-Islas-Canarias-Grandes.jpg?fit=640%2C480&ssl=1",
+        "image": "https://firebasestorage.googleapis.com/v0/b/labrarte.appspot.com/o/categories%2Fislas%2Fislas-canarias-en-piedra-20x20-1.webp?alt=media&token=7da6cf71-2840-4813-a8e0-cf96204e3d15",
         "description": "Las 8 Islas Canarias realizadas en cantería de Arucas, para colocar en una pared o fachada. El Archipiélago Canario puede hacer en cualquier otra piedra natural, piedra de Ayagaure, piedra de la India, piedra Italiana, etc. Para más información contactar. Para la colocación pedir presupuesto. Medidas aproximadas por el diámetro de Gran Canaria = 20x20cm – grosor:  2cm."
       }
     ]
@@ -299,46 +299,46 @@
     "categoryImage": "https://firebasestorage.googleapis.com/v0/b/labrarte.appspot.com/o/catalogue%2Fplacas-y-trofeos-tallados-a-mano-en-Canteria.webp?alt=media&token=a59be3d2-9170-4c1f-a4c8-c6b93d82eebb",
     "productsList": [
       {
-        "id": 6001,
-        "name": "8 Islas Canarias con Relieve",
-        "price": 200.00,
-        "image": "https://i0.wp.com/www.labrarte.com/wp-content/uploads/2014/05/1269-Islas-Canarias-peq-alto-relieve-e1645902627952.jpg?fit=800%2C365&ssl=1",
-        "description": "Islas Canarias talladas en alto relieve en cantería de Arucas, para colocar en una pared o fachada. Para la colocación pedir presupuesto. Medidas por el diámetro de Gran Canaria = 20cm."
+        "id": 7001,
+        "name": "Concha Tallada",
+        "price": 170.00,
+        "image": "https://firebasestorage.googleapis.com/v0/b/labrarte.appspot.com/o/categories%2Fplacas%2FConcha-tallada-a-mano.webp?alt=media&token=a592ea8e-c8d8-447b-b6a6-bc5a56259da8",
+        "description": "Concha tallada a mano en piedra de Arucas con base"
       },
       {
-        "id": 6002,
-        "name": "Isla con Grabado",
-        "price": 100.00,
-        "image": "https://i0.wp.com/www.labrarte.com/wp-content/uploads/2021/02/isla-de-G.C-con-grabado.png?fit=577%2C433&ssl=1",
-        "description": "Isla de Gran Canaria pulida con grabado."
-      },
-      {
-        "id": 6003,
-        "name": "Soporte para Cuchillo",
+        "id": 7002,
+        "name": "Trofeo Domino",
         "price": 40.00,
-        "image": "https://i0.wp.com/www.labrarte.com/wp-content/uploads/2021/02/IMG_20210130_111607-removebg-preview.png?fit=577%2C433&ssl=1",
-        "description": "Base para cuchillo canario en piedra de Arucas."
+        "image": "https://firebasestorage.googleapis.com/v0/b/labrarte.appspot.com/o/categories%2Fplacas%2FTrofeo_domino.webp?alt=media&token=ab74427f-ac5d-42e3-a395-978debd785f6",
+        "description": "Trofeo realizado con placa y fichas de domino, en piedra de Arucas."
       },
       {
-        "id": 6004,
-        "name": "Isla con Base",
+        "id": 7003,
+        "name": "Soporte para Cuchillo",
+        "price": 30.00,
+        "image": "https://firebasestorage.googleapis.com/v0/b/labrarte.appspot.com/o/categories%2Fplacas%2FBase-para-cuchillo-canario.webp?alt=media&token=f9c79b53-4e4b-43d3-92fd-0d950cfbfc22",
+        "description": "Soporte diseñado para albergar cuchillo canario."
+      },
+      {
+        "id": 7004,
+        "name": "Paleta de Pintor en Piedra",
+        "price": 75.00,
+        "image": "https://firebasestorage.googleapis.com/v0/b/labrarte.appspot.com/o/categories%2Fplacas%2F1172-Paleta-de-Pintor-1.webp?alt=media&token=10b4ddad-8212-434f-a6ec-a21a2f245673",
+        "description": "Paleta para pintura realizada en Cantería de Arucas y piedras de colores. Cada color elegido, cada tonalidad y cada mezcla, son decisiones que el artista toma con cuidado y precisión, buscando transmitir lo que su alma quiere expresar. Los colores primarios, secundarios y terciarios se mezclan en la paleta de un pintor, creando infinitas posibilidades de combinaciones y contrastes que enriquecen su obra. La paleta de un pintor es única y personal, refleja su estilo, su técnica y su sensibilidad. Es el medio a través del cual logra comunicarse con el mundo y transmitir sus emociones más profundas."
+      },
+      {
+        "id": 7005,
+        "name": "Trofeo Faro de Maspalomas",
+        "price": 65.00,
+        "image": "https://firebasestorage.googleapis.com/v0/b/labrarte.appspot.com/o/categories%2Fplacas%2FFaro-de-Maspalomas-en-piedra.webp?alt=media&token=d79f10b6-c4eb-428f-9ccc-5cc8e5c93750",
+        "description": "Realización de trofeo en piedra de Arucas, con la forma del faro de Maspalomas. Medidas: 30x18x4cm – aprox. El faro de Maspalomas es uno de los iconos más famosos de la isla de Gran Canaria, en Canarias, España. Se encuentra situado en el extremo sur de la isla, en la localidad de Maspalomas, y marca el límite entre la Playa del Inglés y las dunas de Maspalomas. Construido en 1886, el faro de Maspalomas es una torre de piedra de 56 metros de altura que se encuentra en un acantilado junto al mar. Su luz alcanza una distancia de 19 millas náuticas (unos 35 kilómetros) y durante la noche se puede ver desde varios puntos de la costa sur de Gran Canaria."
+      },
+      {
+        "id": 7006,
+        "name": "Herradura en Piedra",
         "price": 50.00,
-        "image": "https://i0.wp.com/www.labrarte.com/wp-content/uploads/2015/07/1258-Isla-con-base.jpg?fit=800%2C699&ssl=1",
-        "description": "Isla en cantería de Arucas, con la silueta de Gran Canaria con base en lisa. Medidas: Gran Canaria – 20x20x1."
-      },
-      {
-        "id": 6005,
-        "name": "Reloj con Forma de Isla",
-        "price": 35.00,
-        "image": "https://i0.wp.com/www.labrarte.com/wp-content/uploads/2014/04/1194-Reloj-de-Colgar.jpg?fit=800%2C663&ssl=1",
-        "description": "Reloj realizado con la forma de la isla de Gran Canaria, con gancho para colgar de la pared. Medidas: 25x25x2."
-      },
-      {
-        "id": 6006,
-        "name": "8 Islas Canarias Lisas",
-        "price": 100.00,
         "image": "https://i0.wp.com/www.labrarte.com/wp-content/uploads/2014/05/529-Islas-Canarias-Grandes.jpg?fit=640%2C480&ssl=1",
-        "description": "Las 8 Islas Canarias realizadas en cantería de Arucas, para colocar en una pared o fachada. El Archipiélago Canario puede hacer en cualquier otra piedra natural, piedra de Ayagaure, piedra de la India, piedra Italiana, etc. Para más información contactar. Para la colocación pedir presupuesto. Medidas aproximadas por el diámetro de Gran Canaria = 20x20cm – grosor:  2cm."
+        "description": "Herradura de caballo tallada en cantería de Arucas, utilizada para colgar en casa como símbolo de la buena suerte. Medidas: 25x25x2 – aprox. Se cree que la forma de la herradura, que se asemeja a la letra «U» invertida, simboliza la captura y retención de la suerte, ya que se dice que actúa como un recipiente que recoge y conserva la energía positiva."
       }
     ]
   },
@@ -348,46 +348,46 @@
     "categoryImage": "https://firebasestorage.googleapis.com/v0/b/labrarte.appspot.com/o/catalogue%2Fimagenes-y-grabados-tallados-a-mano-en-Canteria.webp?alt=media&token=dcab6812-4c72-466b-95af-3f19a2b48fbb",
     "productsList": [
       {
-        "id": 6001,
-        "name": "8 Islas Canarias con Relieve",
-        "price": 200.00,
-        "image": "https://i0.wp.com/www.labrarte.com/wp-content/uploads/2014/05/1269-Islas-Canarias-peq-alto-relieve-e1645902627952.jpg?fit=800%2C365&ssl=1",
-        "description": "Islas Canarias talladas en alto relieve en cantería de Arucas, para colocar en una pared o fachada. Para la colocación pedir presupuesto. Medidas por el diámetro de Gran Canaria = 20cm."
+        "id": 8001,
+        "name": "Imagen Grabada",
+        "price": 75.00,
+        "image": "https://firebasestorage.googleapis.com/v0/b/labrarte.appspot.com/o/categories%2Fgrabados%2FImagen-grabada-en-piedra-pulida-e1697189601395.webp?alt=media&token=706b38a9-807f-45be-acc3-1b9ac5d77a8c",
+        "description": "Imagen grabada con dremel sobre piedra de Arucas pulida. Medidas: 20x20x2cm – aprox"
       },
       {
-        "id": 6002,
-        "name": "Isla con Grabado",
-        "price": 100.00,
-        "image": "https://i0.wp.com/www.labrarte.com/wp-content/uploads/2021/02/isla-de-G.C-con-grabado.png?fit=577%2C433&ssl=1",
-        "description": "Isla de Gran Canaria pulida con grabado."
+        "id": 8002,
+        "name": "Ángel Grabado en Piedra",
+        "price": 170.00,
+        "image": "https://firebasestorage.googleapis.com/v0/b/labrarte.appspot.com/o/categories%2Fgrabados%2Fangel_grabado_en_piedra.webp?alt=media&token=ece6455a-fe9b-4cef-83b1-c2a5bf2f05df",
+        "description": "Ángel grabado en piedra de Arucas, silueta recortada con la forma definida."
       },
       {
-        "id": 6003,
-        "name": "Soporte para Cuchillo",
-        "price": 40.00,
-        "image": "https://i0.wp.com/www.labrarte.com/wp-content/uploads/2021/02/IMG_20210130_111607-removebg-preview.png?fit=577%2C433&ssl=1",
-        "description": "Base para cuchillo canario en piedra de Arucas."
+        "id": 8003,
+        "name": "Placa Grabada",
+        "price": 150.00,
+        "image": "https://firebasestorage.googleapis.com/v0/b/labrarte.appspot.com/o/categories%2Fgrabados%2Fplaca-grabada-en-piedra.webp?alt=media&token=88b09ba5-6ef2-4ab5-8239-2143e73e2d18",
+        "description": "Letrero labrado a mano en piedra pulida de Arucas, con letras grabadas. Medidas: 30x20x1cm – aprox."
       },
       {
-        "id": 6004,
-        "name": "Isla con Base",
-        "price": 50.00,
-        "image": "https://i0.wp.com/www.labrarte.com/wp-content/uploads/2015/07/1258-Isla-con-base.jpg?fit=800%2C699&ssl=1",
-        "description": "Isla en cantería de Arucas, con la silueta de Gran Canaria con base en lisa. Medidas: Gran Canaria – 20x20x1."
+        "id": 8004,
+        "name": "Foto Grabada",
+        "price": 180.00,
+        "image": "https://firebasestorage.googleapis.com/v0/b/labrarte.appspot.com/o/categories%2Fgrabados%2F1113-Foto-Grabada.webp?alt=media&token=d5d681a3-9183-4583-ab3a-0d8b7bcc375f",
+        "description": "Foto grabada en piedra de Arucas pulida, realizada con puntas para dremel. Foto realizada en memoria de: Manuel Luján Marrero ( Cantero ). Medidas: 20x25x2cm – aprox."
       },
       {
-        "id": 6005,
+        "id": 8005,
         "name": "Reloj con Forma de Isla",
         "price": 35.00,
         "image": "https://i0.wp.com/www.labrarte.com/wp-content/uploads/2014/04/1194-Reloj-de-Colgar.jpg?fit=800%2C663&ssl=1",
         "description": "Reloj realizado con la forma de la isla de Gran Canaria, con gancho para colgar de la pared. Medidas: 25x25x2."
       },
       {
-        "id": 6006,
-        "name": "8 Islas Canarias Lisas",
-        "price": 100.00,
-        "image": "https://i0.wp.com/www.labrarte.com/wp-content/uploads/2014/05/529-Islas-Canarias-Grandes.jpg?fit=640%2C480&ssl=1",
-        "description": "Las 8 Islas Canarias realizadas en cantería de Arucas, para colocar en una pared o fachada. El Archipiélago Canario puede hacer en cualquier otra piedra natural, piedra de Ayagaure, piedra de la India, piedra Italiana, etc. Para más información contactar. Para la colocación pedir presupuesto. Medidas aproximadas por el diámetro de Gran Canaria = 20x20cm – grosor:  2cm."
+        "id": 8006,
+        "name": "Logo de Empresa Grabado",
+        "price": 40.00,
+        "image": "https://firebasestorage.googleapis.com/v0/b/labrarte.appspot.com/o/categories%2Fgrabados%2Flogo_grabado_en_piedra.webp?alt=media&token=73610f10-0b77-4e00-873d-a2f0325748f3",
+        "description": "Logotipo de empresa pulido y grabado en piedra de Arucas."
       }
     ]
   },
@@ -397,46 +397,46 @@
     "categoryImage": "https://firebasestorage.googleapis.com/v0/b/labrarte.appspot.com/o/catalogue%2Frecipientes-y-cofres-tallados-a-mano-en-Canteria.webp?alt=media&token=f83db8ba-004e-4c0d-ab2e-bfdebffa4aeb",
     "productsList": [
       {
-        "id": 6001,
-        "name": "8 Islas Canarias con Relieve",
-        "price": 200.00,
-        "image": "https://i0.wp.com/www.labrarte.com/wp-content/uploads/2014/05/1269-Islas-Canarias-peq-alto-relieve-e1645902627952.jpg?fit=800%2C365&ssl=1",
-        "description": "Islas Canarias talladas en alto relieve en cantería de Arucas, para colocar en una pared o fachada. Para la colocación pedir presupuesto. Medidas por el diámetro de Gran Canaria = 20cm."
+        "id": 9001,
+        "name": "Plato de Piedra",
+        "price": 30.00,
+        "image": "https://firebasestorage.googleapis.com/v0/b/labrarte.appspot.com/o/categories%2Frecipientes%2Fplato-de-canteria.webp?alt=media&token=79bc0d38-cd11-4305-80ff-44307b753fe9",
+        "description": "Plato realizado en cantería de Arucas. Medidas: 15X15X2 cm."
       },
       {
-        "id": 6002,
-        "name": "Isla con Grabado",
+        "id": 9002,
+        "name": "Bebedero en Piedra",
+        "price": 140.00,
+        "image": "https://firebasestorage.googleapis.com/v0/b/labrarte.appspot.com/o/categories%2Frecipientes%2F1174-Bebedero-en-Piedra-1.webp?alt=media&token=6cdf68af-398e-4833-8030-6ee7b0dacab0",
+        "description": "Recipiente o bebedero para dar de beber y comer a animales, realizado en cantería de Arucas. Medidas: 22x40x15cm – aprox."
+      },
+      {
+        "id": 9003,
+        "name": "Cofre en Piedra Pulida",
+        "price": 170.00,
+        "image": "https://firebasestorage.googleapis.com/v0/b/labrarte.appspot.com/o/categories%2Frecipientes%2F1100-Cofre-Pulido-1.webp?alt=media&token=b98133c6-57da-47bd-8f3a-058be1d6f8d9",
+        "description": "Cofre realizado por piezas pegadas en piedra de Arucas pulida, con grabados. Medidas: 35x14x12cm – aprox."
+      },
+      {
+        "id": 9004,
+        "name": "Cenicero de Piedra",
+        "price": 45.00,
+        "image": "https://firebasestorage.googleapis.com/v0/b/labrarte.appspot.com/o/categories%2Frecipientes%2Fcenicero-en-piedra.webp?alt=media&token=30d0775d-3924-4ddf-81ca-8ae3de7051b0",
+        "description": "Cenicero realizado en cantería de Arucas, de una sola pieza pulida. Este cenicero fue realizado en una sola pieza, realizando de un vaciado de forma cóncava y una curva progresiva en la parte exterior. Fue realizado a mano y pulido para darle un acabado más liso, se puede usar no es sólo un elemento decorativo, se pueden lavar con agua y jabón. Medidas: 15x15x5cm – aprox."
+      },
+      {
+        "id": 9005,
+        "name": "https://firebasestorage.googleapis.com/v0/b/labrarte.appspot.com/o/categories%2Frecipientes%2Fkit-de-bano.webp?alt=media&token=b6a75a3c-2520-4dc1-b2a0-5ee36831a591",
         "price": 100.00,
-        "image": "https://i0.wp.com/www.labrarte.com/wp-content/uploads/2021/02/isla-de-G.C-con-grabado.png?fit=577%2C433&ssl=1",
-        "description": "Isla de Gran Canaria pulida con grabado."
-      },
-      {
-        "id": 6003,
-        "name": "Soporte para Cuchillo",
-        "price": 40.00,
-        "image": "https://i0.wp.com/www.labrarte.com/wp-content/uploads/2021/02/IMG_20210130_111607-removebg-preview.png?fit=577%2C433&ssl=1",
-        "description": "Base para cuchillo canario en piedra de Arucas."
-      },
-      {
-        "id": 6004,
-        "name": "Isla con Base",
-        "price": 50.00,
-        "image": "https://i0.wp.com/www.labrarte.com/wp-content/uploads/2015/07/1258-Isla-con-base.jpg?fit=800%2C699&ssl=1",
-        "description": "Isla en cantería de Arucas, con la silueta de Gran Canaria con base en lisa. Medidas: Gran Canaria – 20x20x1."
-      },
-      {
-        "id": 6005,
-        "name": "Reloj con Forma de Isla",
-        "price": 35.00,
         "image": "https://i0.wp.com/www.labrarte.com/wp-content/uploads/2014/04/1194-Reloj-de-Colgar.jpg?fit=800%2C663&ssl=1",
-        "description": "Reloj realizado con la forma de la isla de Gran Canaria, con gancho para colgar de la pared. Medidas: 25x25x2."
+        "description": "Kit de baño, hechos a mano para cuarto de baño. Cada set contiene : 1 Bote para el Jabón líquido, 1 Vaso para los cepillos de dientes. Realizado en piedra de Arucas. Medidas: dispensador 22x8x8cm – vaso 10x8x8cm aprox."
       },
       {
-        "id": 6006,
-        "name": "8 Islas Canarias Lisas",
-        "price": 100.00,
-        "image": "https://i0.wp.com/www.labrarte.com/wp-content/uploads/2014/05/529-Islas-Canarias-Grandes.jpg?fit=640%2C480&ssl=1",
-        "description": "Las 8 Islas Canarias realizadas en cantería de Arucas, para colocar en una pared o fachada. El Archipiélago Canario puede hacer en cualquier otra piedra natural, piedra de Ayagaure, piedra de la India, piedra Italiana, etc. Para más información contactar. Para la colocación pedir presupuesto. Medidas aproximadas por el diámetro de Gran Canaria = 20x20cm – grosor:  2cm."
+        "id": 9006,
+        "name": "Cofre en Cantería",
+        "price": 65.00,
+        "image": "https://firebasestorage.googleapis.com/v0/b/labrarte.appspot.com/o/categories%2Frecipientes%2F1098-Cofre-1.webp?alt=media&token=55b7e481-ca20-4ef5-8053-2b413ba27b5b",
+        "description": "Cofre tallado en piedra de Arucas la tapa, en piedra de Tindaya el resto. realizado con piezas pegadas entre si. Se pueden realizar en cualquier medida, un cofre en piedra es ideal para guardar aquellas joyas, objetos o recuerdos a los que les tenemos mucho aprecio. Medidas: 16x9x10cm – aprox."
       }
     ]
   },
@@ -446,46 +446,46 @@
     "categoryImage": "https://firebasestorage.googleapis.com/v0/b/labrarte.appspot.com/o/catalogue%2FRosetones-y-Tulipas-tallados-a-mano-en-Canteria.webp?alt=media&token=ee86f2b2-0bbd-47ee-ad43-81d9a9f0725d",
     "productsList": [
       {
-        "id": 6001,
+        "id": 10001,
         "name": "8 Islas Canarias con Relieve",
         "price": 200.00,
-        "image": "https://i0.wp.com/www.labrarte.com/wp-content/uploads/2014/05/1269-Islas-Canarias-peq-alto-relieve-e1645902627952.jpg?fit=800%2C365&ssl=1",
-        "description": "Islas Canarias talladas en alto relieve en cantería de Arucas, para colocar en una pared o fachada. Para la colocación pedir presupuesto. Medidas por el diámetro de Gran Canaria = 20cm."
+        "image": "https://firebasestorage.googleapis.com/v0/b/labrarte.appspot.com/o/categories%2Frosetones%2FPina-con-base-para-columna.webp?alt=media&token=5ece4388-d28a-4d5e-9f2f-327cd00e7df8",
+        "description": "Piña realizada en piedra de Arucas, labrada a mano. Realizada como elemento decorativo para coronar una columna. Medidas: 30x20x20cm – aprox."
       },
       {
-        "id": 6002,
-        "name": "Isla con Grabado",
-        "price": 100.00,
-        "image": "https://i0.wp.com/www.labrarte.com/wp-content/uploads/2021/02/isla-de-G.C-con-grabado.png?fit=577%2C433&ssl=1",
-        "description": "Isla de Gran Canaria pulida con grabado."
+        "id": 10002,
+        "name": "Hoja de Parra",
+        "price": 190.00,
+        "image": "https://firebasestorage.googleapis.com/v0/b/labrarte.appspot.com/o/categories%2Frosetones%2Fhoja-de-parra-tallada.webp?alt=media&token=ce55df41-c908-4565-aae3-d01972aaee98",
+        "description": "Hoja de parra labrada a mano con relieve, en piedra de Arucas. Medidas: 40x35x4cm – aprox."
       },
       {
-        "id": 6003,
-        "name": "Soporte para Cuchillo",
-        "price": 40.00,
-        "image": "https://i0.wp.com/www.labrarte.com/wp-content/uploads/2021/02/IMG_20210130_111607-removebg-preview.png?fit=577%2C433&ssl=1",
-        "description": "Base para cuchillo canario en piedra de Arucas."
+        "id": 10003,
+        "name": "Rosetón Tallado en Piedra",
+        "price": 25.00,
+        "image": "https://firebasestorage.googleapis.com/v0/b/labrarte.appspot.com/o/categories%2Frosetones%2Froceton-para-grifo.2.webp?alt=media&token=bbcf8160-329e-425b-88e5-c55263930608",
+        "description": "Rosetón realizado en piedra de Arucas para colocar como embellecedor para un grifo o llave de agua. Medidas: 15x15x2cm – aprox."
       },
       {
-        "id": 6004,
-        "name": "Isla con Base",
-        "price": 50.00,
-        "image": "https://i0.wp.com/www.labrarte.com/wp-content/uploads/2015/07/1258-Isla-con-base.jpg?fit=800%2C699&ssl=1",
-        "description": "Isla en cantería de Arucas, con la silueta de Gran Canaria con base en lisa. Medidas: Gran Canaria – 20x20x1."
+        "id": 10004,
+        "name": "Rosetón Tallado en Cantería",
+        "price": 220.00,
+        "image": "https://firebasestorage.googleapis.com/v0/b/labrarte.appspot.com/o/categories%2Frosetones%2F1208-Roseton-tallado-1.webp?alt=media&token=58ef242c-17e3-4578-a6a8-b3aca4be0cf3",
+        "description": "Rosetón realizado en piedra de Arucas para colocar como embellecedor para un grifo o llave de agua. Medidas: 30x30x3cm – aprox. Grifería no incluida."
       },
       {
-        "id": 6005,
-        "name": "Reloj con Forma de Isla",
-        "price": 35.00,
-        "image": "https://i0.wp.com/www.labrarte.com/wp-content/uploads/2014/04/1194-Reloj-de-Colgar.jpg?fit=800%2C663&ssl=1",
-        "description": "Reloj realizado con la forma de la isla de Gran Canaria, con gancho para colgar de la pared. Medidas: 25x25x2."
+        "id": 10005,
+        "name": "Rosa Tallada en Piedra",
+        "price": 180.00,
+        "image": "https://firebasestorage.googleapis.com/v0/b/labrarte.appspot.com/o/categories%2Frosetones%2F1207-Rosa-Tallada-1.webp?alt=media&token=7ed86318-155c-40d9-9637-fd59bfccb24a",
+        "description": "Rosa labrada a mano en Cantería de Arucas. Medidas: 20x12x9cm – aprox."
       },
       {
-        "id": 6006,
-        "name": "8 Islas Canarias Lisas",
-        "price": 100.00,
-        "image": "https://i0.wp.com/www.labrarte.com/wp-content/uploads/2014/05/529-Islas-Canarias-Grandes.jpg?fit=640%2C480&ssl=1",
-        "description": "Las 8 Islas Canarias realizadas en cantería de Arucas, para colocar en una pared o fachada. El Archipiélago Canario puede hacer en cualquier otra piedra natural, piedra de Ayagaure, piedra de la India, piedra Italiana, etc. Para más información contactar. Para la colocación pedir presupuesto. Medidas aproximadas por el diámetro de Gran Canaria = 20x20cm – grosor:  2cm."
+        "id": 10006,
+        "name": "Tulipa con Soga en Piedra",
+        "price": 245.00,
+        "image": "https://firebasestorage.googleapis.com/v0/b/labrarte.appspot.com/o/categories%2Frosetones%2Ftulipa-en-canteria.webp?alt=media&token=638eeb0e-7126-4e40-b62a-3266726357fc",
+        "description": "Tulipa realizada en Cantería de Arucas, con soga labrada. Para colocar en pared para grifo. Medidas: 28x22x18 – aprox."
       }
     ]
   },
@@ -495,46 +495,46 @@
     "categoryImage": "https://firebasestorage.googleapis.com/v0/b/labrarte.appspot.com/o/catalogue%2Fbasamentos-y-capiteles-tallados-a-mano-en-Canteria.webp?alt=media&token=94a6d824-5da1-4fbc-be4b-ab0dabe6c699",
     "productsList": [
       {
-        "id": 6001,
-        "name": "8 Islas Canarias con Relieve",
-        "price": 200.00,
-        "image": "https://i0.wp.com/www.labrarte.com/wp-content/uploads/2014/05/1269-Islas-Canarias-peq-alto-relieve-e1645902627952.jpg?fit=800%2C365&ssl=1",
-        "description": "Islas Canarias talladas en alto relieve en cantería de Arucas, para colocar en una pared o fachada. Para la colocación pedir presupuesto. Medidas por el diámetro de Gran Canaria = 20cm."
+        "id": 11001,
+        "name": "Basamento Escalonado",
+        "price": 245.00,
+        "image": "https://firebasestorage.googleapis.com/v0/b/labrarte.appspot.com/o/categories%2Fbasamentos%2Fbasamento-para-pergola-2-1.webp?alt=media&token=16c469d6-4e0b-4db8-93da-768a8110d259",
+        "description": "Basamento realizado en cantería de Arucas, realizado en dos piezas para pérgola. El diseño consiste en dos piezas en «U» ensambladas una encima de la otra. Para realizar un basamento no existen límites de formas ni de acabados, todo lo que se nos ocurra podemos realizarlo en piedra. Medidas: 25x25x25cm- aprox."
       },
       {
-        "id": 6002,
+        "id": 11002,
         "name": "Isla con Grabado",
-        "price": 100.00,
-        "image": "https://i0.wp.com/www.labrarte.com/wp-content/uploads/2021/02/isla-de-G.C-con-grabado.png?fit=577%2C433&ssl=1",
-        "description": "Isla de Gran Canaria pulida con grabado."
+        "price": 340.00,
+        "image": "https://firebasestorage.googleapis.com/v0/b/labrarte.appspot.com/o/categories%2Fbasamentos%2F1014-Basamento-Redondo.webp?alt=media&token=8a064458-ee06-4ec6-ab6e-cb5205705930",
+        "description": "Basamento en Cantería de Arucas, con forma redonda moldurada para pérgola. Cuando nos encontramos con una pérgola que ya está colocada lo que realizamos es un basamento dividido en dos piezas, con una moldura que pecho paloma en piedra Arucas. Medidas: 28x28x20cm – aprox."
       },
       {
-        "id": 6003,
-        "name": "Soporte para Cuchillo",
-        "price": 40.00,
-        "image": "https://i0.wp.com/www.labrarte.com/wp-content/uploads/2021/02/IMG_20210130_111607-removebg-preview.png?fit=577%2C433&ssl=1",
-        "description": "Base para cuchillo canario en piedra de Arucas."
+        "id": 11003,
+        "name": "Basamento en Piedra",
+        "price": 80.00,
+        "image": "https://firebasestorage.googleapis.com/v0/b/labrarte.appspot.com/o/categories%2Fbasamentos%2FBasamento-en-piedra.webp?alt=media&token=9bb145a8-b1c9-4a51-b7f1-ade883712d1c",
+        "description": "Basamento en Cantería de Arucas de una sola pieza, con hueco. Esta pieza fue realizada para colocar una cruz de madera con la base redonda. Medidas: 20x20x10cm- aprox."
       },
       {
-        "id": 6004,
-        "name": "Isla con Base",
-        "price": 50.00,
-        "image": "https://i0.wp.com/www.labrarte.com/wp-content/uploads/2015/07/1258-Isla-con-base.jpg?fit=800%2C699&ssl=1",
-        "description": "Isla en cantería de Arucas, con la silueta de Gran Canaria con base en lisa. Medidas: Gran Canaria – 20x20x1."
+        "id": 11004,
+        "name": "Punta de Diamante en Piedra",
+        "price": 150.00,
+        "image": "https://firebasestorage.googleapis.com/v0/b/labrarte.appspot.com/o/categories%2Fbasamentos%2F1186-Punta-de-diamante-1.webp?alt=media&token=2e4659fa-d26f-420f-8db7-c8517906e5ca",
+        "description": "Punta de diamante realizada en piedra de Arucas, forma pirámide. Medidas: 25x25x25cm – aprox."
       },
       {
-        "id": 6005,
-        "name": "Reloj con Forma de Isla",
-        "price": 35.00,
-        "image": "https://i0.wp.com/www.labrarte.com/wp-content/uploads/2014/04/1194-Reloj-de-Colgar.jpg?fit=800%2C663&ssl=1",
-        "description": "Reloj realizado con la forma de la isla de Gran Canaria, con gancho para colgar de la pared. Medidas: 25x25x2."
+        "id": 11005,
+        "name": "Bola con Base",
+        "price": 85.00,
+        "image": "https://firebasestorage.googleapis.com/v0/b/labrarte.appspot.com/o/categories%2Fbasamentos%2Fbola-con-base-para-columna.webp?alt=media&token=c235747c-8443-483a-87f1-41ab96f0bdc6",
+        "description": "Esta pieza se realiza en dos partes una la base y la otra a la bola, la base es una pieza algo sencillo de realizar la bola es bastante más complicada ya que hay que realizarla forma que quede completamente redonda. Este tipo de trabajos sobre realizar como terminación de una columna, para un pináculo, para la terminación de la parte alta de una fachada o cualquier otra terminación. Medidas: 20x20x30cm – aprox"
       },
       {
-        "id": 6006,
-        "name": "8 Islas Canarias Lisas",
-        "price": 100.00,
-        "image": "https://i0.wp.com/www.labrarte.com/wp-content/uploads/2014/05/529-Islas-Canarias-Grandes.jpg?fit=640%2C480&ssl=1",
-        "description": "Las 8 Islas Canarias realizadas en cantería de Arucas, para colocar en una pared o fachada. El Archipiélago Canario puede hacer en cualquier otra piedra natural, piedra de Ayagaure, piedra de la India, piedra Italiana, etc. Para más información contactar. Para la colocación pedir presupuesto. Medidas aproximadas por el diámetro de Gran Canaria = 20x20cm – grosor:  2cm."
+        "id": 11006,
+        "name": "Capitel Redondo",
+        "price": 120.00,
+        "image": "https://firebasestorage.googleapis.com/v0/b/labrarte.appspot.com/o/categories%2Fbasamentos%2Fcapitel-en-canteria.webp?alt=media&token=a89f5afe-b670-423f-8e04-80da3db8e30c",
+        "description": "Capitel tallado en cantería de Arucas, base cuadrada y moldura, con terminación para fuste redondo. Para realizar este capitel utilizamos un caso que piedra Arucas cuadrado, para luego emplantillarlo con la moldura elegida, con la radial eliminamos el excedente para comenzar a tallar la moldura que la pieza, cuando la moldura terminada se labra con una pistola neumática. Medidas: 35x35x30cm – aprox."
       }
     ]
   },
@@ -544,46 +544,46 @@
     "categoryImage": "https://firebasestorage.googleapis.com/v0/b/labrarte.appspot.com/o/catalogue%2Ffloreros-y-maceteros-tallados-a-mano-en-Canteria.webp?alt=media&token=fdab6bd0-b1af-41aa-95da-ef7b1d355b64",
     "productsList": [
       {
-        "id": 6001,
-        "name": "8 Islas Canarias con Relieve",
-        "price": 200.00,
-        "image": "https://i0.wp.com/www.labrarte.com/wp-content/uploads/2014/05/1269-Islas-Canarias-peq-alto-relieve-e1645902627952.jpg?fit=800%2C365&ssl=1",
-        "description": "Islas Canarias talladas en alto relieve en cantería de Arucas, para colocar en una pared o fachada. Para la colocación pedir presupuesto. Medidas por el diámetro de Gran Canaria = 20cm."
+        "id": 12001,
+        "name": "Macetero Tallado",
+        "price": 135.00,
+        "image": "https://firebasestorage.googleapis.com/v0/b/labrarte.appspot.com/o/categories%2Fmaceteros%2Fmacetero-tallado.2.webp?alt=media&token=cfb4ff66-43ab-4a32-a162-8d1fe0e91104",
+        "description": "Macetero torneado tallado y vaciado a mano en cantería de Arucas."
       },
       {
-        "id": 6002,
-        "name": "Isla con Grabado",
-        "price": 100.00,
-        "image": "https://i0.wp.com/www.labrarte.com/wp-content/uploads/2021/02/isla-de-G.C-con-grabado.png?fit=577%2C433&ssl=1",
-        "description": "Isla de Gran Canaria pulida con grabado."
+        "id": 12002,
+        "name": "Macetero con Espejillos",
+        "price": 180.00,
+        "image": "https://firebasestorage.googleapis.com/v0/b/labrarte.appspot.com/o/categories%2Fmaceteros%2Fmacetero_cuadrado_de_piedra.webp?alt=media&token=a63eb558-80c5-45c6-b995-e861f0fea2af",
+        "description": "Macetero cuadrado realizado en piedra de Arucas pegadas, con el fondo picado por los cuatro lados."
       },
       {
-        "id": 6003,
-        "name": "Soporte para Cuchillo",
-        "price": 40.00,
-        "image": "https://i0.wp.com/www.labrarte.com/wp-content/uploads/2021/02/IMG_20210130_111607-removebg-preview.png?fit=577%2C433&ssl=1",
-        "description": "Base para cuchillo canario en piedra de Arucas."
+        "id": 12003,
+        "name": "Florero para Lápida",
+        "price": 80.00,
+        "image": "https://firebasestorage.googleapis.com/v0/b/labrarte.appspot.com/o/categories%2Fmaceteros%2Fflorero-para-lapida.webp?alt=media&token=f2fe6c90-3691-4335-89db-c7cb2ebf625c",
+        "description": "Florero realizado en piedra de Arucas, para colocar en lápida."
       },
       {
-        "id": 6004,
-        "name": "Isla con Base",
-        "price": 50.00,
-        "image": "https://i0.wp.com/www.labrarte.com/wp-content/uploads/2015/07/1258-Isla-con-base.jpg?fit=800%2C699&ssl=1",
-        "description": "Isla en cantería de Arucas, con la silueta de Gran Canaria con base en lisa. Medidas: Gran Canaria – 20x20x1."
+        "id": 12004,
+        "name": "Macetero Tallado en Piedra",
+        "price": 135.00,
+        "image": "https://firebasestorage.googleapis.com/v0/b/labrarte.appspot.com/o/categories%2Fmaceteros%2F1140-Florero-en-piedra-1.webp?alt=media&token=a9bfccc1-6a14-4566-9115-dbc834f12d13",
+        "description": "Macetero para tumbas tallado en cantería de Arucas. Medidas: 35x20x20cm – aprox."
       },
       {
-        "id": 6005,
-        "name": "Reloj con Forma de Isla",
-        "price": 35.00,
-        "image": "https://i0.wp.com/www.labrarte.com/wp-content/uploads/2014/04/1194-Reloj-de-Colgar.jpg?fit=800%2C663&ssl=1",
-        "description": "Reloj realizado con la forma de la isla de Gran Canaria, con gancho para colgar de la pared. Medidas: 25x25x2."
+        "id": 12005,
+        "name": "Macetero en Piedra",
+        "price": 120.00,
+        "image": "https://firebasestorage.googleapis.com/v0/b/labrarte.appspot.com/o/categories%2Fmaceteros%2F1136-Macetero-en-piedra-1.webp?alt=media&token=4e1c3fe0-b06d-4998-a541-6001ca8dc4b8",
+        "description": "Macetero realizado por piezas pegadas de cantería de Arucas."
       },
       {
-        "id": 6006,
-        "name": "8 Islas Canarias Lisas",
-        "price": 100.00,
-        "image": "https://i0.wp.com/www.labrarte.com/wp-content/uploads/2014/05/529-Islas-Canarias-Grandes.jpg?fit=640%2C480&ssl=1",
-        "description": "Las 8 Islas Canarias realizadas en cantería de Arucas, para colocar en una pared o fachada. El Archipiélago Canario puede hacer en cualquier otra piedra natural, piedra de Ayagaure, piedra de la India, piedra Italiana, etc. Para más información contactar. Para la colocación pedir presupuesto. Medidas aproximadas por el diámetro de Gran Canaria = 20x20cm – grosor:  2cm."
+        "id": 12006,
+        "name": "Macetero con Pie",
+        "price": 120.00,
+        "image": "https://firebasestorage.googleapis.com/v0/b/labrarte.appspot.com/o/categories%2Fmaceteros%2F442-Macetero-con-Pie-1.webp?alt=media&token=f95247db-af26-4ec9-a4df-f900a5f6e8b7",
+        "description": "Macetero en piedra de Arucas con pie redondo y basamento cuadrado. Medidas: 28x28x100cm – aprox."
       }
     ]
   },
@@ -593,46 +593,46 @@
     "categoryImage": "https://firebasestorage.googleapis.com/v0/b/labrarte.appspot.com/o/catalogue%2Flavamanos-canos-de-agua-fuentes-cantoneras-tallados-a-mano-en-Canteria.webp?alt=media&token=55739aee-a069-4184-bcd1-697eca836929",
     "productsList": [
       {
-        "id": 6001,
-        "name": "8 Islas Canarias con Relieve",
-        "price": 200.00,
-        "image": "https://i0.wp.com/www.labrarte.com/wp-content/uploads/2014/05/1269-Islas-Canarias-peq-alto-relieve-e1645902627952.jpg?fit=800%2C365&ssl=1",
-        "description": "Islas Canarias talladas en alto relieve en cantería de Arucas, para colocar en una pared o fachada. Para la colocación pedir presupuesto. Medidas por el diámetro de Gran Canaria = 20cm."
+        "id": 13001,
+        "name": "Cantonera de Piedras Naturales",
+        "price": 340.00,
+        "image": "https://firebasestorage.googleapis.com/v0/b/labrarte.appspot.com/o/categories%2Ffuentes%2F1039-Cantonera-de-Piedra.webp?alt=media&token=8ca3320b-33e7-4eed-9b90-7e2739a3674a",
+        "description": "Cantonera realizada con diferentes tipos de piedras naturales. Funciona con pequeña bomba de agua eléctrica, bomba incluida. Para esta cantonera utilizamos varios tipos de piedra, para una demostración en una feria de varias de las piedras con las que se puede trabajar. A partir de esa exposición surgieron varios encargos. Por supuesto la cantonera estaba en funcionamiento, y fue en el atractivo principal de nuestra exposición. Medidas: 60x30cm – aprox."
       },
       {
-        "id": 6002,
-        "name": "Isla con Grabado",
-        "price": 100.00,
-        "image": "https://i0.wp.com/www.labrarte.com/wp-content/uploads/2021/02/isla-de-G.C-con-grabado.png?fit=577%2C433&ssl=1",
-        "description": "Isla de Gran Canaria pulida con grabado."
+        "id": 13002,
+        "name": "Cantonera de Piedra de Arucas",
+        "price": 420.00,
+        "image": "https://firebasestorage.googleapis.com/v0/b/labrarte.appspot.com/o/categories%2Ffuentes%2FCantonera-en-canteria.webp?alt=media&token=61b7fe6f-3d9c-4484-98f3-c13fa47081b7",
+        "description": "Cantonera en piedra de Arucas, realizada en varias piezas pegadas, Funciona con pequeña bomba de agua eléctrica, bomba incluida. Esta cantonera está realizada en cantería de Arucas, consta de varias y piezas pegadas entre sí, esta bien sellada e hidrofugada para evitar pérdidas de agua ya que la cantonera está preparada para su correcto funcionamiento. Se puede realizar cualquier diseño y forma, este está diseñado por nosotros en ocasiones es el cliente el que nos trae un diseño propio. Medidas: 50x30cm – aprox."
       },
       {
-        "id": 6003,
-        "name": "Soporte para Cuchillo",
-        "price": 40.00,
-        "image": "https://i0.wp.com/www.labrarte.com/wp-content/uploads/2021/02/IMG_20210130_111607-removebg-preview.png?fit=577%2C433&ssl=1",
-        "description": "Base para cuchillo canario en piedra de Arucas."
+        "id": 13003,
+        "name": "Lavamanos de Cantería",
+        "price": 520.00,
+        "image": "https://firebasestorage.googleapis.com/v0/b/labrarte.appspot.com/o/categories%2Ffuentes%2Flavamanos-rustico.webp?alt=media&token=a23ff4e4-e8fe-4ce9-b527-b326445a69e0",
+        "description": "Lavamanos rústico realizado en una sola pieza sin forma, de cantería de Arucas. Este lavamanos es labrado a partir de una piedra en bruto sin forma, para darle ese aspecto rústico. Por lo cual la forma y medidas no son exactas, además de que ninguna forma se repite son únicos. Medidas: 75x50x18cm – aprox."
       },
       {
-        "id": 6004,
-        "name": "Isla con Base",
-        "price": 50.00,
-        "image": "https://i0.wp.com/www.labrarte.com/wp-content/uploads/2015/07/1258-Isla-con-base.jpg?fit=800%2C699&ssl=1",
-        "description": "Isla en cantería de Arucas, con la silueta de Gran Canaria con base en lisa. Medidas: Gran Canaria – 20x20x1."
+        "id": 13004,
+        "name": "Caño Recto Pegado",
+        "price": 70.00,
+        "image": "https://firebasestorage.googleapis.com/v0/b/labrarte.appspot.com/o/categories%2Ffuentes%2Fcano-de-piedras-pegadas.webp?alt=media&token=6f651960-7ac0-4040-ba31-1d2f4747dd37",
+        "description": "Caño o gárgola realizada en piedra natural de Arucas. Los caños o gárgolas en piedra son elementos arquitectónicos diseñados para desviar el agua de lluvia lejos de las paredes de un edificio. Estas estructuras pueden encontrarse comúnmente en iglesias, catedrales, castillos y otros edificios antiguos. Medidas: 35x13x13cm – aprox."
       },
       {
-        "id": 6005,
-        "name": "Reloj con Forma de Isla",
-        "price": 35.00,
-        "image": "https://i0.wp.com/www.labrarte.com/wp-content/uploads/2014/04/1194-Reloj-de-Colgar.jpg?fit=800%2C663&ssl=1",
-        "description": "Reloj realizado con la forma de la isla de Gran Canaria, con gancho para colgar de la pared. Medidas: 25x25x2."
+        "id": 13005,
+        "name": "Fuente Delfines",
+        "price": 750.00,
+        "image": "https://firebasestorage.googleapis.com/v0/b/labrarte.appspot.com/o/categories%2Ffuentes%2F1079-Fuente-Delfines-1.webp?alt=media&token=f5447fe1-a628-41d3-84e4-c8059722dc1e",
+        "description": "Fuente con dos platos y deposito para el agua, bomba de agua incluida. Adornada con delfines. Medidas: 35x35x60cm – aprox."
       },
       {
-        "id": 6006,
-        "name": "8 Islas Canarias Lisas",
-        "price": 100.00,
-        "image": "https://i0.wp.com/www.labrarte.com/wp-content/uploads/2014/05/529-Islas-Canarias-Grandes.jpg?fit=640%2C480&ssl=1",
-        "description": "Las 8 Islas Canarias realizadas en cantería de Arucas, para colocar en una pared o fachada. El Archipiélago Canario puede hacer en cualquier otra piedra natural, piedra de Ayagaure, piedra de la India, piedra Italiana, etc. Para más información contactar. Para la colocación pedir presupuesto. Medidas aproximadas por el diámetro de Gran Canaria = 20x20cm – grosor:  2cm."
+        "id": 13006,
+        "name": "Lavamanos en Piedra",
+        "price": 640.00,
+        "image": "https://firebasestorage.googleapis.com/v0/b/labrarte.appspot.com/o/categories%2Ffuentes%2Flavamanos-macizo-de-piedra.webp?alt=media&token=31af0f0d-8137-45c2-9516-2c888b9fbaf0",
+        "description": "Lavamanos cuadrado realizado en una sola pieza de cantería de Arucas. Medidas: 50x50x15cm – aprox."
       }
     ]
   },
@@ -642,46 +642,81 @@
     "categoryImage": "https://firebasestorage.googleapis.com/v0/b/labrarte.appspot.com/o/catalogue%2Ftrabajos-funerarios-e-iglesias-tallados-a-mano-en-Canteria.webp?alt=media&token=320b72ac-49ed-4626-8c01-3f0c709bec39",
     "productsList": [
       {
-        "id": 6001,
-        "name": "8 Islas Canarias con Relieve",
-        "price": 200.00,
-        "image": "https://i0.wp.com/www.labrarte.com/wp-content/uploads/2014/05/1269-Islas-Canarias-peq-alto-relieve-e1645902627952.jpg?fit=800%2C365&ssl=1",
-        "description": "Islas Canarias talladas en alto relieve en cantería de Arucas, para colocar en una pared o fachada. Para la colocación pedir presupuesto. Medidas por el diámetro de Gran Canaria = 20cm."
+        "id": 14001,
+        "name": "Cruz con Ángeles",
+        "price": 140.00,
+        "image": "https://firebasestorage.googleapis.com/v0/b/labrarte.appspot.com/o/categories%2Ffunerarios%2Fcruz_con_angeles_en_piedra.webp?alt=media&token=eab71739-f8b4-40fc-9f45-b8d831cd4416",
+        "description": "Cruz realizada en Cantería de Arucas, con dos ángeles grabados en piedra pulida."
       },
       {
-        "id": 6002,
+        "id": 14002,
         "name": "Isla con Grabado",
         "price": 100.00,
         "image": "https://i0.wp.com/www.labrarte.com/wp-content/uploads/2021/02/isla-de-G.C-con-grabado.png?fit=577%2C433&ssl=1",
         "description": "Isla de Gran Canaria pulida con grabado."
       },
       {
-        "id": 6003,
+        "id": 14003,
         "name": "Soporte para Cuchillo",
         "price": 40.00,
         "image": "https://i0.wp.com/www.labrarte.com/wp-content/uploads/2021/02/IMG_20210130_111607-removebg-preview.png?fit=577%2C433&ssl=1",
         "description": "Base para cuchillo canario en piedra de Arucas."
       },
       {
-        "id": 6004,
+        "id": 14004,
         "name": "Isla con Base",
         "price": 50.00,
         "image": "https://i0.wp.com/www.labrarte.com/wp-content/uploads/2015/07/1258-Isla-con-base.jpg?fit=800%2C699&ssl=1",
         "description": "Isla en cantería de Arucas, con la silueta de Gran Canaria con base en lisa. Medidas: Gran Canaria – 20x20x1."
       },
       {
-        "id": 6005,
+        "id": 14005,
         "name": "Reloj con Forma de Isla",
         "price": 35.00,
         "image": "https://i0.wp.com/www.labrarte.com/wp-content/uploads/2014/04/1194-Reloj-de-Colgar.jpg?fit=800%2C663&ssl=1",
         "description": "Reloj realizado con la forma de la isla de Gran Canaria, con gancho para colgar de la pared. Medidas: 25x25x2."
       },
       {
-        "id": 6006,
+        "id": 14006,
         "name": "8 Islas Canarias Lisas",
         "price": 100.00,
         "image": "https://i0.wp.com/www.labrarte.com/wp-content/uploads/2014/05/529-Islas-Canarias-Grandes.jpg?fit=640%2C480&ssl=1",
         "description": "Las 8 Islas Canarias realizadas en cantería de Arucas, para colocar en una pared o fachada. El Archipiélago Canario puede hacer en cualquier otra piedra natural, piedra de Ayagaure, piedra de la India, piedra Italiana, etc. Para más información contactar. Para la colocación pedir presupuesto. Medidas aproximadas por el diámetro de Gran Canaria = 20x20cm – grosor:  2cm."
+      }
+    ]
+  },
+  {
+    "categoryId": 15,
+    "categoryName": "Esculturas en Piedra",
+    "categoryImage": "https://firebasestorage.googleapis.com/v0/b/labrarte.appspot.com/o/catalogue%2Fesculturas-tallados-a-mano-en-Canteria.webp?alt=media&token=a3412fe6-d1b3-46f7-a991-0ff2083062c6",
+    "productsList": [
+      {
+        "id": 15001,
+        "name": "Escultura Unidad a la Fuerza",
+        "price": 180.00,
+        "image": "https://firebasestorage.googleapis.com/v0/b/labrarte.appspot.com/o/categories%2Fesculturas%2FEscultura-ganadora-del-2opremio-1.webp?alt=media&token=b316631f-d183-49d3-9e66-54877310b742",
+        "description": "2° Premio en el Concurso de Escultura Manolo Ramos. En el MUSEO MUNICIPAL DE ARUCAS. Con la escultura «Unidad a la Fuerza» realizada en piedra verde de Tirma y piedra de Arucas."
+      },
+      {
+        "id": 15002,
+        "name": "Escultura En El Interior",
+        "price": 100.00,
+        "image": "https://firebasestorage.googleapis.com/v0/b/labrarte.appspot.com/o/categories%2Fesculturas%2Fescultura-en-el-interior.webp?alt=media&token=9818964c-6c7a-44a7-aaf7-68dbf168f745",
+        "description": "Escultura realizada en piedra de Arucas y Tindaya."
+      },
+      {
+        "id": 15003,
+        "name": "Escultura en Piedra de Ayagaures",
+        "price": 65.00,
+        "image": "https://firebasestorage.googleapis.com/v0/b/labrarte.appspot.com/o/categories%2Fesculturas%2Fescultura-de-virgen.webp?alt=media&token=7bbc47f0-d5d0-4479-9db7-3d5b550b4d89",
+        "description": "Escultura realizada en piedra de Ayagaures."
+      },
+      {
+        "id": 15004,
+        "name": "Escultura Pistilo",
+        "price": 150.00,
+        "image": "https://firebasestorage.googleapis.com/v0/b/labrarte.appspot.com/o/categories%2Fesculturas%2FEscultura-pistilo-1.webp?alt=media&token=431415ac-e03d-47b6-ac46-6038468cd7dd",
+        "description": "Escultura realizada en piedra de Tindaya (Fuerteventura)."
       }
     ]
   }
