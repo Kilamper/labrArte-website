@@ -2,7 +2,7 @@ import { Injectable } from "@angular/core";
 import { Auth, createUserWithEmailAndPassword, signInWithEmailAndPassword, signOut} from "@angular/fire/auth";
 import {AngularFireAuth} from "@angular/fire/compat/auth";
 import {AngularFirestore} from "@angular/fire/compat/firestore";
-import {User} from "../interfaces/user.interface";
+import {User} from "../../interfaces/user.interface";
 
 @Injectable({
   providedIn: 'root'

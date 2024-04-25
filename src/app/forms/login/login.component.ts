@@ -1,5 +1,8 @@
 import {Component, OnInit} from '@angular/core';
 import {FormControl, FormGroup, Validators} from "@angular/forms";
+import {Router} from "@angular/router";
+import {ToastrService} from "ngx-toastr";
+import {UserService} from "../../services/user/user.service";
 
 @Component({
   selector: 'app-login',
@@ -7,8 +10,10 @@ import {FormControl, FormGroup, Validators} from "@angular/forms";
 })
 export class LoginComponent implements OnInit{
 
-  constructor() {}
+  constructor(private router: Router, private toastr: ToastrService, private userService: UserService ) {}
   loginForm!: FormGroup;
+  backendErrorMessageRegister: any;
+  userData!: any;
 
   ngOnInit(): void {
     this.loginForm = new FormGroup({
@@ -25,7 +30,13 @@ export class LoginComponent implements OnInit{
       this.loginForm.markAllAsTouched()
       alert('Por favor, rellena los campos correctamente');
     }else {
-      alert('Formulario enviado');
+      this.userData = this.loginForm.value
+      this.userService.login(this.userData).then(() => {
+        this.toastr.success('¡Bienvenido a labrArte!', 'Inicio de sesión exitoso');
+        this.router.navigate(['/profile'])
+      }, (error) => {
+        this.backendErrorMessageRegister = error.message;
+      },);
     }
   }
 }
