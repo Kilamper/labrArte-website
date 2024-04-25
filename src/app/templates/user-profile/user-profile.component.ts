@@ -1,10 +1,9 @@
-import { Component, Inject } from '@angular/core';
-import { DOCUMENT } from '@angular/common';
+import {Component, Inject} from '@angular/core';
+import {DOCUMENT} from '@angular/common';
 
 @Component({
   selector: 'app-user-profile',
   templateUrl: './user-profile.component.html',
-  styleUrls: ['./user-profile.component.css']
 })
 export class UserProfileComponent {
   user = {
@@ -18,7 +17,8 @@ export class UserProfileComponent {
   editMode = false;
   tempUser = {...this.user};
 
-  constructor(@Inject(DOCUMENT) private document: Document) {}
+  constructor(@Inject(DOCUMENT) private document: Document) {
+  }
 
   editProfile() {
     this.editMode = true;
