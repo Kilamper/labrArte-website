@@ -1,5 +1,5 @@
 // src/app/templates/catalogue/catalogue.component.ts
-import {Component, OnInit, Output, EventEmitter} from '@angular/core';
+import {Component, OnInit} from '@angular/core';
 import {LoadService} from '../../services/load/load.service';
 
 @Component({
