@@ -1,4 +1,5 @@
 import {Component, Input} from '@angular/core';
+import {CartService} from '../../services/cart/cart.service';
 
 @Component({
   selector: 'app-button',
@@ -14,12 +15,18 @@ export class ButtonComponent {
   @Input() action: string = ''
   @Input() content: string = ''
   @Input() icon: string = ''
+  @Input() product: any = {}
+
+  constructor(private cartService: CartService) {
+  }
 
   handleClick() {
     if (this.action.startsWith('/')) {
       window.location.href = this.action
     } else if (this.action.startsWith('mailto:')) {
       window.open(this.action)
+    } else if (this.action == 'addToCart') {
+      this.cartService.addToCart('iPlCcPOE5uYvBZKwnRLzCqQ2d0n2', {product: this.product}).then(r => console.log(r))
     }
   }
 }
