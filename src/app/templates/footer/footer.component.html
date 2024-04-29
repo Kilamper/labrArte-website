@@ -2,8 +2,8 @@
   <section
     class="max-w-screen-2xl font-inter w-full h-auto pt-12 flex flex-wrap text-center lg:text-left justify-around mx-auto items-center">
     <app-logo class="ml-16 mb-8"></app-logo>
-    <menu class="flex w-full lg:w-3/4 justify-center">
-      <nav class="px-5 w-1/4">
+    <menu class="sm:flex w-fit lg:w-3/4 justify-center mx-auto">
+      <nav class="px-5 sm:w-1/4 pb-4">
         <h4 class="text-xl mb-4 font-bold border-black border-b-2 pb-2.5 inline-block">Índice</h4>
         <ul class="list-none text-lg no-underline text-gray-800 gap-3">
           <li><a class="text-lg transition-all hover:text-black menu-links"
@@ -16,7 +16,7 @@
                  (click)="scrollService.scrollToTop()" [routerLink]="['/courses']">Cursos</a></li>
         </ul>
       </nav>
-      <nav class="px-5 w-1/4">
+      <nav class="px-5 sm:w-1/4 pb-4">
         <h4 class="text-xl mb-4 font-bold border-black border-b-2 pb-2.5 inline-block">Compañía</h4>
         <ul class="list-none text-lg no-underline text-gray-800 gap-3">
           <li><a class="text-lg transition-all hover:text-black menu-links"
@@ -26,12 +26,13 @@
                  href="https://www.google.es/maps/place/labrArte+-+Maestro+Artesano/@28.1153593,-15.5172339,16z/data=!3m1!4b1!4m6!3m5!1s0xc40937056116e61:0x95d7b0fe44b3141f!8m2!3d28.1153593!4d-15.514659!16s%2Fg%2F1tddc2lv?entry=ttu"
                  target="_blank">
             <i class="fa-solid fa-location-dot mr-1"></i>
-            <span>C/ Carretera del Lomo n.º 45 – 35411 Arucas – Las Palmas de Gran Canaria</span>
+            <span>C/ Carretera del Lomo n.º 45 – 35411 Arucas – Las Palmas de Gran
+              Canaria</span>
           </a></li>
           <li><a>Horario: Abierto Lunes a Viernes de 8:00 a 16:00</a></li>
         </ul>
       </nav>
-      <menu class="w-1/4 text-center lg:text-left">
+      <menu class="sm:w-1/4 text-center lg:text-left">
         <nav class="px-5">
           <h4 class="text-xl mb-4 font-bold border-black border-b-2 pb-2.5 inline-block">Contacto</h4>
           <ul class="list-none text-lg no-underline text-gray-800 gap-3">
@@ -52,7 +53,7 @@
         </nav>
         <nav class="mt-4 px-5">
           <h4 class="text-xl mb-4 font-bold border-black border-b-2 pb-2.5 inline-block">Síguenos</h4>
-          <div class="w-full flex gap-2">
+          <div class="w-full flex gap-2 justify-center sm:justify-start">
             <app-social-network [name]="'YouTube'" [url]="'https://www.youtube.com/@labrarte'" [icon]="'fa-youtube'"
                                 [color]="'red-600'"></app-social-network>
             <app-social-network [name]="'Facebook'" [url]="'https://www.facebook.com/labrarte/'" [icon]="'fa-facebook'"
