@@ -8,11 +8,12 @@
     </p>
     <div class="w-2/3 flex text-right gap-10 mt-8 text-lg">
       <app-button [content]="'Añadir al carrito'" [icon]="'fa-solid fa-cart-plus'"></app-button>
-      <app-button [content]="'Contactar'" [icon]="'fa-solid fa-message'"></app-button>
+      <app-button [action]="'mailto:info@labrarte.com'" [content]="'Contactar'"
+                  [icon]="'fa-solid fa-message'"></app-button>
     </div>
   </div>
 </div>
 <div class="my-8 text-center">
-  <app-button class="text-xl" [url]="'/category/' + categoryId" [content]="'Volver'"
+  <app-button class="text-xl" [action]="'/category/' + categoryId" [content]="'Volver'"
               [icon]="'fa-solid fa-reply'"></app-button>
 </div>
