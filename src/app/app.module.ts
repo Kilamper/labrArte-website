@@ -33,6 +33,7 @@ import {NgOptimizedImage} from "@angular/common";
 import {ShoppingCartComponent} from './templates/shopping-cart/shopping-cart.component';
 import {CategoryItemComponent} from './components/category-item/category-item.component';
 import {ProductItemComponent} from './components/product-item/product-item.component';
+import { CartItemComponent } from './components/cart-item/cart-item.component';
 
 @NgModule({
   declarations: [
@@ -59,6 +60,7 @@ import {ProductItemComponent} from './components/product-item/product-item.compo
     CategoryItemComponent,
     ProductItemComponent,
     ProductItemComponent,
+    CartItemComponent,
   ],
   imports: [
     BrowserModule,
