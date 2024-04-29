@@ -2,8 +2,8 @@
   <h2 class="max-w-screen-xl w-4/5 mx-auto text-4xl font-bold mt-16 self-center">{{ title }}</h2>
   <article class="flex margin: 0; w-11/12 max-w-7xl flex-wrap gap-24 justify-center py-16">
     <div *ngFor="let product of displayData" class="rounded-xl border border-gray-400">
-      <app-product-cart [productId]="product.id" [productName]="product.name"
-                        [productImage]="product.image" [productPrice]="product.price"></app-product-cart>
+      <app-product-item [productId]="product.id" [productName]="product.name"
+                        [productImage]="product.image" [productPrice]="product.price"></app-product-item>
     </div>
   </article>
   <app-button class="mb-8 text-xl" [url]="'/catalogue'" [content]="'Volver'" [icon]="'fa-solid fa-reply'"></app-button>

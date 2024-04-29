@@ -22,9 +22,7 @@ import {environment} from '../enviroments/enviroment';
 import {SocialNetworkComponent} from './components/social-network/social-network.component';
 import {LogoComponent} from './components/logo/logo.component';
 import {UserProfileComponent} from './templates/user-profile/user-profile.component';
-import {CategoryCartComponent} from './components/category-cart/category-cart.component';
 import {CategoryComponent} from './templates/category/category.component';
-import {ProductCartComponent} from './components/product-cart/product-cart.component';
 import {ProductComponent} from './templates/product/product.component';
 import {ToastrModule} from "ngx-toastr";
 import {AngularFireModule} from "@angular/fire/compat";
@@ -32,6 +30,9 @@ import {BrowserAnimationsModule} from "@angular/platform-browser/animations";
 import {provideAnimationsAsync} from "@angular/platform-browser/animations/async";
 import {ButtonComponent} from './components/button/button.component';
 import {NgOptimizedImage} from "@angular/common";
+import {ShoppingCartComponent} from './templates/shopping-cart/shopping-cart.component';
+import {CategoryItemComponent} from './components/category-item/category-item.component';
+import {ProductItemComponent} from './components/product-item/product-item.component';
 
 @NgModule({
   declarations: [
@@ -49,12 +50,15 @@ import {NgOptimizedImage} from "@angular/common";
     SocialNetworkComponent,
     LogoComponent,
     UserProfileComponent,
-    CategoryCartComponent,
     CategoryComponent,
-    ProductCartComponent,
     ProductComponent,
     ButtonComponent,
     SliderComponent,
+    ShoppingCartComponent,
+    CategoryItemComponent,
+    CategoryItemComponent,
+    ProductItemComponent,
+    ProductItemComponent,
   ],
   imports: [
     BrowserModule,
