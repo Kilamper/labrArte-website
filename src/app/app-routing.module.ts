@@ -22,7 +22,7 @@ const routes: Routes = [
   {path: 'profile', component: UserProfileComponent},
   {path: 'shopping-cart', component: ShoppingCartComponent},
   {path: 'category/:url', component: CategoryComponent},
-  {path: 'product/:url', component: ProductComponent},
+  {path: 'product/:id', component: ProductComponent},
   {path: '**', component: NotfoundComponent}
 ];
 

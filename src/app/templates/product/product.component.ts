@@ -15,6 +15,7 @@ interface Product {
   templateUrl: './product.component.html',
 })
 export class ProductComponent implements OnInit {
+  categoryUrl: string = '';
   product: Product = {
     id: 0,
     name: 'Product',
@@ -33,6 +34,7 @@ export class ProductComponent implements OnInit {
     this.loadService.loadContent('/catalogue').subscribe((data: any) => {
       const foundCategory = data.find((category: any) => category.categoryId === this.categoryId);
       if (foundCategory) {
+        this.categoryUrl = foundCategory.url;
         const foundProduct = foundCategory.productsList.find((product: any) => product.id === id);
         if (foundProduct) {
           this.product = foundProduct;
