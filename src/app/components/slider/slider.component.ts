@@ -39,11 +39,6 @@ export class SliderComponent implements OnInit {
       slider = document.querySelector("#slider") as HTMLElement,
       sliderSection = document.querySelectorAll(".slider-section");
 
-    if (!btnLeft || !btnRight || !slider || !sliderSection) {
-      console.error('One or more elements not found');
-      return;
-    }
-
     btnLeft.addEventListener("click", () => moveToLeft());
     btnRight.addEventListener("click", () => moveToRight());
 
