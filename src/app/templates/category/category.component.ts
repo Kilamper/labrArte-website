@@ -16,12 +16,12 @@ export class CategoryComponent implements OnInit {
   }
 
   ngOnInit(): void {
-    const id = this.route.snapshot.paramMap.get('id');
+    const url = this.route.snapshot.paramMap.get('url');
     this.loadService.loadContent('/catalogue').subscribe((data: any) => {
-      const foundCategory = data.find((category: any) => category.categoryId === Number(id));
+      const foundCategory = data.find((category: any) => category.url === url);
       if (foundCategory) {
-        this.title = foundCategory.categoryName;
-        this.displayData = foundCategory.productsList;
+        this.title = foundCategory.name;
+        this.displayData = foundCategory.products;
       } else {
         this.router.navigate(['/not-found']).then(r => r);
       }

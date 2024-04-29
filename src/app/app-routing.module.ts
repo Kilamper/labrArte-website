@@ -21,8 +21,8 @@ const routes: Routes = [
   {path: 'signup', component: SignupComponent},
   {path: 'profile', component: UserProfileComponent},
   {path: 'shopping-cart', component: ShoppingCartComponent},
-  {path: 'category/:id', component: CategoryComponent},
-  {path: 'product/:id', component: ProductComponent},
+  {path: 'category/:url', component: CategoryComponent},
+  {path: 'product/:url', component: ProductComponent},
   {path: '**', component: NotfoundComponent}
 ];
 
