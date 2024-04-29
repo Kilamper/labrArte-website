@@ -1,4 +1,5 @@
 import {Component, Input} from '@angular/core';
+import {Router} from '@angular/router';
 import {CartService} from '../../services/cart/cart.service';
 
 @Component({
@@ -17,12 +18,12 @@ export class ButtonComponent {
   @Input() icon: string = ''
   @Input() product: any = {}
 
-  constructor(private cartService: CartService) {
+  constructor(private cartService: CartService, private router: Router) {
   }
 
   handleClick() {
     if (this.action.startsWith('/')) {
-      window.location.href = this.action
+      this.router.navigate([this.action]).then(r => console.log(r))
     } else if (this.action.startsWith('mailto:')) {
       window.open(this.action)
     } else if (this.action == 'addToCart') {
