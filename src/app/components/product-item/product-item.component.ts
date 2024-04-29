@@ -1,4 +1,4 @@
-import {Component, Input, Output} from '@angular/core';
+import {Component, Input} from '@angular/core';
 import {ScrollService} from '../../services/scroll/scroll.service';
 
 interface Product {
