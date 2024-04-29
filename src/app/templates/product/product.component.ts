@@ -32,10 +32,10 @@ export class ProductComponent implements OnInit {
     const id = Number(this.route.snapshot.paramMap.get('id'));
     this.categoryId = Math.floor(id / 1000);
     this.loadService.loadContent('/catalogue').subscribe((data: any) => {
-      const foundCategory = data.find((category: any) => category.categoryId === this.categoryId);
+      const foundCategory = data.find((category: any) => category.id === this.categoryId);
       if (foundCategory) {
         this.categoryUrl = foundCategory.url;
-        const foundProduct = foundCategory.productsList.find((product: any) => product.id === id);
+        const foundProduct = foundCategory.products.find((product: any) => product.id === id);
         if (foundProduct) {
           this.product = foundProduct;
         } else {
