@@ -3,6 +3,8 @@ import { Auth, createUserWithEmailAndPassword, signInWithEmailAndPassword, signO
 import {AngularFireAuth} from "@angular/fire/compat/auth";
 import {AngularFirestore} from "@angular/fire/compat/firestore";
 import {User} from "../../interfaces/user.interface";
+import {Observable, of} from "rxjs";
+import { getStorage, ref, uploadBytesResumable, getDownloadURL } from "firebase/storage";
 
 @Injectable({
   providedIn: 'root'
@@ -30,7 +32,7 @@ export class UserService {
     const { email, password, name  } = userData;
 
     const profilePicture: string = userData.profilePicture || '';
-    const telephone = userData.telephone || '';
+    const phone = userData.phone || '';
     const birthDate = userData.birthDate || null;
 
     return createUserWithEmailAndPassword(this.auth, email, password)
@@ -40,7 +42,7 @@ export class UserService {
           uid: userCredential.user.uid,
           email,
           name,
-          telephone,
+          phone,
           birthDate,
           profilePicture
         });
@@ -98,12 +100,58 @@ export class UserService {
     return signOut(this.auth);
   }
 
-  getUserData() {
+  getUserData(): Observable<User> {
     if (this.auth.currentUser) {
-      return this.firestore.collection('users').doc(this.auth.currentUser.uid).valueChanges();
+      return this.firestore.collection('users').doc(this.auth.currentUser.uid).valueChanges() as Observable<User>;
     } else {
-      // Manejar el caso en que this.auth.currentUser sea nulo
-      return console.log('No user logged in')
+      console.log('No user logged in')
+      return of({
+        profilePicture: '',
+        name: '',
+        email: '',
+        password: '',
+        confirmPassword: '',
+        phone: '',
+        address: '',
+        birthDate: new Date()
+      });
     }
+  }
+
+  updateUserData(uid: string | undefined, userData: Partial<User> | undefined) {
+    if (uid && userData) {
+      return this.firestore.collection('users').doc(uid).update(userData);
+    } else {
+      return Promise.reject('Error updating user data: uid or userData is undefined');
+    }
+  }
+
+  uploadProfilePicture(file: File): Promise<string> {
+    return new Promise((resolve, reject) => {
+      const storage = getStorage();
+      const storageRef = ref(storage, 'userProfilePictures/' + file.name);
+
+      const uploadTask = uploadBytesResumable(storageRef, file);
+
+      uploadTask.on('state_changed',
+        (snapshot) => {
+          // You can use this section to display the upload progress
+        },
+        (error) => {
+          console.error('Upload failed:', error);
+          reject(error);
+        },
+        () => {
+          getDownloadURL(uploadTask.snapshot.ref).then((downloadURL) => {
+            console.log('File available at', downloadURL);
+            resolve(downloadURL);
+          });
+        }
+      );
+    });
+  }
+
+  getUID() {
+    return this.auth.currentUser?.uid;
   }
 }
