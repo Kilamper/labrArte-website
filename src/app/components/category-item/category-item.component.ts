@@ -2,19 +2,27 @@
 import {Component, Input} from '@angular/core';
 import {ScrollService} from '../../services/scroll/scroll.service';
 
+interface Category {
+  categoryId: number;
+  categoryName: string;
+  categoryImage: string;
+}
+
 @Component({
   selector: 'app-category-item',
   template: `
-    <a (click)="scrollService.scrollToTop()" [routerLink]="['/category', categoryId]" class="text-center">
-      <img class="rounded-xl w-80 border border-gray-400" [src]="categoryImage" alt="categoryName">
-      <p class="text-xl font-semibold">{{ categoryName }}</p>
+    <a (click)="scrollService.scrollToTop()" [routerLink]="['/category', category.categoryId]" class="text-center">
+      <img class="rounded-xl w-80 border border-gray-400" [src]="category.categoryImage" [alt]="category.categoryName">
+      <p class="text-xl font-semibold">{{ category.categoryName }}</p>
     </a>
   `
 })
 export class CategoryItemComponent {
-  @Input() categoryId: number = 0;
-  @Input() categoryName: string = 'Category';
-  @Input() categoryImage: string = 'https://th.bing.com/th/id/R.7493e5654057ed64161c7579703d56b4?rik=zhz13r4b96lqZA&pid=ImgRaw&r=0';
+  @Input() category: Category = {
+    categoryId: 0,
+    categoryName: 'Category',
+    categoryImage: 'https://th.bing.com/th/id/R.7493e5654057ed64161c7579703d56b4?rik=zhz13r4b96lqZA&pid=ImgRaw&r=0'
+  };
 
   constructor(public scrollService: ScrollService) {
   }
