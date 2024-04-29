@@ -10,22 +10,22 @@
       <ul
         class="flex flex-col font-medium p-4 lg:p-0 mt-4 border border-gray-300 rounded-lg lg:space-x-8 rtl:space-x-reverse lg:flex-row lg:mt-0 lg:border-0 bg-gray-100 lg:bg-transparent">
         <li>
-          <app-button [url]="'/'" [content]="'Inicio'" [icon]="'fa-solid fa-house'"></app-button>
+          <app-button [action]="'/'" [content]="'Inicio'" [icon]="'fa-solid fa-house'"></app-button>
         </li>
         <li>
-          <app-button [url]="'/catalogue'" [content]="'Catálogo'" [icon]="'fa-solid fa-list'"></app-button>
+          <app-button [action]="'/catalogue'" [content]="'Catálogo'" [icon]="'fa-solid fa-list'"></app-button>
         </li>
         <li>
-          <app-button [url]="'/blog'" [content]="'Blog'" [icon]="'fa-solid fa-book'"></app-button>
+          <app-button [action]="'/blog'" [content]="'Blog'" [icon]="'fa-solid fa-book'"></app-button>
         </li>
         <li>
-          <app-button [url]="'/courses'" [content]="'Cursos'" [icon]="'fa-solid fa-graduation-cap'"></app-button>
+          <app-button [action]="'/courses'" [content]="'Cursos'" [icon]="'fa-solid fa-graduation-cap'"></app-button>
         </li>
         <li>
-          <app-button [url]="'/shopping-cart'" [icon]="'fa-solid fa-shopping-cart'"></app-button>
+          <app-button [action]="'/shopping-cart'" [icon]="'fa-solid fa-shopping-cart'"></app-button>
         </li>
       </ul>
     </div>
-    <app-button [url]="'/login'" [icon]="'fa-solid fa-user'" class="max-lg:hover:bg-gray-700"></app-button>
+    <app-button [action]="'/login'" [icon]="'fa-solid fa-user'" class="max-lg:hover:bg-gray-700"></app-button>
   </div>
 </header>
