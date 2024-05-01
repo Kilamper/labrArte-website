@@ -16,7 +16,7 @@ export class ButtonComponent {
   @Input() action: string = ''
   @Input() content: string = ''
   @Input() icon: string = ''
-  @Input() product: any = {}
+  @Input() value: any = {}
 
   constructor(private cartService: CartService, private router: Router) {
   }
@@ -27,7 +27,7 @@ export class ButtonComponent {
     } else if (this.action.startsWith('mailto:')) {
       window.open(this.action)
     } else if (this.action == 'addToCart') {
-      this.cartService.addToCart('iPlCcPOE5uYvBZKwnRLzCqQ2d0n2', {product: this.product}).then(r => console.log(r))
+      this.cartService.addToCart('iPlCcPOE5uYvBZKwnRLzCqQ2d0n2', {product: this.value}).then(r => console.log(r))
     }
   }
 }

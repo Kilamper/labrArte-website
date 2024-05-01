@@ -1,19 +1,19 @@
 import {Component, OnInit} from '@angular/core';
-import {LoadService} from "../../services/load/load.service";
+import {CartService} from "../../services/cart/cart.service";
 
 @Component({
-    selector: 'app-shopping-cart',
-    templateUrl: './shopping-cart.component.html',
+  selector: 'app-shopping-cart',
+  templateUrl: './shopping-cart.component.html',
 })
 export class ShoppingCartComponent implements OnInit {
-    displayData: any[] = [];
+  displayData: any[] = [];
 
-    constructor(private loadService: LoadService) {
-    }
+  constructor(private cartService: CartService) {
+  }
 
-    ngOnInit(): void {
-        this.loadService.loadContent('users/iPlCcPOE5uYvBZKwnRLzCqQ2d0n2/cart').subscribe((data: any) => {
-            this.displayData = data;
-        });
-    }
+  ngOnInit(): void {
+    this.cartService.getCart('iPlCcPOE5uYvBZKwnRLzCqQ2d0n2').subscribe((data: any) => {
+      this.displayData = data;
+    });
+  }
 }

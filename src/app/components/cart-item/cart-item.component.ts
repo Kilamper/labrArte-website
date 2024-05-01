@@ -10,7 +10,13 @@ interface Product {
 
 @Component({
   selector: 'app-cart-item',
-  template: '<div class="w-full py-4 px-8 flex"><img [src]="product.image" [alt]="product.name"><p>{{product.name}}</p><p>{{product.price}}</p></div>'
+  template: `
+    <div class="w-full py-4 px-8 flex">
+      <img [src]="product.image" [alt]="product.name">
+      <p>{{ product.name }}</p>
+      <p>{{ product.price }}</p>
+    </div>
+  `,
 })
 
 export class CartItemComponent {

@@ -26,7 +26,7 @@ interface Product {
     </a>
     <div class="flex justify-between px-4 py-2 border-t border-gray-400">
       <app-button [action]="'addToCart'" [content]="'Añadir al carrito'" [icon]="'fa-solid fa-cart-plus'"
-                  [product]="product"></app-button>
+                  [value]="product"></app-button>
       <app-button [action]="'/product/' + product.id" [content]="'Detalles'"
                   [icon]="'fa-regular fa-file-lines'"></app-button>
     </div>`

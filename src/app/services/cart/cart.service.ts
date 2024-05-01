@@ -9,6 +9,14 @@ export class CartService {
   }
 
   async addToCart(userId: string, product: any): Promise<void> {
-    await this.firestore.collection('users').doc(userId).collection('cart').add(product);
+    await this.firestore.collection('users').doc(userId).collection('cart').doc(product.id).set(product);
+  }
+
+  async removeFromCart(userId: string, productId: string): Promise<void> {
+    await this.firestore.collection('users').doc(userId).collection('cart').doc(productId).delete();
+  }
+
+  getCart(userId: string): any {
+    return this.firestore.collection('users').doc(userId).collection('cart').valueChanges()
   }
 }
