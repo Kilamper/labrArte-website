@@ -1,13 +1,7 @@
 // src/app/components/category-cart/category-cart.component.ts
 import {Component, Input} from '@angular/core';
 import {ScrollService} from '../../services/scroll/scroll.service';
-
-interface Category {
-  id: number;
-  name: string;
-  url: string;
-  image: string;
-}
+import {Category} from '../../interfaces/category.interface';
 
 @Component({
   selector: 'app-category-item',

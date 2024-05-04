@@ -1,13 +1,6 @@
 import {Component, Input} from '@angular/core';
 import {ScrollService} from '../../services/scroll/scroll.service';
-
-interface Product {
-  id: number;
-  name: string;
-  image: string;
-  price: number;
-  description: string;
-}
+import {Product} from '../../interfaces/product.interface';
 
 @Component({
   selector: 'app-product-item',
