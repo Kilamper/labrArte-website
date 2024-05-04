@@ -1,15 +1,14 @@
 import {Component, Inject, OnInit} from '@angular/core';
-import { DOCUMENT } from '@angular/common';
+import {DOCUMENT} from '@angular/common';
 import {UserService} from "../../services/user/user.service";
 import {Router} from "@angular/router";
 import {User} from "../../interfaces/user.interface";
 
 @Component({
   selector: 'app-user-profile',
-  templateUrl: './user-profile.component.html',
-  styleUrls: ['./user-profile.component.css']
+  templateUrl: './user-profile.component.html'
 })
-export class UserProfileComponent implements OnInit{
+export class UserProfileComponent implements OnInit {
 
   userData: User = {
     confirmPassword: "",
@@ -24,7 +23,8 @@ export class UserProfileComponent implements OnInit{
   tempUser!: User;
   editMode = false;
 
-  constructor(@Inject(DOCUMENT) private document: Document, private userService: UserService, private router: Router) {}
+  constructor(@Inject(DOCUMENT) private document: Document, private userService: UserService, private router: Router) {
+  }
 
   ngOnInit() {
     this.userService.getUserData().subscribe((userData: User | null) => {
@@ -74,7 +74,7 @@ export class UserProfileComponent implements OnInit{
       this.userService.uploadProfilePicture(file)
         .then((downloadURL) => {
           this.tempUser.profilePicture = downloadURL;
-          this.userService.updateUserData(this.userService.getUID(), { profilePicture: downloadURL })
+          this.userService.updateUserData(this.userService.getUID(), {profilePicture: downloadURL})
             .then(() => {
               this.userData.profilePicture = downloadURL;
             })
