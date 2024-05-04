@@ -1,10 +1,10 @@
-import { Injectable } from "@angular/core";
-import { Auth, createUserWithEmailAndPassword, signInWithEmailAndPassword, signOut} from "@angular/fire/auth";
+import {Injectable} from "@angular/core";
+import {Auth, createUserWithEmailAndPassword, signInWithEmailAndPassword, signOut} from "@angular/fire/auth";
 import {AngularFireAuth} from "@angular/fire/compat/auth";
 import {AngularFirestore} from "@angular/fire/compat/firestore";
 import {User} from "../../interfaces/user.interface";
 import {Observable, of} from "rxjs";
-import { getStorage, ref, uploadBytesResumable, getDownloadURL } from "firebase/storage";
+import {getStorage, ref, uploadBytesResumable, getDownloadURL} from "firebase/storage";
 
 @Injectable({
   providedIn: 'root'
@@ -28,8 +28,8 @@ export class UserService {
     });
   }
 
-  register(userData: User) {
-    const { email, password, name  } = userData;
+  async register(userData: User) {
+    const {email, password, name} = userData;
 
     const profilePicture: string = userData.profilePicture || '';
     const phone = userData.phone || '';
@@ -69,7 +69,7 @@ export class UserService {
       });
   }
 
-  login(userData: { password: any; email: any }) {
+  async login(userData: { password: any; email: any }) {
     return this.afAuth.signInWithEmailAndPassword(userData.email, userData.password)
       .then((result) => {
       })
