@@ -8,6 +8,7 @@ import {User} from "../../interfaces/user.interface";
   selector: 'app-user-profile',
   templateUrl: './user-profile.component.html'
 })
+
 export class UserProfileComponent implements OnInit {
 
   userData: User = {
