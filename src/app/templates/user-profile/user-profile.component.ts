@@ -1,8 +1,8 @@
 import {Component, Inject, OnInit} from '@angular/core';
 import {DOCUMENT} from '@angular/common';
 import {UserService} from "../../services/user/user.service";
-import {Router} from "@angular/router";
 import {User} from "../../interfaces/user.interface";
+import {ToastrService} from "ngx-toastr";
 
 @Component({
   selector: 'app-user-profile',
@@ -24,7 +24,7 @@ export class UserProfileComponent implements OnInit {
   tempUser!: User;
   editMode = false;
 
-  constructor(@Inject(DOCUMENT) private document: Document, private userService: UserService, private router: Router) {
+  constructor(@Inject(DOCUMENT) private document: Document, private userService: UserService, private toastr: ToastrService) {
   }
 
   ngOnInit() {
@@ -96,6 +96,7 @@ export class UserProfileComponent implements OnInit {
   logout() {
     this.userService.logout().then(() => {
       location.href = '/';
+      this.toastr.info('Has cerrado sesión correctamente', 'Sesión cerrada');
     });
   }
 }

@@ -4,7 +4,7 @@ import {Product} from '../../interfaces/product.interface';
 @Component({
   selector: 'app-cart-item',
   template: `
-    <div class="w-full py-4 px-8 flex border items-center justify-between">
+    <div class="w-full py-4 px-8 mb-2 flex border items-center justify-between">
       <img class="w-20 h-20" [src]="product.image" [alt]="product.name">
       <p class="text-left text-lg">{{ product.name }}</p>
       <p class="text-left text-lg">{{ product.price }} €</p>
