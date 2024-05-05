@@ -1,6 +1,7 @@
 import {Component, OnInit} from '@angular/core';
 import {CartService} from "../../services/cart/cart.service";
 import {UserService} from "../../services/user/user.service";
+import {ToastrService} from "ngx-toastr";
 
 @Component({
   selector: 'app-shopping-cart',
@@ -12,7 +13,7 @@ export class ShoppingCartComponent implements OnInit {
   totalPrice: number = 0;
   documentId: string = '';
 
-  constructor(private cartService: CartService, private userService: UserService) {
+  constructor(private cartService: CartService, private userService: UserService, private toastr: ToastrService) {
   }
 
   ngOnInit(): void {
@@ -37,6 +38,7 @@ export class ShoppingCartComponent implements OnInit {
       const productToRemove = this.displayData.find(item => item.documentId === documentId);
       this.cartService.removeFromCart(uid, documentId).then(() => {
         this.displayData = this.displayData.filter(item => item.documentId !== documentId);
+        this.toastr.info(`Producto eliminado del carrito`, 'Eliminado');
       });
     }
   }
