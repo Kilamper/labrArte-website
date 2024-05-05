@@ -6,9 +6,10 @@
             aria-controls="mobile-menu" aria-expanded="false">
       <i class="fas fa-bars"></i>
     </button>
-    <div class="hidden absolute lg:relative mt-8 lg:mt-0 w-full lg:block lg:w-auto" id="navbar-dropdown">
+    <div class="hidden absolute lg:relative mt-8 lg:mt-0 w-full lg:block lg:w-auto"
+         id="navbar-dropdown">
       <ul
-        class="flex flex-col font-medium p-4 lg:p-0 mt-4 border border-gray-300 rounded-lg lg:space-x-8 rtl:space-x-reverse lg:flex-row lg:mt-0 lg:border-0 bg-gray-100 lg:bg-transparent">
+        class="flex flex-col font-medium p-4 lg:p-0 mt-4 border border-gray-300 rounded-lg lg:space-x-8 rtl:space-x-reverse lg:flex-row lg:mt-0 lg:border-0 bg-gray-100 lg:bg-transparent justify-center">
         <li>
           <app-button [action]="'/'" [content]="'Inicio'" [icon]="'fa-solid fa-house'"></app-button>
         </li>
@@ -21,11 +22,17 @@
         <li>
           <app-button [action]="'/courses'" [content]="'Cursos'" [icon]="'fa-solid fa-graduation-cap'"></app-button>
         </li>
-        <li>
+        <li *ngIf="userUID">
           <app-button [action]="'/shopping-cart'" [icon]="'fa-solid fa-shopping-cart'"></app-button>
         </li>
       </ul>
     </div>
-    <app-button [action]="'/login'" [icon]="'fa-solid fa-user'" class="max-lg:hover:bg-gray-700"></app-button>
+    <div *ngIf="!this.userUID">
+      <app-button [action]="'/login'" [icon]="'fa-solid fa-user'" class="max-lg:hover:bg-gray-700"></app-button>
+    </div>
+    <div *ngIf="this.userUID">
+      <a [routerLink]="'/profile'"><img class="rounded-full w-10 h-10" ngSrc="{{ this.userImage }}"
+                                        alt="Profile Image" width="30px" height="30px"></a>
+    </div>
   </div>
 </header>
