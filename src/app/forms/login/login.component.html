@@ -24,13 +24,15 @@
       <p *ngIf="password?.errors?.['minlength']">La contraseña debe tener al menos 6 caracteres</p>
       <p *ngIf="password?.errors?.['maxlength']">La contraseña no puede tener más de 18 caracteres</p>
     </div>
-    <p class="mb-4"><a class="underline text-blue-700 text-lg font-medium" href="#">¿Olvidaste tu contraseña?</a>
+    <p class="mb-4">
+      <a class="underline text-blue-700 text-lg font-medium hidden" href="#">¿Olvidaste tu contraseña?</a>
     </p>
     <div *ngIf="backendErrorMessageRegister" class="error-message">
-      {{backendErrorMessageRegister}}
+      {{ backendErrorMessageRegister }}
     </div>
     <label>
-      <input class="w-1/3 p-1.5 bg-gray-400 rounded mb-4" type="submit" value="Iniciar sesión">
+      <input class="w-1/3 p-1.5 bg-gray-300 rounded mb-4 cursor-pointer hover:bg-gray-400" type="submit"
+             value="Iniciar sesión">
     </label>
     <p class="mb-4 text-lg font-medium"><a>o conéctate con</a></p>
     <div class="login-icons flex gap-2 justify-center no-underline">
