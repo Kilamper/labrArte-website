@@ -2,37 +2,46 @@
 
 
   <div class="max-w-md w-full mx-auto bg-white p-8 shadow rounded">
-    <h1 class="text-3xl font-bold text-left mt-4 bullet">User Profile</h1>
+    <h1 class="text-3xl font-bold text-left my-4 bullet">User Profile</h1>
+    <h2 class="text-xl font-medium text-center mt-4 mb-2 underline">Subir Imagen:</h2>
     <div class="flex justify-center items-center">
       <input type="file" id="file" (change)="onFileSelected($event)" style="display: none;">
-      <img [src]="userData.profilePicture" alt="User Photo" class="w-32 h-32 object-cover rounded-full border-2 border-gray-300" (click)="openFileInput()">
+      <img [src]="userData.profilePicture" alt="User Photo"
+           class="w-32 h-32 object-cover rounded-full border-2 border-gray-300 cursor-pointer"
+           (click)="openFileInput()">
     </div>
-    <h2 class="text-2xl font-semibold text-center mt-4">{{userData.name}}</h2>
+    <h2 class="text-2xl font-semibold text-center mt-4">{{ userData.name }}</h2>
     <div class="flex flex-col my-5 justify-start items-start w-full text-left mx-auto">
       <div class="flex justify-start items-center mb-2">
         <label class="font-bold mr-2">Email:</label>
-        <p class="text-gray-500">{{userData.email}}</p>
+        <p class="text-gray-500">{{ userData.email }}</p>
       </div>
       <div class="flex justify-start items-center mb-2">
         <label class="font-bold mr-2">Teléfono:</label>
-        <p class="text-gray-500">{{userData.phone}}</p>
+        <p class="text-gray-500">{{ userData.phone }}</p>
         <input *ngIf="editMode" [(ngModel)]="tempUser.phone" class="border rounded mr-2">
       </div>
       <div class="flex justify-start items-center mb-2">
         <label class="font-bold mr-2">Dirección:</label>
-        <p class="text-gray-500">{{userData.address}}</p>
+        <p class="text-gray-500">{{ userData.address }}</p>
         <input *ngIf="editMode" [(ngModel)]="tempUser.address" class="border rounded mr-2">
       </div>
       <div class="flex justify-start items-center mb-2">
         <label class="font-bold mr-2">Fecha de Nacimiento:</label>
-        <p class="text-gray-500">{{userData.birthDate}}</p>
+        <p class="text-gray-500">{{ userData.birthDate }}</p>
         <input type="date" *ngIf="editMode" [(ngModel)]="tempUser.birthDate" class="border rounded mr-2">
       </div>
     </div>
     <div class="flex justify-between mt-6">
-      <button *ngIf="!editMode" (click)="editProfile()" class="px-0.5 py-0.5 bg-blue-500 text-white rounded w-full mr-2">Edit Profile</button>
-      <button *ngIf="editMode" (click)="saveProfile()" class="px-0.5 py-0.5 bg-green-500 text-white rounded w-full mr-2">Save Changes</button>
-      <button (click)="logout()" class="px-0.5 py-0.5 bg-red-500 text-white rounded w-full mr-2">Logout</button>
+      <button *ngIf="!editMode" (click)="editProfile()"
+              class="px-0.5 py-0.5 bg-blue-500 text-white rounded w-full mr-2 hover:bg-blue-600">Edit Profile
+      </button>
+      <button *ngIf="editMode" (click)="saveProfile()"
+              class="px-0.5 py-0.5 bg-green-500 text-white rounded w-full mr-2 hover:bg-green-600">Save Changes
+      </button>
+      <button (click)="logout()" class="px-0.5 py-0.5 bg-red-500 text-white rounded w-full mr-2 hover:bg-red-600">
+        Logout
+      </button>
     </div>
   </div>
 </div>
