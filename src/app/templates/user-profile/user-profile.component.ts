@@ -28,7 +28,7 @@ export class UserProfileComponent implements OnInit {
   }
 
   ngOnInit() {
-    this.userService.getUserData().subscribe((userData: User | null) => {
+    this.userService.getUserData().subscribe((userData: User) => {
       if (userData) {
         this.userData = userData;
         this.tempUser = {...userData};
@@ -95,7 +95,7 @@ export class UserProfileComponent implements OnInit {
 
   logout() {
     this.userService.logout().then(() => {
-      this.router.navigate([''])
+      this.router.navigate(['']).then(r => r)
     });
   }
 }
