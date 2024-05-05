@@ -26,9 +26,10 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
 
-### Estructura del Proyecto Web: Detalles Técnicos y Estructura
 
-#### Estructura del Código del Proyecto Web:
+# Estructura del Proyecto Web: Detalles Técnicos y Estructura
+
+## Estructura del Código del Proyecto Web:
 
 El código del proyecto está estructurado siguiendo una arquitectura modular y escalable, donde la aplicación se divide en piezas reutilizables y autónomas llamadas componentes, haciendo uso del framework Angular. A continuación, se detallan los componentes principales y su funcionalidad:
 
@@ -72,7 +73,7 @@ El código del proyecto está estructurado siguiendo una arquitectura modular y 
 
 **package.json:** Contiene la información de las dependencias del proyecto.
 
-#### Estructura de los Datos Almacenados en Firebase:
+## Estructura de los Datos Almacenados en Firebase:
 
 Los datos en Firebase se almacenan en tres servicios diferentes:
 
@@ -80,7 +81,7 @@ Los datos en Firebase se almacenan en tres servicios diferentes:
 2. **Firestore Database:** Base de datos para almacenar datos estructurados.
 3. **Firebase Storage:** Almacena recursos multimedia como imágenes.
 
-#### Tour por la Página Web:
+## Tour por la Página Web:
 
 - **Inicio:** Página principal con información general sobre la aplicación.
 - **Catálogo:** Muestra productos y servicios con opción para añadir al carrito.
@@ -88,12 +89,12 @@ Los datos en Firebase se almacenan en tres servicios diferentes:
 - **Perfil de Usuario:** Permite a los usuarios ver y actualizar su información personal.
 - **Carrito de Compras:** Permite a los usuarios gestionar los productos seleccionados para comprar.
 
-#### Evolución o Enlace a Trello:
+## Evolución o Enlace a Trello:
 
 Para realizar un seguimiento del progreso del proyecto y coordinar las tareas entre los miembros del equipo, se utiliza Trello. Se pueden encontrar más detalles sobre el progreso del proyecto en [enlace a Trello]([insertar_enlace_a_trello](https://trello.com/invite/b/6vTlzSo5/ATTIb693f849f2a2ac37cd46c8243d185afaD62C1B46/pwm)
 
 
-### Ejemplo de Introducción de Datos y Visualización en el Catálogo:
+## Ejemplo de Introducción de Datos y Visualización en el Catálogo:
 
 Supongamos que un usuario desea crear una nueva cuenta en la plataforma. Utilizando un formulario de registro proporcionado en el sitio web, el usuario puede ingresar detalles como su dirección de correo electrónico y contraseña. Al enviar el formulario de registro, las credenciales del usuario se transmitirán de manera segura al servicio de Autenticación de Firebase para la creación de la cuenta.Si el registro es exitoso, Firebase Authentication generará un ID de usuario único para el usuario recién registrado, y los detalles de su cuenta se almacenarán de forma segura en la base de datos de usuarios de Firebase. 
 
