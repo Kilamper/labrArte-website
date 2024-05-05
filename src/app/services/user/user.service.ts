@@ -44,7 +44,7 @@ export class UserService {
           name,
           phone,
           birthDate,
-          profilePicture
+          profilePicture: 'https://pluspng.com/img-png/user-png-icon-download-icons-logos-emojis-users-2240.png'
         });
       }).catch((error) => {
         let errorMessage: string;
@@ -106,7 +106,7 @@ export class UserService {
     } else {
       console.log('No user logged in')
       return of({
-        profilePicture: '',
+        profilePicture: 'https://pluspng.com/img-png/user-png-icon-download-icons-logos-emojis-users-2240.png',
         name: '',
         email: '',
         password: '',

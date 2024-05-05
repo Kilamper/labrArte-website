@@ -31,7 +31,7 @@
       <app-button [action]="'/login'" [icon]="'fa-solid fa-user'" class="max-lg:hover:bg-gray-700"></app-button>
     </div>
     <div *ngIf="this.userUID">
-      <a [routerLink]="'/profile'"><img class="rounded-full w-10 h-10" ngSrc="{{ this.userImage }}"
+      <a [routerLink]="'/profile'"><img class="rounded-full w-8 h-8 lg:-mt-1 mt-1" ngSrc="{{ this.userImage }}"
                                         alt="Profile Image" width="30px" height="30px"></a>
     </div>
   </div>
