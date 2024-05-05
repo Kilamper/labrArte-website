@@ -35,11 +35,6 @@ export class ShoppingCartComponent implements OnInit {
     const uid = this.userService.getUID();
     if (uid) {
       const productToRemove = this.displayData.find(item => item.documentId === documentId);
-      if (!productToRemove) {
-        console.log(`Product with documentId ${documentId} not found in cart`);
-        return;
-      }
-
       this.cartService.removeFromCart(uid, documentId).then(() => {
         this.displayData = this.displayData.filter(item => item.documentId !== documentId);
       });
