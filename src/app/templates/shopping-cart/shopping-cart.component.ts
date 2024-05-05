@@ -8,6 +8,9 @@ import {UserService} from "../../services/user/user.service";
 })
 export class ShoppingCartComponent implements OnInit {
   displayData: any[] = [];
+  numberOfProducts: number = 0;
+  totalPrice: number = 0;
+  documentId: string = '';
 
   constructor(private cartService: CartService, private userService: UserService) {
   }
@@ -17,6 +20,28 @@ export class ShoppingCartComponent implements OnInit {
     if (uid) {
       this.cartService.getCart(uid).subscribe((data: any) => {
         this.displayData = data;
+        this.totalPrice = 0;
+        this.numberOfProducts = 0;
+        for (const item of this.displayData) {
+          this.numberOfProducts++;
+          this.totalPrice += item.product.price;
+          this.documentId = item.documentId;
+        }
+      });
+    }
+  }
+
+  removeProductFromCart(documentId: string) {
+    const uid = this.userService.getUID();
+    if (uid) {
+      const productToRemove = this.displayData.find(item => item.documentId === documentId);
+      if (!productToRemove) {
+        console.log(`Product with documentId ${documentId} not found in cart`);
+        return;
+      }
+
+      this.cartService.removeFromCart(uid, documentId).then(() => {
+        this.displayData = this.displayData.filter(item => item.documentId !== documentId);
       });
     }
   }
