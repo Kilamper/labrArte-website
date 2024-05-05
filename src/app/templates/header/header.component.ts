@@ -4,6 +4,11 @@ import {UserService} from "../../services/user/user.service";
 @Component({
   selector: 'app-header',
   templateUrl: './header.component.html',
+  styles: [`
+    #navbar-dropdown {
+      z-index: 9999;
+    }
+  `]
 })
 export class HeaderComponent implements OnInit {
   userUID: string | undefined;
@@ -19,9 +24,20 @@ export class HeaderComponent implements OnInit {
   }
 
   ngOnInit(): void {
-    document.getElementById('burger-menu')?.addEventListener('click', function (): void {
-      const navbarDropdown = document.getElementById('navbar-dropdown');
+    const burgerMenu = document.getElementById('burger-menu');
+    const navbarDropdown = document.getElementById('navbar-dropdown');
+
+    burgerMenu?.addEventListener('click', function (event: Event): void {
+      event.stopPropagation();
       navbarDropdown?.classList.toggle('hidden');
+    });
+
+    document.addEventListener('click', function (event: Event) {
+      const isClickInside = navbarDropdown?.contains(event.target as Node);
+
+      if (!isClickInside && !navbarDropdown?.classList.contains('hidden')) {
+        navbarDropdown?.classList.add('hidden');
+      }
     });
   }
 }
