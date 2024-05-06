@@ -7,7 +7,8 @@
       {{ product.description }}
     </p>
     <div class="flex flex-wrap text-right lg:gap-10 mt-8 text-lg">
-      <app-button [content]="'Añadir al carrito'" [icon]="'fa-solid fa-cart-plus'"></app-button>
+      <app-button [action]="'addToCart'" [content]="'Añadir al carrito'" [icon]="'fa-solid fa-cart-plus'"
+                  [value]="product"></app-button>
       <app-button [action]="'mailto:info@labrarte.com'" [content]="'Contactar'"
                   [icon]="'fa-solid fa-message'"></app-button>
     </div>
