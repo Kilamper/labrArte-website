@@ -1,9 +1,10 @@
 [
   {
-    "categoryId": 1,
-    "categoryName": "Números en Piedra",
-    "categoryImage": "https://firebasestorage.googleapis.com/v0/b/labrarte.appspot.com/o/catalogue%2FNumeros-tallados-a-mano-en-Canteria.webp?alt=media&token=d2005b7a-19c1-4a08-8f0b-d517ff943cb9",
-    "productsList": [
+    "id": 1,
+    "name": "Números en Piedra",
+    "url": "numeros_en_piedra",
+    "image": "https://firebasestorage.googleapis.com/v0/b/labrarte.appspot.com/o/catalogue%2FNumeros-tallados-a-mano-en-Canteria.webp?alt=media&token=d2005b7a-19c1-4a08-8f0b-d517ff943cb9",
+    "products": [
       {
         "id": 1001,
         "name": "Número Tallado en Fondo Picado",
@@ -49,10 +50,11 @@
     ]
   },
   {
-    "categoryId": 2,
-    "categoryName": "Buzones de Cartas",
-    "categoryImage": "https://firebasestorage.googleapis.com/v0/b/labrarte.appspot.com/o/catalogue%2Fbuzones-de-cartas-tallados-a-mano-en-Canteria.webp?alt=media&token=25b0834d-00df-4293-a7d9-e76c83ed6a53",
-    "productsList": [
+    "id": 2,
+    "name": "Buzones de Cartas",
+    "url": "buzones_de_cartas",
+    "image": "https://firebasestorage.googleapis.com/v0/b/labrarte.appspot.com/o/catalogue%2Fbuzones-de-cartas-tallados-a-mano-en-Canteria.webp?alt=media&token=25b0834d-00df-4293-a7d9-e76c83ed6a53",
+    "products": [
       {
         "id": 2001,
         "name": "Buzón de Cartas en Piedra",
@@ -98,10 +100,11 @@
     ]
   },
   {
-    "categoryId": 3,
-    "categoryName": "Letreros y Escudos",
-    "categoryImage": "https://firebasestorage.googleapis.com/v0/b/labrarte.appspot.com/o/catalogue%2Fletrero-y-escudos-tallados-a-mano-en-Canteria.webp?alt=media&token=5fdfc3e5-756a-4c8d-a510-742c8b8c0b48",
-    "productsList": [
+    "id": 3,
+    "name": "Letreros y Escudos",
+    "url": "letreros_y_escudos",
+    "image": "https://firebasestorage.googleapis.com/v0/b/labrarte.appspot.com/o/catalogue%2Fletrero-y-escudos-tallados-a-mano-en-Canteria.webp?alt=media&token=5fdfc3e5-756a-4c8d-a510-742c8b8c0b48",
+    "products": [
       {
         "id": 3001,
         "name": "Letrero en Alto Relieve",
@@ -147,10 +150,11 @@
     ]
   },
   {
-    "categoryId": 4,
-    "categoryName": "Relojes de Piedra",
-    "categoryImage": "https://firebasestorage.googleapis.com/v0/b/labrarte.appspot.com/o/catalogue%2Frelojes-tallados-a-mano-en-Canteria.webp?alt=media&token=f4dc3f1d-2b71-447a-b932-0ab45d300d7a",
-    "productsList": [
+    "id": 4,
+    "name": "Relojes de Piedra",
+    "url": "relojes_de_piedra",
+    "image": "https://firebasestorage.googleapis.com/v0/b/labrarte.appspot.com/o/catalogue%2Frelojes-tallados-a-mano-en-Canteria.webp?alt=media&token=f4dc3f1d-2b71-447a-b932-0ab45d300d7a",
+    "products": [
       {
         "id": 4001,
         "name": "Reloj de Pared",
@@ -196,10 +200,11 @@
     ]
   },
   {
-    "categoryId": 5,
-    "categoryName": "Objetos en Piedra",
-    "categoryImage": "https://firebasestorage.googleapis.com/v0/b/labrarte.appspot.com/o/catalogue%2Fobjetos-decorativos-tallados-a-mano-en-Canteria.webp?alt=media&token=2f7ec07f-dc85-4c22-b26b-2f3e40c9348f",
-    "productsList": [
+    "id": 5,
+    "name": "Objetos en Piedra",
+    "url": "objetos_en_piedra",
+    "image": "https://firebasestorage.googleapis.com/v0/b/labrarte.appspot.com/o/catalogue%2Fobjetos-decorativos-tallados-a-mano-en-Canteria.webp?alt=media&token=2f7ec07f-dc85-4c22-b26b-2f3e40c9348f",
+    "products": [
       {
         "id": 5001,
         "name": "Banco Canario",
@@ -245,10 +250,11 @@
     ]
   },
   {
-    "categoryId": 6,
-    "categoryName": "Islas Canarias en Piedra",
-    "categoryImage": "https://firebasestorage.googleapis.com/v0/b/labrarte.appspot.com/o/catalogue%2Fislas-del-archipielago-canario-tallados-a-mano-en-Canteria.webp?alt=media&token=f3188c04-f56a-4583-a30b-579277ede883",
-    "productsList": [
+    "id": 6,
+    "name": "Islas Canarias en Piedra",
+    "url": "islas_canarias_en_piedra",
+    "image": "https://firebasestorage.googleapis.com/v0/b/labrarte.appspot.com/o/catalogue%2Fislas-del-archipielago-canario-tallados-a-mano-en-Canteria.webp?alt=media&token=f3188c04-f56a-4583-a30b-579277ede883",
+    "products": [
       {
         "id": 6001,
         "name": "8 Islas Canarias con Relieve",
@@ -294,10 +300,11 @@
     ]
   },
   {
-    "categoryId": 7,
-    "categoryName": "Placas y Trofeos",
-    "categoryImage": "https://firebasestorage.googleapis.com/v0/b/labrarte.appspot.com/o/catalogue%2Fplacas-y-trofeos-tallados-a-mano-en-Canteria.webp?alt=media&token=a59be3d2-9170-4c1f-a4c8-c6b93d82eebb",
-    "productsList": [
+    "id": 7,
+    "name": "Placas y Trofeos",
+    "url": "placas_y_trofeos",
+    "image": "https://firebasestorage.googleapis.com/v0/b/labrarte.appspot.com/o/catalogue%2Fplacas-y-trofeos-tallados-a-mano-en-Canteria.webp?alt=media&token=a59be3d2-9170-4c1f-a4c8-c6b93d82eebb",
+    "products": [
       {
         "id": 7001,
         "name": "Concha Tallada",
@@ -343,10 +350,11 @@
     ]
   },
   {
-    "categoryId": 8,
-    "categoryName": "Imágenes y Grabados",
-    "categoryImage": "https://firebasestorage.googleapis.com/v0/b/labrarte.appspot.com/o/catalogue%2Fimagenes-y-grabados-tallados-a-mano-en-Canteria.webp?alt=media&token=dcab6812-4c72-466b-95af-3f19a2b48fbb",
-    "productsList": [
+    "id": 8,
+    "name": "Imágenes y Grabados",
+    "url": "imagenes_y_grabados",
+    "image": "https://firebasestorage.googleapis.com/v0/b/labrarte.appspot.com/o/catalogue%2Fimagenes-y-grabados-tallados-a-mano-en-Canteria.webp?alt=media&token=dcab6812-4c72-466b-95af-3f19a2b48fbb",
+    "products": [
       {
         "id": 8001,
         "name": "Imagen Grabada",
@@ -392,10 +400,11 @@
     ]
   },
   {
-    "categoryId": 9,
-    "categoryName": "Recipientes y Cofres",
-    "categoryImage": "https://firebasestorage.googleapis.com/v0/b/labrarte.appspot.com/o/catalogue%2Frecipientes-y-cofres-tallados-a-mano-en-Canteria.webp?alt=media&token=f83db8ba-004e-4c0d-ab2e-bfdebffa4aeb",
-    "productsList": [
+    "id": 9,
+    "name": "Recipientes y Cofres",
+    "url": "recipientes_y_cofres",
+    "image": "https://firebasestorage.googleapis.com/v0/b/labrarte.appspot.com/o/catalogue%2Frecipientes-y-cofres-tallados-a-mano-en-Canteria.webp?alt=media&token=f83db8ba-004e-4c0d-ab2e-bfdebffa4aeb",
+    "products": [
       {
         "id": 9001,
         "name": "Plato de Piedra",
@@ -441,10 +450,11 @@
     ]
   },
   {
-    "categoryId": 10,
-    "categoryName": "Rosetones y Tulipas",
-    "categoryImage": "https://firebasestorage.googleapis.com/v0/b/labrarte.appspot.com/o/catalogue%2FRosetones-y-Tulipas-tallados-a-mano-en-Canteria.webp?alt=media&token=ee86f2b2-0bbd-47ee-ad43-81d9a9f0725d",
-    "productsList": [
+    "id": 10,
+    "name": "Rosetones y Tulipas",
+    "url": "rosetones_y_tulipas",
+    "image": "https://firebasestorage.googleapis.com/v0/b/labrarte.appspot.com/o/catalogue%2FRosetones-y-Tulipas-tallados-a-mano-en-Canteria.webp?alt=media&token=ee86f2b2-0bbd-47ee-ad43-81d9a9f0725d",
+    "products": [
       {
         "id": 10001,
         "name": "8 Islas Canarias con Relieve",
@@ -490,10 +500,11 @@
     ]
   },
   {
-    "categoryId": 11,
-    "categoryName": "Basamentos y Capiteles",
-    "categoryImage": "https://firebasestorage.googleapis.com/v0/b/labrarte.appspot.com/o/catalogue%2Fbasamentos-y-capiteles-tallados-a-mano-en-Canteria.webp?alt=media&token=94a6d824-5da1-4fbc-be4b-ab0dabe6c699",
-    "productsList": [
+    "id": 11,
+    "name": "Basamentos y Capiteles",
+    "url": "basamentos_y_capiteles",
+    "image": "https://firebasestorage.googleapis.com/v0/b/labrarte.appspot.com/o/catalogue%2Fbasamentos-y-capiteles-tallados-a-mano-en-Canteria.webp?alt=media&token=94a6d824-5da1-4fbc-be4b-ab0dabe6c699",
+    "products": [
       {
         "id": 11001,
         "name": "Basamento Escalonado",
@@ -539,10 +550,11 @@
     ]
   },
   {
-    "categoryId": 12,
-    "categoryName": "Floreros y Maceteros",
-    "categoryImage": "https://firebasestorage.googleapis.com/v0/b/labrarte.appspot.com/o/catalogue%2Ffloreros-y-maceteros-tallados-a-mano-en-Canteria.webp?alt=media&token=fdab6bd0-b1af-41aa-95da-ef7b1d355b64",
-    "productsList": [
+    "id": 12,
+    "name": "Floreros y Maceteros",
+    "url": "floreros_y_maceteros",
+    "image": "https://firebasestorage.googleapis.com/v0/b/labrarte.appspot.com/o/catalogue%2Ffloreros-y-maceteros-tallados-a-mano-en-Canteria.webp?alt=media&token=fdab6bd0-b1af-41aa-95da-ef7b1d355b64",
+    "products": [
       {
         "id": 12001,
         "name": "Macetero Tallado",
@@ -588,10 +600,11 @@
     ]
   },
   {
-    "categoryId": 13,
-    "categoryName": "Lavamanos, Caños y Fuentes",
-    "categoryImage": "https://firebasestorage.googleapis.com/v0/b/labrarte.appspot.com/o/catalogue%2Flavamanos-canos-de-agua-fuentes-cantoneras-tallados-a-mano-en-Canteria.webp?alt=media&token=55739aee-a069-4184-bcd1-697eca836929",
-    "productsList": [
+    "id": 13,
+    "name": "Lavamanos, Caños y Fuentes",
+    "url": "lavamanos_canos_y_fuentes",
+    "image": "https://firebasestorage.googleapis.com/v0/b/labrarte.appspot.com/o/catalogue%2Flavamanos-canos-de-agua-fuentes-cantoneras-tallados-a-mano-en-Canteria.webp?alt=media&token=55739aee-a069-4184-bcd1-697eca836929",
+    "products": [
       {
         "id": 13001,
         "name": "Cantonera de Piedras Naturales",
@@ -637,10 +650,11 @@
     ]
   },
   {
-    "categoryId": 14,
-    "categoryName": "Trabajos Funerarios",
-    "categoryImage": "https://firebasestorage.googleapis.com/v0/b/labrarte.appspot.com/o/catalogue%2Ftrabajos-funerarios-e-iglesias-tallados-a-mano-en-Canteria.webp?alt=media&token=320b72ac-49ed-4626-8c01-3f0c709bec39",
-    "productsList": [
+    "id": 14,
+    "name": "Trabajos Funerarios",
+    "url": "trabajos_funerarios",
+    "image": "https://firebasestorage.googleapis.com/v0/b/labrarte.appspot.com/o/catalogue%2Ftrabajos-funerarios-e-iglesias-tallados-a-mano-en-Canteria.webp?alt=media&token=320b72ac-49ed-4626-8c01-3f0c709bec39",
+    "products": [
       {
         "id": 14001,
         "name": "Cruz con Ángeles",
@@ -686,10 +700,11 @@
     ]
   },
   {
-    "categoryId": 15,
-    "categoryName": "Esculturas en Piedra",
-    "categoryImage": "https://firebasestorage.googleapis.com/v0/b/labrarte.appspot.com/o/catalogue%2Fesculturas-tallados-a-mano-en-Canteria.webp?alt=media&token=a3412fe6-d1b3-46f7-a991-0ff2083062c6",
-    "productsList": [
+    "id": 15,
+    "name": "Esculturas en Piedra",
+    "url": "esculturas_en_piedra",
+    "image": "https://firebasestorage.googleapis.com/v0/b/labrarte.appspot.com/o/catalogue%2Fesculturas-tallados-a-mano-en-Canteria.webp?alt=media&token=a3412fe6-d1b3-46f7-a991-0ff2083062c6",
+    "products": [
       {
         "id": 15001,
         "name": "Escultura Unidad a la Fuerza",

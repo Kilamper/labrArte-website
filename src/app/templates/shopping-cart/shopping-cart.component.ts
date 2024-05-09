@@ -1,19 +1,45 @@
 import {Component, OnInit} from '@angular/core';
-import {LoadService} from "../../services/load/load.service";
+import {CartService} from "../../services/cart/cart.service";
+import {UserService} from "../../services/user/user.service";
+import {ToastrService} from "ngx-toastr";
 
 @Component({
-    selector: 'app-shopping-cart',
-    templateUrl: './shopping-cart.component.html',
+  selector: 'app-shopping-cart',
+  templateUrl: './shopping-cart.component.html',
 })
 export class ShoppingCartComponent implements OnInit {
-    displayData: any[] = [];
+  displayData: any[] = [];
+  numberOfProducts: number = 0;
+  totalPrice: number = 0;
+  documentId: string = '';
 
-    constructor(private loadService: LoadService) {
-    }
+  constructor(private cartService: CartService, private userService: UserService, private toastr: ToastrService) {
+  }
 
-    ngOnInit(): void {
-        this.loadService.loadContent('users/iPlCcPOE5uYvBZKwnRLzCqQ2d0n2/cart').subscribe((data: any) => {
-            this.displayData = data;
-        });
+  ngOnInit(): void {
+    const uid = this.userService.getUID();
+    if (uid) {
+      this.cartService.getCart(uid).subscribe((data: any) => {
+        this.displayData = data;
+        this.totalPrice = 0;
+        this.numberOfProducts = 0;
+        for (const item of this.displayData) {
+          this.numberOfProducts++;
+          this.totalPrice += item.product.price;
+          this.documentId = item.documentId;
+        }
+      });
     }
+  }
+
+  removeProductFromCart(documentId: string) {
+    const uid = this.userService.getUID();
+    if (uid) {
+      const productToRemove = this.displayData.find(item => item.documentId === documentId);
+      this.cartService.removeFromCart(uid, documentId).then(() => {
+        this.displayData = this.displayData.filter(item => item.documentId !== documentId);
+        this.toastr.info(`Producto eliminado del carrito`, 'Eliminado');
+      });
+    }
+  }
 }

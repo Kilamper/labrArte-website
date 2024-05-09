@@ -1,14 +1,15 @@
 import {Component, Inject, OnInit} from '@angular/core';
-import { DOCUMENT } from '@angular/common';
+import {DOCUMENT} from '@angular/common';
 import {UserService} from "../../services/user/user.service";
-import {Router} from "@angular/router";
 import {User} from "../../interfaces/user.interface";
+import {ToastrService} from "ngx-toastr";
 
 @Component({
   selector: 'app-user-profile',
-  templateUrl: './user-profile.component.html',
+  templateUrl: './user-profile.component.html'
 })
-export class UserProfileComponent implements OnInit{
+
+export class UserProfileComponent implements OnInit {
 
   userData: User = {
     confirmPassword: "",
@@ -23,10 +24,11 @@ export class UserProfileComponent implements OnInit{
   tempUser!: User;
   editMode = false;
 
-  constructor(@Inject(DOCUMENT) private document: Document, private userService: UserService, private router: Router) {}
+  constructor(@Inject(DOCUMENT) private document: Document, private userService: UserService, private toastr: ToastrService) {
+  }
 
   ngOnInit() {
-    this.userService.getUserData().subscribe((userData: User | null) => {
+    this.userService.getUserData().subscribe((userData: User) => {
       if (userData) {
         this.userData = userData;
         this.tempUser = {...userData};
@@ -73,7 +75,7 @@ export class UserProfileComponent implements OnInit{
       this.userService.uploadProfilePicture(file)
         .then((downloadURL) => {
           this.tempUser.profilePicture = downloadURL;
-          this.userService.updateUserData(this.userService.getUID(), { profilePicture: downloadURL })
+          this.userService.updateUserData(this.userService.getUID(), {profilePicture: downloadURL})
             .then(() => {
               this.userData.profilePicture = downloadURL;
             })
@@ -93,7 +95,8 @@ export class UserProfileComponent implements OnInit{
 
   logout() {
     this.userService.logout().then(() => {
-      this.router.navigate([''])
+      location.href = '/';
+      this.toastr.info('Has cerrado sesión correctamente', 'Sesión cerrada');
     });
   }
 }

@@ -65,11 +65,12 @@
       </div>
     </label>
     <div *ngIf="backendErrorMessageRegister" class="error-message">
-      {{backendErrorMessageRegister}}
+      {{ backendErrorMessageRegister }}
     </div>
 
     <label>
-      <input class="w-1/3 p-1.5 bg-gray-400 rounded mb-4 mt-2" type="submit" value="Registrarse">
+      <input class="w-1/3 p-1.5 bg-gray-300 rounded mb-4 mt-2 cursor-pointer hover:bg-gray-400" type="submit"
+             value="Registrarse">
     </label>
     <p class="mb-4 text-lg font-medium"><a>o conéctate con</a></p>
     <div class="login-icons flex justify-center gap-2">
