@@ -1,0 +1,90 @@
+/*
+ * App Global CSS
+ * ----------------------------------------------------------------------------
+ * Put style rules here that you want to apply globally. These styles are for
+ * the entire app and not just one component. Additionally, this file can be
+ * used as an entry point to import other CSS/Sass files to be included in the
+ * output CSS.
+ * For more information on global stylesheets, visit the documentation:
+ * https://ionicframework.com/docs/layout/global-stylesheets
+ */
+
+/* Core CSS required for Ionic components to work properly */
+@import "@ionic/angular/css/core.css";
+
+/* Basic CSS for apps built with Ionic */
+@import "@ionic/angular/css/normalize.css";
+@import "@ionic/angular/css/structure.css";
+@import "@ionic/angular/css/typography.css";
+@import "@ionic/angular/css/display.css";
+
+/* Optional CSS utils that can be commented out */
+@import "@ionic/angular/css/padding.css";
+@import "@ionic/angular/css/float-elements.css";
+@import "@ionic/angular/css/text-alignment.css";
+@import "@ionic/angular/css/text-transformation.css";
+@import "@ionic/angular/css/flex-utils.css";
+
+@import '../node_modules/ngx-toastr/toastr.css'; /* You can add global styles to this file, and also import other style files */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  font-family: "Inter", serif;
+}
+
+.logo-name {
+  font-family: Papyrus, fantasy;
+  filter: drop-shadow(2px 2px #595959);
+}
+
+.logo {
+  filter: drop-shadow(1px 1px #595959);
+}
+
+.menu-links:hover {
+  filter: drop-shadow(1px 1px #595959);
+}
+
+.footer {
+  background-image: linear-gradient(315deg, rgb(189, 195, 199) 0.00%, rgb(255, 255, 255) 100.00%);
+}
+
+.buttons:hover {
+  filter: drop-shadow(1px 1px #595959);
+}
+
+.login-signup {
+  background-image: linear-gradient(315deg, rgb(189, 195, 199) 0.00%, rgb(255, 255, 255) 100.00%);
+}
+
+.fa-google {
+  background: conic-gradient(from -45deg, #ea4335 110deg, #4285f4 90deg 180deg, #34a853 180deg 270deg, #fbbc05 270deg) 73% 55%/150% 150% no-repeat;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+}
+
+.login-icons {
+  scale: 2;
+}
+
+.element-image {
+  border: 2px dashed rgba(120, 120, 120, 0.4);
+  background-image: url('https://play.teleporthq.io/static/svg/default-img.svg');
+}
+
+input.invalid {
+  border: 2px solid red;
+}
+
+input.valid {
+  border: 2px solid green;
+}
+
+.error-message{
+  color: #ff0000;
+  font-size: 11px !important;
+}

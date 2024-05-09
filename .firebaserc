@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "labrarte": {
+      "hosting": {
+        "app": [
+          "labrarte"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "labrarte"
+  }
+}

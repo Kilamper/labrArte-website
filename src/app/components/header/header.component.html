@@ -1,0 +1,38 @@
+<header class="max-w-screen-2xl flex flex-wrap items-center justify-between mx-auto p-4 px-12 gap-2.5">
+  <app-logo></app-logo>
+  <div class="flex gap-2 lg:gap-8">
+    <button id="burger-menu" title="Abrir menú"
+            class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-400 rounded-lg lg:hidden hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-gray-600"
+            aria-controls="mobile-menu" aria-expanded="false">
+      <i class="fas fa-bars"></i>
+    </button>
+    <div class="hidden absolute lg:relative mt-8 lg:mt-0 w-full lg:block lg:w-auto"
+         id="navbar-dropdown">
+      <ul
+        class="flex flex-col font-medium p-4 lg:p-0 mt-4 border border-gray-300 rounded-lg lg:space-x-8 rtl:space-x-reverse lg:flex-row lg:mt-0 lg:border-0 bg-gray-100 lg:bg-transparent justify-center">
+        <li>
+          <app-button [action]="'/'" [content]="'Inicio'" [icon]="'fa-solid fa-house'"></app-button>
+        </li>
+        <li>
+          <app-button [action]="'/catalogue'" [content]="'Catálogo'" [icon]="'fa-solid fa-list'"></app-button>
+        </li>
+        <li>
+          <app-button [action]="'/blog'" [content]="'Blog'" [icon]="'fa-solid fa-book'"></app-button>
+        </li>
+        <li>
+          <app-button [action]="'/courses'" [content]="'Cursos'" [icon]="'fa-solid fa-graduation-cap'"></app-button>
+        </li>
+        <li *ngIf="userUID">
+          <app-button [action]="'/shopping-cart'" [icon]="'fa-solid fa-shopping-cart'"></app-button>
+        </li>
+      </ul>
+    </div>
+    <div *ngIf="!this.userUID">
+      <app-button [action]="'/login'" [icon]="'fa-solid fa-user'" class="max-lg:hover:bg-gray-700"></app-button>
+    </div>
+    <div *ngIf="this.userUID">
+      <a [routerLink]="'/profile'"><img class="rounded-full w-8 h-8 lg:-mt-1 mt-1" ngSrc="{{ this.userImage }}"
+                                        alt="Profile Image" width="30px" height="30px"></a>
+    </div>
+  </div>
+</header>
