@@ -6,11 +6,11 @@ import {LoadService} from "../../services/load/load.service";
   templateUrl: './slider.component.html',
   styles: [`
     .carruseles {
-      width: 300%;
+      width: 400%;
     }
 
     .slider-section {
-      width: calc(100% / 3);
+      width: calc(100% / 4);
     }
   `]
 })
