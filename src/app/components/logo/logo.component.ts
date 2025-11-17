@@ -1,4 +1,5 @@
 import {Component} from '@angular/core';
+import {ScrollService} from "../../services/scroll/scroll.service";
 
 @Component({
   selector: 'app-logo',
@@ -9,11 +10,10 @@ import {Component} from '@angular/core';
     '</a>\n',
 })
 export class LogoComponent {
+  constructor(private scrollService: ScrollService) {
+  }
+
   scrollToTop() {
-    window.scrollTo({
-      top: 0,
-      left: 0,
-      behavior: 'smooth'
-    });
+    this.scrollService.scrollToTop();
   }
 }
