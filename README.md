@@ -1,107 +1,154 @@
-# AngularWebPage
+# labrArte Website
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.2.
+This project is an unofficial recreation of the [labrarte.com](https://www.labrarte.com/) website, developed with their consent. The goal is to provide a modern and updated version of the platform, implementing current web standards and best practices.
 
-## Development server
+## About the Project
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+This web application offers a modern and user-friendly interface for browsing and purchasing art-related products and courses. The platform features user authentication, a dynamic product catalog, shopping cart functionality, and user profile management.
 
-## Code scaffolding
+## Technology Stack
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- **Angular 17.3** - Frontend framework with modular component architecture
+- **Firebase** - Backend infrastructure
+  - Firebase Authentication - User login and signup
+  - Firestore Database - Data storage for products, categories, and user information
+  - Firebase Storage - Media file hosting for images and resources
+- **TailwindCSS** - Utility-first CSS framework for styling
+- **RxJS** - Reactive programming library
+- **ngx-toastr** - Toast notifications
 
-## Build
+## Project Structure
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+The application follows Angular's modular architecture with the following organization:
 
-## Running unit tests
+### `/src/app/components/`
+Reusable UI components that form the building blocks of the application:
+- Button components for interactive elements
+- Cart item display components
+- Category selection components
+- Product display cards
+- Image sliders
+- Social network links
+- Logo component
+- Error pages (404 not found)
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+### `/src/app/forms/`
+Form modules for user interactions:
+- **login** - User authentication form
+- **signup** - New user registration form
 
-## Running end-to-end tests
+### `/src/app/services/`
+Core business logic services:
+- **cart** - Shopping cart management
+- **load** - Data loading from Firebase
+- **scroll** - Smooth scrolling functionality
+- **user** - User authentication and profile management
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+### `/src/app/templates/`
+Main page templates:
+- Home page
+- Product catalog
+- Individual product pages
+- Category pages
+- Courses section
+- Shopping cart
+- User profile
+- Blog section
+- Header and footer layouts
 
-## Further help
+### `/src/app/interfaces/`
+TypeScript interfaces for type safety:
+- User data structures
+- Product data structures
+- Category data structures
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+## Key Features
 
+- **User Authentication**: Secure login and signup using Firebase Authentication
+- **Product Catalog**: Browse products and courses with filtering by categories
+- **Shopping Cart**: Add products to cart and manage purchases
+- **User Profiles**: Customizable user profiles with profile pictures and contact information
+- **Responsive Design**: Modern, mobile-friendly interface built with TailwindCSS
+- **Real-time Data**: Dynamic content loaded from Firebase Firestore
 
-# Estructura del Proyecto Web: Detalles Técnicos y Estructura
+## Firebase Integration
 
-## Estructura del Código del Proyecto Web:
+The application uses Firebase as its backend platform:
 
-El código del proyecto está estructurado siguiendo una arquitectura modular y escalable, donde la aplicación se divide en piezas reutilizables y autónomas llamadas componentes, haciendo uso del framework Angular. A continuación, se detallan los componentes principales y su funcionalidad:
+1. **Firebase Authentication** - Manages user accounts and authentication sessions
+2. **Firestore Database** - Stores structured data including products, categories, user profiles, and shopping cart information
+3. **Firebase Storage** - Hosts product images and user-uploaded content
 
-**src/:**
-- **app/:**
-  - **components/:** Contiene los componentes principales de la aplicación.
-    - **button:** Componente para botones interactivos.
-    - **cart-item:** Componente para elementos del carrito de compra.
-    - **category-item:** Componente para mostrar y seleccionar categorías.
-    - **logo:** Componente para mostrar el logotipo de la página.
-    - **product-item:** Componente para mostrar información detallada de productos.
-    - **slider:** Componente para mostrar un slider de imágenes.
-    - **social-network:** Componente para enlaces a redes sociales.
-    - **errors/notfound/:**
-      - **notfound:** Componente para mostrar una página de error 404.
+## Getting Started
 
-  - **forms/:**
-    - **login:** Formulario de inicio de sesión.
-    - **signup:** Formulario de registro de usuarios.
+### Prerequisites
 
-  - **interfaces/:**
-    - **user.interface:** Interfaz para definir la estructura de datos de usuario.
-    - **product.interface:** Interfaz para definir la estructura de datos de productos.
-    - **category.interface:** Interfaz para definir la estructura de datos de categorías.
+- Node.js (v18 or higher recommended)
+- npm or pnpm package manager
+- Angular CLI (`npm install -g @angular/cli`)
 
-  - **services/:**
-    - **cart:** Servicio para la gestión del carrito de compras.
-    - **load:** Servicio para cargar datos desde Firebase.
-    - **scroll:** Servicio para el desplazamiento suave en la página.
-    - **user:** Servicio para la gestión de usuarios y autenticación.
+### Installation
 
-  - **templates/:** Contiene las plantillas HTML de las diferentes secciones de la aplicación.
-  
-**assets/:** Almacena recursos estáticos como imágenes, fuentes, iconos, etc.
+1. Clone the repository
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+   or
+   ```bash
+   pnpm install
+   ```
 
-**environments/:** Contiene archivos de configuración para diferentes entornos.
+3. Configure Firebase:
+   - Set up your Firebase project
+   - Update the environment configuration in `src/enviroments/enviroment.ts`
 
-**app.module.ts:** Define el módulo raíz de la aplicación.
+### Development Server
 
-**angular.json:** Archivo de configuración de Angular CLI.
+Run the development server:
 
-**package.json:** Contiene la información de las dependencias del proyecto.
+```bash
+ng serve
+```
 
-## Estructura de los Datos Almacenados en Firebase:
+Navigate to `http://localhost:4200/` in your browser. The application will automatically reload when you make changes to the source files.
 
-Los datos en Firebase se almacenan en tres servicios diferentes:
+## Building the Project
 
-1. **Firebase Authentication:** Contiene los datos de autenticación de usuarios.
-2. **Firestore Database:** Base de datos para almacenar datos estructurados.
-3. **Firebase Storage:** Almacena recursos multimedia como imágenes.
+Build the project for production:
 
-## Tour por la Página Web:
+```bash
+ng build
+```
 
-- **Inicio:** Página principal con información general sobre la aplicación.
-- **Catálogo:** Muestra productos y servicios con opción para añadir al carrito.
-- **Formularios:** Permiten a los usuarios iniciar sesión o registrarse.
-- **Perfil de Usuario:** Permite a los usuarios ver y actualizar su información personal.
-- **Carrito de Compras:** Permite a los usuarios gestionar los productos seleccionados para comprar.
+The build artifacts will be stored in the `dist/` directory.
 
-## Evolución o Enlace a Trello:
+## Testing
 
-Para realizar un seguimiento del progreso del proyecto y coordinar las tareas entre los miembros del equipo, se utiliza Trello. Se pueden encontrar más detalles sobre el progreso del proyecto en [enlace a Trello]([insertar_enlace_a_trello](https://trello.com/invite/b/6vTlzSo5/ATTIb693f849f2a2ac37cd46c8243d185afaD62C1B46/pwm)
+Run unit tests:
 
+```bash
+ng test
+```
 
-## Ejemplo de Introducción de Datos y Visualización en el Catálogo:
+Tests are executed using Karma and Jasmine.
 
-Supongamos que un usuario desea crear una nueva cuenta en la plataforma. Utilizando un formulario de registro proporcionado en el sitio web, el usuario puede ingresar detalles como su dirección de correo electrónico y contraseña. Al enviar el formulario de registro, las credenciales del usuario se transmitirán de manera segura al servicio de Autenticación de Firebase para la creación de la cuenta.Si el registro es exitoso, Firebase Authentication generará un ID de usuario único para el usuario recién registrado, y los detalles de su cuenta se almacenarán de forma segura en la base de datos de usuarios de Firebase. 
+## Deployment
 
-Supongamos que un usuario desea actualizar la información de su perfil en la plataforma. Para ello, la aplicación proporcionará una interfaz de usuario donde el usuario pueda ver y modificar los detalles de su perfil existente.
+The project is configured for Firebase Hosting. Deploy using:
 
-Cuando el usuario accede a la sección de edición de perfil, se le presentarán campos de formulario prellenados con la información actual de su perfil, como nombre, dirección, número de teléfono, etc. El usuario puede modificar estos campos según sea necesario.
+```bash
+ng deploy
+```
 
-Un usuario podrá navegar por la página para ver todos los productos a la venta y además podrá registrarse para así acceder a todas las funcionalidades de la página como añadir productos a el carrito y poder comprarlos, además si el usuario lo desee podrá personalizar su perfil subiendo una nueva foto de perfil y datos adicionales de contacto
+## Development Workflow
+
+This project uses Trello for task management and team coordination. You can track the project progress at: [Trello Board](https://trello.com/invite/b/6vTlzSo5/ATTIb693f849f2a2ac37cd46c8243d185afaD62C1B46/pwm)
+
+## License
+
+This is an educational project created with the consent of labrarte.com.
 
 ---
+
+Built with Angular CLI version 17.3.2
